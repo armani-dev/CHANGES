@@ -1,0 +1,295 @@
+===================================
+Since Sat Oct 18 12:23:03 UTC 2014
+===================================
+
+   * bionic/
+1f5706c Use memmove from krait for cortex-a53 target
+75c7ca3 msm8916: Enable QCOM bionic optimizations
+
+   * bootable/recovery-cm/
+5c47f5d sr: Header and font images for 480/720/1080 widths
+
+   * build/
+c001fcb build: recovery: Support target specific resource selection
+
+   * device/xiaomi/armani/
+8a74222 Changes in wifi script
+2cb3941 Enable OTA (don't use this in forks)
+f2f74b7 Remove TARGET_DISPLAY_INSECURE_MM_HEAP
+204d010 Changes in fstab
+ab9c21d Changes in telephony props
+47b1d56 Merge init.target.rc into init.qcom.rc
+089fdd0 Fix audio_effects.conf path
+90426c1 Changes in proximity sensor overlay
+
+   * external/koush/Superuser/
+14db056 Automatic translation import
+
+   * external/stagefright-plugins/
+f24eecb ffmpeg_source: add url check to android_open
+
+   * external/whispersystems/WhisperPush/
+0b7a611 Automatic translation import
+
+   * frameworks/av/
+75355f4 Revert "libmedia: Add flag for non-native FAST tracks."
+118f947 Remove potential cause of underrun.
+071b18b media: Cleanup some unnecessary old code
+f8a7a34 stagefright: Fix crash if PCM offload gets a null source
+a64683d Support MPEG4 and H263 FourCC types in Matroska files
+786f859 libstagefright: extend the interface to switch rtp transport
+8819240 libstagefright: Handle INFO_FORMAT_CHANGED for dolby clips
+721128f effects: miscellaneous fixes
+
+   * frameworks/base/
+5744ab1 SystemUI: Avoid NPEs during status bar recreation for MSIM
+27742ae SystemUI: Fix network label regression
+d0389b8 Move UICC storage string to cm_strings
+6cfa3cb 'Delete application' development shortcut
+d1bca64 Keyguard: Change SUB label to SIM
+666f3da SystemUI: Status bar UI cleanup for MSIM and roaming
+516ad52 Add string resource for UICC storage
+618af8b symbols: Remove duplicate symbol
+013b39d Rename "Wi-Fi AP" QS tile to "Wi-Fi hotspot"
+bb45c13 SystemUI: fix crash when removing tile
+1a0a6a5  MTU should be 1358 as per 3GPP standards, especially for LTE radio interfaces.
+fc35aca Keyguard: Move string to cm_strings
+08fbcf6 Automatic translation import
+f1f92ce lowmemorykiller: Overwrite LMK parameters for low-tier devices
+3a6ced7 Tethering: Enable NAT only when tether and upstream ifaces are different.
+d5d5d1b AudioService: Fix monitorRotation for landscape applications
+8f6b73c Fix memory leak in nativeDecodeFileDescriptor
+ce8c41c extmediaplayer: miscellaneous fix
+6293525 Support full size application screenshots
+c27950d Keyguard: Allow applications to customize left-corner widget
+14d26c5 Recents long press: add pluggable implementation
+4125505 Add Secure.Settings.RECENTS_LONG_PRESS_ACTIVITY
+48a7774 Provide non-interactive APIs to BackupManagerService
+86705dd PackageManager: Add optional prelaunch check step
+0ef5fe9 Update SET_ACTIVITY_WATCHER protection to signature|system
+554d6d9 SystemUI : RemoteDisplayTile use executor
+5d69d2c Fix wrong scaling of QS tiles
+6d9ed99 Revert "Avoid collision with RIL constant 1138, used in some Samsung devices for RIL_UNSOL_TETHERED_MODE_STATE_CHANGED."
+
+   * hardware/qcom/audio-caf/
+1ebac85 hal: Fixes for 8916 features
+97d56fe hal: Update msm8916 library with new feature support
+33691e2 hal: Featurize use of mdm_detect library
+c3cb85f hal: load CSD library by checking number of modems
+3023337 hal: add support for I2S based external modem
+fc56491 hal: Don't mess with primary output
+
+   * hardware/qcom/fm/
+64fa69b Automatic translation import
+
+   * hardware/qcom/keymaster/
+f6ae49b qcom: keymaster: Include keymaster in all targets
+
+   * hardware/qcom/media-caf/
+0e6b036 mm-core: Enable HW wma10pro decoder for msm7x30
+39f3876 mm-core: msm7x30: Fix code formatting
+5c0b10a mm-core: msm7x30: Enable HW mp3 decoder
+8bb7643 mm-core: msm7x30: Update copyright to The Linux Foundation
+
+   * hardware/ril/
+6c5c956 Revert "hardware: ril: Avoid collision with RIL constant 1138"
+decb970 Support for SEEK on Android
+
+   * kernel/xiaomi/armani/
+ddbc4d4 Dont build modules
+
+   * packages/apps/Apollo/
+8225201 Automatic translation import
+
+   * packages/apps/Bluetooth/
+76dbe28 Automatic translation import
+
+   * packages/apps/BluetoothExt/
+9b99138 Automatic translation import
+
+   * packages/apps/Browser/
+60aabac Automatic translation import
+
+   * packages/apps/CMAccount/
+27c5c5d Automatic translation import
+
+   * packages/apps/CMBugReport/
+da36a65 Automatic translation import
+24b84a8 Adding optional screenshot upload to CMBugReport
+
+   * packages/apps/CMFileManager/
+1222f4a Automatic translation import
+
+   * packages/apps/CMHome/
+02f13e8 Automatic translation import
+
+   * packages/apps/CMUpdater/
+a37d923 Automatic translation import
+
+   * packages/apps/CMWallpapers/
+8a25301 Automatic translation import
+
+   * packages/apps/Calculator/
+1f8f5c5 Automatic translation import
+
+   * packages/apps/Calendar/
+6327bb1 Automatic translation import
+
+   * packages/apps/Camera2/
+6c2b96a Camera2: Fix crash on cameras with 6mp 16:9 resolution
+34cee56 Add 16:9 to strings
+cd9fe44 Camera2: disable the shutter button when not previewing
+46f2f7c Camera2: the menu button should not visible in some cases
+b5e5e59 Camera2: fix flash light turn on after resume camera activity
+0b9bae7 camera2: Fix memory leak when suspend/resume camera
+95f9cda Camera2: Add option to set max screen brightness
+d989a5f Camera2: add new mime type for panorama picture
+0121f80 Camera2: save the picture when rotate the device
+e0a2e31 Camera2: wait for previous saving picture done during panorama capture
+241b944 Camera2: some aapt warnings cleanup
+a11ce3b Camera2: fix white balance still work when turn on the HDR mode
+79c0c05 Fix WB indicator override
+d97814a Revert "Camera2: Fix WB onScreenIndicator when some are settings filtered out."
+451a727 Camera2: fix The flashlight still is on after set scene mode not auto
+2cec466 Camera2: update the flash icon when set HDR on
+6f5cb27 Camera: Block HFR option for Video HDR
+0cb7b88 Camera: Disable DIS option for unsupported resolution
+d1a6002 Camera: Block DIS and Timelapse for HFR
+7c9c584 Camera: Check if codec supports HFR resolution/fps.
+08a1edd Camera: Change video capture duration with HFR
+3b8cbff Camera2: Fix ANR when switching camera during AF
+5c1231c camera: Override color effect when scene mode is active
+529889f Camera2: fix unresponsive shutter button after failure
+e7c249e Camera2: Don't report incorrect supported picture formats
+e8f9779 Camera2: fix camera crash when mPieRender is null
+a380db3 Camera2: Fix video duration is wrong issue
+50d36b2 Camera2: fix a camera status bug
+9f87f1e Camera2: Do not restart preview to update flip params during orientation change.
+562fcac Camera2: fix start preview when hdr is on issue
+b4990d6 Camera2: Still popup tips when change scene to other after turn off HDR
+0e4ff22 Camera: Disable HDR when scene mode is other than auto
+9ca415b Camera: open Camera and start Preview in a seperate thread.
+77468c1 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+0a72cd7 Automatic translation import
+
+   * packages/apps/Contacts/
+6733665 Automatic translation import
+d3551ba ContactsCommon: Add direct call from contact list feature. (2/2)
+
+   * packages/apps/ContactsCommon/
+50e6500 Automatic translation import
+18c3f81 ContactsCommon: Add direct call from contact list feature. (1/2)
+
+   * packages/apps/DSPManager/
+123370c Automatic translation import
+
+   * packages/apps/DeskClock/
+60decc5 Automatic translation import
+
+   * packages/apps/Dialer/
+017cbbf Dialer: Fix possible crash in call details
+27a0050 Automatic translation import
+
+   * packages/apps/Email/
+ec1e85a Automatic translation import
+
+   * packages/apps/Gallery2/
+96901d3 Add record time to details view
+3a82b6a Automatic translation import
+
+   * packages/apps/InCallUI/
+95550a0 Automatic translation import
+
+   * packages/apps/LockClock/
+607bb5b Automatic translation import
+
+   * packages/apps/Mms/
+c82c816 Automatic translation import
+
+   * packages/apps/Settings/
+769b6c5 DeviceInfoSettings: Update the cpuinfo parser
+84518df Modify the Development shortcut help text
+c2bfa3d Settings: Change labels for MSIM
+b469cfb Settings: Fix "Use actual storage type of sdcard/usb (1/2)."
+6b27b13 Settings: Improve some strings
+5980952 Profiles: fix expanded desktop settings not applying
+56aaab3 Launch Protected Apps
+7b8d704 Fix copyright headers
+6104cce Automatic translation import
+8de066d Settings: ButtonSettings: Introduce recents long press action
+b24b2e6 Settings: Let users disable the left-corner Keyguard widget
+e29c1c4 Settings: Set untranslatable
+cc5296e Settings: Allow Regulator Information Dialog Title to be overlaid.
+f6f393d fix: Settings FC when WiFi tethering is active.
+
+   * packages/apps/SoundRecorder/
+c5bb502 Automatic translation import
+
+   * packages/apps/Stk/
+ac69c5d Automatic translation import
+
+   * packages/apps/ThemeChooser/
+070d645 Automatic translation import
+
+   * packages/apps/Torch/
+6942a0d Automatic translation import
+
+   * packages/apps/Trebuchet/
+d742d21 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+1c3a13a Automatic translation import
+
+   * packages/apps/VoicePlus/
+92bfb12 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+29fa0f0 Automatic translation import
+
+   * packages/providers/ContactsProvider/
+58e1803 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+dc52b7e Automatic translation import
+
+   * packages/providers/ThemesProvider/
+67ae00a Automatic translation import
+
+   * packages/providers/UserDictionaryProvider/
+565f52d Automatic translation import
+
+   * packages/services/Telephony/
+056169f TeleService: fix vibrate on answer
+2e8b0fd TeleService: Change labels for MSIM
+f8cf24e Automatic translation import
+308ae60 TeleService: use MSimPhoneFactory for MSIM devices
+
+   * packages/wallpapers/Galaxy4/
+dfa2e81 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+20426f5 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+1fa11d1 Automatic translation import
+
+   * system/core/
+de42ce3 adb/fastboot: Support SuperSpeed USB devices
+
+   * vendor/cm/
+077be3a APN: Giffgaff -> giffgaff
+2f9f33b Migrate Telenor Norway APN to IPV6
+4333141 added mvno matching for Canada
+0a5ea89 added mvno matching for Denmark
+e1d6d09 added Ringplus APN
+14634cb added T-Mobile MVNO Wholesale apn
+a2876cf added Ooredoo Tunisie & Tunisie Télécom apns
+8b06de9 Add TF701T contributor
+
+   * vendor/xiaomi/
+717fda6 Remove unused blob
+37a46fc Copy missing modules
+ee60ecd Update soundfx from falcon
+
