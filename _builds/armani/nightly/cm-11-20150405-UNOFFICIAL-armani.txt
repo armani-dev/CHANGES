@@ -1,0 +1,459 @@
+===================================
+Since Sun Apr  5 10:38:30 UTC 2015
+===================================
+
+
+===================================
+Since Sun Mar 29 19:20:43 UTC 2015
+===================================
+
+
+   * build/
+91c1338 build: Add the factorypackage target
+
+   * device/xiaomi/armani/
+b1591b9 Remove unneeded gps files and services
+e14e532 liblights: Fix speed and duration of led blink
+7143f07 Rename hardware to armani
+1198867 Update liblight
+6b61ea4 Add missing led permissions
+1d2f80e Use powersave in performance profiles
+8f84c89 Ensure governor changes are always propagated to all CPUs
+778f02b Update thermal-engine-8226.conf
+7baa521 Remove unnecessary FM script
+13f1283 Organize gps conf files and set hal path flag
+a673f47 Set secondary network mode
+
+   * external/koush/Superuser/
+519abe9 Automatic translation import
+
+   * external/libnfc-nci/
+5f4c1e3 Revert "Call nfc_ncif_update_window after processing cback"
+
+   * external/whispersystems/WhisperPush/
+75262e6 Automatic translation import
+
+   * frameworks/base/
+3c71ea2 Automatic translation import
+
+   * hardware/qcom/fm/
+285a93d Automatic translation import
+
+   * kernel/xiaomi/armani/
+5367c54 ARM: dts: msm: This belongs to dior, not armani
+
+   * packages/apps/Apollo/
+cc5b5da Automatic translation import
+
+   * packages/apps/BluetoothExt/
+8381874 Automatic translation import
+
+   * packages/apps/Browser/
+5456437 Automatic translation import
+
+   * packages/apps/CMAccount/
+a1a9891 Updated strings
+2b839dd Automatic translation import
+
+   * packages/apps/CMBugReport/
+2a1632d Automatic translation import
+
+   * packages/apps/CMFileManager/
+70a0685 Automatic translation import
+d7558cf make sure MountPointInfo and DiskUsageInfo runs in the UI Thread.
+
+   * packages/apps/CMUpdater/
+aa014c6 Automatic translation import
+
+   * packages/apps/Calculator/
+c886b68 Automatic translation import
+
+   * packages/apps/Calendar/
+019856c Automatic translation import
+
+   * packages/apps/Camera2/
+fae9ad0 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+d51d7ad Automatic translation import
+
+   * packages/apps/Contacts/
+4ed4ab5 Automatic translation import
+
+   * packages/apps/DSPManager/
+94129f4 Automatic translation import
+
+   * packages/apps/Exchange/
+45c4333 Automatic translation import
+
+   * packages/apps/Mms/
+c897c74 Automatic translation import
+
+   * packages/apps/Settings/
+89d2bf7 Setttings: update KS strings
+5ffe52b Settings: make ks opt-out dialog non-cancelable
+1a3ec90 Automatic translation import
+7e8abf3 Remove leading space
+
+   * packages/apps/SoundRecorder/
+d6ccab7 soundrecorder: Don't allow writing to sdcard in user builds
+
+   * packages/apps/Stk/
+e3ea49e Automatic translation import
+
+   * packages/apps/Trebuchet/
+32f9144 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+ebf0775 Rearrange Slavic & Greek morekeys
+e983eda Rearrange morekeys
+6391ff7 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+af8e6cd Automatic translation import
+
+   * packages/services/Telephony/
+83ed4ee Automatic translation import
+
+   * packages/wallpapers/Basic/
+eb9a771 PolarClock: Don't draw on invisible surfaces
+
+   * packages/wallpapers/PhotoPhase/
+595bb1a Automatic translation import
+
+   * system/core/
+32eb3e0 liblog: Forward xlog to regular android buffers on demand
+
+   * system/extras/
+d178a34 setup_fs: Add an option to skip rebooting if formatting succeeds
+
+   * vendor/cm/
+9ccb7ad terminal emulator: update libjackpal version
+
+   * vendor/xiaomi/
+0e022f6 Update GPS blobs
+5b50254 Remove unneeded gps files
+5e36337 Revert "Update audio blobs"
+321d39d Update thermal blobs
+59f8031 Update audio blobs
+746b1df Clean up unneeded FM files
+
+===================================
+Since Thu Mar 26 18:38:50 UTC 2015
+===================================
+
+
+   * frameworks/base/
+a1621d2 framework: add KillSwitch stubs
+1e86e5f Make forward/reverse lookup default overlay
+
+   * packages/apps/Settings/
+f06ea03 Settings: update kill switch
+a868b4b Settings: add killswitch logic to factory reset screen
+
+===================================
+Since Mon Mar 23 09:36:47 UTC 2015
+===================================
+
+
+   * external/bluetooth/bluedroid/
+9ae55a3 LE: Fix HOGP connection issues caused by incorrect HCI packet flags
+
+   * external/libnfc-nci/
+070e334 pn547: Force rewrite of config even if we think it's the same
+
+   * external/wpa_supplicant_8/
+66ad89f wpa_supplicant: Force the p2p channels to reuse frequencies used by STA
+0610e33 Android: Don't use extended P2P functionality (ANDROID_P2P) for wl12xx
+
+   * frameworks/base/
+d34b545 Fix data cycle calculation when CYCLE_WEEKLY
+abc03db Properly clean up when setting new InputFilter.
+76c2dd5 ProtectedApps: setComponentProtectedSetting check null ComponentName
+c101881 WallpaperCropper: run addTemporaryWallpaperTile in an AsyncTask
+
+   * kernel/xiaomi/armani/
+7626a7b prima: Disable CH144 support  * NV currently in use does not support CH144  * MAX_CFG_INI_ITEMS must be at least 343
+
+   * packages/apps/CMAccount/
+49485e5 SetupWizard: Strings for kill switch
+
+   * packages/apps/Contacts/
+d6af4b6 fixed wrong number of elements in alert dialog
+
+   * packages/apps/DeskClock/
+d2918bf TimerReceiver: Correctly show the remaining time for 100 hours
+
+   * packages/apps/Settings/
+02d111f Themes: Add new background drawable for LockscreenTargets
+afdb7eb Settings: fix changing profile triggers not updating actions page
+4009a08 Themes: Expose hardcoded text colors
+
+   * packages/apps/Trebuchet/
+f963b11 ProtectedApps: map items without componentNames by position
+4b60765 Protected Apps: fix insets so that views stay above navbar
+d8bdb0e ProtectedApps: Fix protecting shortcuts with no ComponentNames
+
+   * packages/apps/VoicePlus/
+d4ad304 Use Locale country as fallback for TelephonyManager.
+dce662f Fix & improve country detection for cellular failover.
+
+   * packages/services/Telephony/
+b7a2f9e callbarring: Only show error dialogs if the activity is running
+
+   * vendor/cm/
+8af40b2 Airtel MMS - Add authtype=1 for PAP
+0e03dbd Update Telekom (T-Mobile) HU APN
+
+===================================
+Since Wed Mar 18 14:55:39 UTC 2015
+===================================
+
+
+   * device/xiaomi/armani/
+0791dd7 overlay: skip restoring network selection
+a41cfe0 Changes in wifi module flags
+15b7a40 Revert "Change composition type to dyn"
+da3e087 Revert some changes in power modes
+
+   * external/bluetooth/bluedroid/
+ff43ae0 [bluedroid] Fix slave latency and conn timeout defaults in BLE
+7ea8693 Bluetooth: L2cap: Handled L2CAP cmds with cmdlen zero
+
+   * external/koush/Superuser/
+204a077 Automatic translation import
+
+   * external/whispersystems/WhisperPush/
+6625b9b Automatic translation import
+
+   * frameworks/base/
+fac5421 Automatic translation import
+e87dbf6 SystemUpdateService: enable service but lock its receivers [1/2]
+
+   * hardware/qcom/fm/
+ed8ef69 Automatic translation import
+
+   * hardware/qcom/media-caf-new/
+e2ba03f mm-video-v4l2: vidc: vdec: handle codec config ETB's properly
+b24d38d mm-video-v4l2: vidc: move codec_config buffer counter increment
+62f6883 mm-video-v4l2: vidc: move pending flush sem release in async thread
+f9a51e5 mm-video-v4l2: vidc: move flush waiting logic to appropriate place
+0b4cb4f mm-video: vidc: defer flush until headers are consumed
+
+   * kernel/xiaomi/armani/
+317e704 mmc: core: Update PON based on the system state
+551f5e2 msm: mdss: fix rotator failures when pixel format changes
+4c2569c msm: mdss: ensure rotator work is done before reconfiguring session
+7348b6d media: radio: Fix building and loading the IRIS transport
+2f397a8 armani: defconfig: Disable modules
+
+   * packages/apps/Apollo/
+b7c1135 Automatic translation import
+
+   * packages/apps/BluetoothExt/
+e2f62bc Automatic translation import
+
+   * packages/apps/Browser/
+ec91252 Automatic translation import
+
+   * packages/apps/CMFileManager/
+ab08dcd Automatic translation import
+
+   * packages/apps/Calculator/
+f0bba94 Automatic translation import
+
+   * packages/apps/Contacts/
+31dc805 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+204600a Automatic translation import
+
+   * packages/apps/DeskClock/
+a88c1f7 Automatic translation import
+
+   * packages/apps/LockClock/
+2e099cb Automatic translation import
+
+   * packages/apps/Mms/
+747c0be Automatic translation import
+5e2e081 Mms: Force textMultiLine on RecipientsEditor
+
+   * packages/apps/Settings/
+ef6f4ad Automatic translation import
+c919c9b Settings: disable lockscreen buttons options when nav bar is enabled
+c126280 Settings: Change media storage erase strings.
+
+   * packages/services/Telephony/
+26dc3e7 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+484baa9 Automatic translation import
+
+   * vendor/cm/
+8a20fb5 SystemUpdateService: enable service but lock its receivers [2/2]
+329fce9 Update Telenor HU APN
+6c7498a Add new Maxis combined APN
+
+   * vendor/xiaomi/
+744571c Add missing omx library
+
+===================================
+Since Fri Mar 13 10:49:18 UTC 2015
+===================================
+
+
+   * device/xiaomi/armani/
+feda71b Fix random reboots
+9d0247d Revert "Update chargeonlymode"
+7b15861 Cleanup overlay
+9900ce1 Enable automatic brightness by default
+d5b027d Update dalvik value from CAF
+
+   * external/chromium_org/third_party/openssl/
+9872b58 Fix FREAK attack
+
+   * external/koush/Superuser/
+e5dc579 Automatic translation import
+
+   * external/openssl/
+e92deaf Fix FREAK attack
+
+   * external/whispersystems/WhisperPush/
+8aa07af Automatic translation import
+
+   * frameworks/base/
+8356898 WallpaperCropper: handle decoding errors for preview generation
+c07c92f Automatic translation import
+
+   * hardware/qcom/fm/
+25904c3 Automatic translation import
+
+   * packages/apps/Apollo/
+a965a2f Automatic translation import
+
+   * packages/apps/Bluetooth/
+2546cc3 Automatic translation import
+
+   * packages/apps/BluetoothExt/
+590915f Automatic translation import
+
+   * packages/apps/Browser/
+5ece078 Automatic translation import
+
+   * packages/apps/CMAccount/
+424e663 Automatic translation import
+
+   * packages/apps/CMBugReport/
+89c27d4 Automatic translation import
+
+   * packages/apps/CMFileManager/
+29cfe29 Automatic translation import
+
+   * packages/apps/CMHome/
+09d8b57 Automatic translation import
+
+   * packages/apps/CMUpdater/
+13854dc Automatic translation import
+
+   * packages/apps/CMWallpapers/
+890182a Automatic translation import
+
+   * packages/apps/Calculator/
+cd24f07 Automatic translation import
+
+   * packages/apps/Calendar/
+33f6f61 Automatic translation import
+
+   * packages/apps/Camera2/
+588316e Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+e612045 Automatic translation import
+
+   * packages/apps/Contacts/
+15e3318 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+240844e Automatic translation import
+
+   * packages/apps/DSPManager/
+d6a1d0a Automatic translation import
+
+   * packages/apps/DeskClock/
+30a9b2e Automatic translation import
+
+   * packages/apps/Dialer/
+43c53f7 Automatic translation import
+
+   * packages/apps/Email/
+f35627f Automatic translation import
+
+   * packages/apps/Gallery2/
+b68026b Automatic translation import
+
+   * packages/apps/InCallUI/
+96f1007 Automatic translation import
+
+   * packages/apps/LockClock/
+ef1ba47 Automatic translation import
+
+   * packages/apps/Mms/
+5f44eec Automatic translation import
+
+   * packages/apps/Settings/
+6b74416 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+707a185 Automatic translation import
+
+   * packages/apps/Stk/
+cf37577 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+75fb1c0 Automatic translation import
+
+   * packages/apps/Torch/
+f900e72 Automatic translation import
+
+   * packages/apps/Trebuchet/
+a99eb7b Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+f203f5f Automatic translation import
+
+   * packages/apps/VoicePlus/
+c78e4b5 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+9d4d20b Automatic translation import
+
+   * packages/providers/ContactsProvider/
+2d45c05 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+ded64f4 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+ec2021a Automatic translation import
+
+   * packages/providers/UserDictionaryProvider/
+ee9734d Automatic translation import
+
+   * packages/services/Telephony/
+67defaf Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+7476e2d Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+788b19a Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+fd03db8 Automatic translation import
+
+   * vendor/cm/
+41bf17b Add USMobile (MVNO) apn
+7ffe8f1 apn: Add LG U+ LTE APN
+0b4e8bc Add additional APNs for US Cellular
+b5b8a8d Add APN for Smartfren
+
