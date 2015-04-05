@@ -1,0 +1,1281 @@
+===================================
+Since Sun Mar 29 19:20:43 UTC 2015
+===================================
+
+
+   * bootable/recovery/
+7b0fd22 recovery: Update header logo with new branding
+378071e bootloader: Silence /misc partition error
+
+   * build/
+c2fd04b Add support for mediatek platforms
+
+   * device/xiaomi/armani/
+7a1cc75 Use dlmalloc instead of jemalloc for mallocs
+028f42e Enable ZRAM by default
+c8ed442 Remove deprecated flag TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS
+4dd4288 Remove unneeded gps files and services
+e7d9688 liblights: Fix speed and duration of led blink
+0d8611c Disable audio.offload.pcm
+1cc36a3 Rename hardware to armani
+89bb6bc Build libcnefeatureconfig
+3206d30 bluetooth: Disable interleave scan
+335ea07 Update liblight
+
+   * external/icu/
+84bbfae icu: Fix Kurdish Arabic locale detection
+
+   * external/whispersystems/WhisperPush/
+3a4cee9 Automatic translation import
+
+   * external/wpa_supplicant_8/
+ad050d5 wpa_supplicant: Force the p2p channels to reuse frequencies used by STA
+
+   * frameworks/av/
+e126d3f mediatek: Port AV changes
+eb994da camera: Add support for mediatek cameras
+
+   * frameworks/base/
+d4cda03 Forward port CM Screen Security settings (1/2)
+79a7e50 VolumeUI: Call mContext.recreateTheme() on theme change
+681f86e SystemUI: Refresh user list a little more eagerly
+2fa5cab Add brightness settings to Profiles (2/2)
+aee8d2a0 Revert "Allow no applications in navring, like in cm11"
+c29a0b0 Revert "PhoneWindowManager: Clean windows during bootup."
+23eb19f Fix 'always' preferred app assignment
+6d5283f PhoneWindowManager: Clean windows during bootup.
+8d50e72 Allow no applications in navring, like in cm11
+d6053bd keyguard: refresh carrier info on subId changes
+86e4906 Automatic translation import
+
+   * frameworks/opt/telephony/
+9b2cf77 Process internet request when sub is active
+27b36a4 Fix compilation after upstream merges
+3ec0fd4 Telephony: Disallow RilMessageDecoder creation if slotId is invalid.
+e9e4a2a Handle network change messages when phone tries to switch to GSM from CDMA
+9991f13 Query voice radio tech when the SIMRecords finish loading
+3a25214 Revert "Telephony: DcTracker: Fix CDMA APN Data issues."
+
+   * hardware/qcom/audio-caf/msm8960/
+df79479 alsa_sound: Remove orphaned QCOM_COMPRESSED_AUDIO flag
+
+   * hardware/qcom/fm/
+077eadd Automatic translation import
+
+   * hardware/ti/omap4/
+afb64fc camera: fix build when TI_CAMERAHAL_DONT_USE_RAW_IMAGE_SAVING is set
+
+   * kernel/xiaomi/armani/
+f0a8418 defconfig: armani: Enable ZRAM
+5b0b64e nl80211: Correct the usage of command NL80211_CMD_VENDOR
+dd226ac cfg80211: ignore supported rates for nonexistant bands on scan
+79cbe0b nl80211: fix error path in nl80211_get_key()
+0f309ac nl80211: nl80211hdr_put() doesn't return an ERR_PTR
+9e13dc3 cfg80211: fix possible circular lock on reg_regdb_search()
+e6e13e5 cfg80211: Pass TDLS peer capability information in tdls_mgmt
+9eac734 cfg80211: Advertise maximum associated STAs in AP mode
+27997f0 cfg80211: Allow BSS hint to be provided for connect
+d553416 cfg80211: Add support for QoS mapping
+36d05b8 mac80211: implement HS2.0 gratuitous ARP/unsolicited NA dropping
+78b5a61 msm: pil-pronto: Set PMU register SSR bit to indicate WCNSS
+9f3db18 nl80211: move vendor/testmode event skb functions out of ifdef
+071bc43 cfg80211: Correct API cfg80211_vendor_cmd_reply_skb
+ae1398f wcnss: add condition to check for pronto ver3 hardware
+2c01b3b wcnss: handle CBC complete event from firmware
+59ab230 wlan: Add debug print NV download failure
+6f4e8c2 wcnss: add a2xb bus stall detection logic
+44dda37 wcnss: Change WCNSS_VBATT_GUARD value from 200uV to 20mV
+285961f wcnss: Add API to get monotonic boot time
+57e91dc wcnss: add null check in pm_ops unregister
+80d67ba wcnss: Reduce the pil_retry count value
+0709d43 wcnss: dump apb2phy_status register on subsystem restart
+5ca1af6 wcnss: Increse the log level for WCNSS register dump
+
+   * packages/apps/AudioFX/
+f9079c4 Automatic translation import
+
+   * packages/apps/BluetoothExt/
+2e5469a Automatic translation import
+
+   * packages/apps/Browser/
+ab4979c Browser: fix fixing default bookmarks urls
+6982f39 Automatic translation import
+
+   * packages/apps/CMAccount/
+7a64004 Automatic translation import
+
+   * packages/apps/CMBugReport/
+767d9e0 Automatic translation import
+
+   * packages/apps/CMFileManager/
+d34dfc6 Add character limit for name input dialog.
+e3922e4 Fix support for USB OTG.
+4bd0d07 Catch RuntimeException when opening 3gp files for inspection.
+e1913eb CMFileManager: change warning drawables used in dialogs for visibility
+a81e287 Automatic translation import
+3a7e64a CMFileManager: account for displayed dialogs during activity tear down
+8b1fef1 make sure MountPointInfo and DiskUsageInfo runs in the UI Thread.
+
+   * packages/apps/CMUpdater/
+e94d7aa Automatic translation import
+
+   * packages/apps/Calculator/
+a797f1f Calculator: Add cap to the number of chars in text editor
+d7a11b4 Automatic translation import
+
+   * packages/apps/Calendar/
+e1cc829 Automatic translation import
+
+   * packages/apps/Camera2/
+0a2eab1 Automatic translation import
+
+   * packages/apps/Contacts/
+70c4684 Automatic translation import
+
+   * packages/apps/Dialer/
+c286b7c Automatic translation import
+
+   * packages/apps/Eleven/
+92ad21c Automatic translation import
+
+   * packages/apps/Email/
+7e5d796 Automatic translation import
+
+   * packages/apps/Exchange/
+fb3d125 Automatic translation import
+
+   * packages/apps/Gallery2/
+d158308 Automatic translation import
+
+   * packages/apps/InCallUI/
+48cc42c InCallUI: Read the audio boost disable flag once
+e09dd44 Automatic translation import
+4dfef8c Allow hiding volume boost feature with overlay.
+
+   * packages/apps/LockClock/
+6741b1e Automatic translation import
+
+   * packages/apps/Mms/
+b42fda0 Expose hard coded background colors from layouts for search activity.
+b90b6be Mms: Recipients field is cleared when returning from SelectRecipients
+55625a9 Mms : Only exit after deleting last message
+8334d60 Mms-add Calendar event type of loading Calendar draft
+4071e1d Automatic translation import
+
+   * packages/apps/Settings/
+c65d640 Settings: forward port lock pattern grid size (2/2)
+5127418 Settings: make empty profile views fit on hdpi
+f5c9080 Add brightness settings to Profiles (1/2)
+f80fefe Profiles: play Ringtone when setting volume overrides
+f097aa3 settings: remove focusable state from home preferences
+428b00d Automatic translation import
+
+   * packages/apps/SetupWizard/
+4c2ce25 SetupWizard: Don't assume order of SubInfoRecords
+9192fc6 SetupWizard: Disable Checkbox on Resume
+6fb3d23 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+21db69f Automatic translation import
+
+   * packages/apps/Trebuchet/
+4c38ea9 AppDrawer: tweak animations and layout
+e002b69 App drawer: add animations and letters to make things pretty
+a9f8360 Revert "Trebuchet : Clean windows during bootup."
+aba5c80 Trebuchet : Clean windows during bootup.
+e423f8a Trebuchet: Fix bad ui state when backing twice quickly
+5bcab95 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+9a8de2e email: fix recents's suggested contacts query
+225fb22 email: fix back button
+4238eba Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+bc4fe52 Rearrange Slavic & Greek morekeys
+f5ef003 Rearrange morekeys
+10c614a Automatic translation import
+
+   * packages/providers/ContactsProvider/
+e612728 Fix upgrade path for phone_lookup table
+
+   * packages/providers/DownloadProvider/
+1a9da5b Automatic translation import
+
+   * packages/services/Telephony/
+2f7296c  Telephony: check equality when verifying enabled state
+59de23f Telephony: KK upgrade path to re-enable components for MSim
+65ba4b6 TeleService: pass phone ID to APN setting
+89d55c2 Automatic translation import
+
+   * packages/wallpapers/Basic/
+a4a5198 New Material icon
+c0add95 PolarClock: Don't draw on invisible surfaces
+
+   * packages/wallpapers/Galaxy4/
+53b8b56 New Material icon
+8e74e60 Automatic translation import
+
+   * packages/wallpapers/HoloSpiral/
+9b6e85c New Material icon
+
+   * packages/wallpapers/LivePicker/
+69b8415 New Material icon
+
+   * packages/wallpapers/MagicSmoke/
+770af6c New Material icon
+
+   * packages/wallpapers/MusicVisualization/
+e330e1c New Material icon
+
+   * packages/wallpapers/NoiseField/
+f98f1c8 New Material icon
+
+   * packages/wallpapers/PhaseBeam/
+c745c29 New Material icon
+4d56991 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+01d8ba8 Automatic translation import
+
+   * system/core/
+ad7287d liblog: Forward xlog to regular android buffers on demand
+
+   * vendor/xiaomi/
+f50a24f Update GPS blobs
+51a9086 Remove unneeded gps files
+179643e Revert "Update audio blobs"
+6b1b228 Remove libcnefeatureconfig
+
+===================================
+Since Thu Mar 26 18:38:50 UTC 2015
+===================================
+
+
+   * bootable/recovery/
+471eb4e update-binary: support reboot_now on older recoveries
+
+   * build/
+f45a44e ota: Include full boot images when imgdiff fails
+5a5d96a ota_from_target_files: Fix path for SkipNextActionIfTargetExists
+c09c72a releasetools: add compatibility for full ota functions with incrementals
+
+   * device/qcom/common/
+f583378 power-8610: Remove unnecessary hint
+8b1a74a power-8610: Increase the boost a bit
+a16b583 power-8610: Remove the HMP boost hint
+20913b8 power-8610: Add support for POWER_HINT_LOW_POWER
+d3b0b55 power-8610: Various updates to Power HAL
+54173c7 power-8610: Add support for system performance profiles.
+
+   * device/xiaomi/armani/
+9366ed4 Update thermal-engine-8226.conf
+a723ad5 selinux: Fix up device-specific policies
+a276f10 Ensure governor changes are always propagated to all CPUs
+5e724b2 Update audio flags and properties
+19c7cb9 Set secondary network mode
+ed67893 Update mixer_paths.xml
+aa875a2 Organize gps conf files and set hal path flag
+15bf60d Revert "Adjust min-free value for lowmemorykiller"
+
+   * frameworks/base/
+62f8caf livedisplay: Don't depend on automatic brightness
+23ce100 Themes: Don't add android overlay if target is android
+a6d78fc SettingsProvider: fix index out of bounds error
+321ad3f framework: add KillSwitch stubs
+35c734e Fix ro.telephony.default_network setting parsing - fix build error
+746dc49 Fix ro.telephony.default_network setting parsing
+
+   * frameworks/opt/telephony/
+3c019b0 Add dummy SUB record in CDMA NV mode
+
+   * hardware/qcom/audio-caf/msm8916/
+5646b80 hal: Reduce debug verbosity
+cb739e9 hal: Correctly set backend to best available parameters
+
+   * packages/apps/Bluetooth/
+5c887b8 Bluetooth-OPP: Check socket congestion status before writing the data
+ffabe89 Bluetooth: GAP: Call system.exit in cleanup
+1c15738 Bluetooth: Fix BQB AVRCP case AVRCP_PAS_BV_08
+68431a7 Bluetooth App: Fixed the HDP disconnection notification failure
+
+   * packages/apps/Calculator/
+02c8123 Calculator: allow for deletion when selector is next to a separator
+
+   * packages/apps/Email/
+8ee3601 Update strings for crowdin
+
+   * packages/apps/Mms/
+066f6b4 Mms - remove Subject listener first when remove the subject
+86c2354 Mms : Dismiss compose activity, if deleting last message and no text
+
+   * packages/apps/Settings/
+68337c5 Settings: Change media storage erase strings.
+1715fd6 Storage Settings: Allow user to trigger a volume rescan
+f6286935 Remove duplicate strings
+
+   * packages/apps/ThemeChooser/
+06ead06 Protect app theme from CM11 themes causing crash
+
+   * packages/apps/Trebuchet/
+6607610 ProtectedApps: map items without componentNames by position
+
+   * packages/apps/UnifiedEmail/
+1011e62 Improve strings
+
+   * packages/providers/ThemesProvider/
+e989ef7 Fix version upgrades where "holo" may still be used
+
+   * vendor/cm/
+2ca5d39 vendor: add sepolicy entry for killswitch service
+
+   * vendor/xiaomi/
+08cef35 Update thermal blobs
+e71364e Update perf blobs
+e662cff Update audio blobs
+
+===================================
+Since Mon Mar 23 09:36:47 UTC 2015
+===================================
+
+
+   * development/
+ec7c1d5 classpath: updated Calculator and ContactsCommon lib versions
+
+   * device/xiaomi/armani/
+b9302e7 Remove unnecessary FM script
+254e8da Update audio_policy.conf
+5c73448 Set persist.radio.rat_on
+21c9977 Cleanup BoardConfig
+
+   * frameworks/av/
+c29fb05 audioflinger: refresh fast track underrun state upon start
+5a72830 audiopolicy: Fix call recording for legacy qcom HAL
+
+   * frameworks/base/
+c28e588 can not launch recents app after change time to earlier
+b63fd70 Make forward/reverse lookup default overlay
+7bc840c pm: Deal with a nuked package that was granted extra permissions
+8615df6 Frameworks: follow charging notification settings also for wireless charging
+1061a1f Revert "keyguard: dont show enter key when quick unlock is enabled"
+921d2ec keyguard: dont show enter key when quick unlock is enabled
+e5c7d30 Use actual storage type of sdcard/usb (1/2).
+8aae5d6 Move default value for Settings.Secure.ADVANCED_MODE to core
+73fb478 Fix screen pinning on devices without navbar
+8a7a8f5 systemui: don't use SIM display name if there isn't available info
+
+   * frameworks/opt/net/wifi/
+67d21c2 Softap: update WifiContoller state on start softap failure
+
+   * frameworks/opt/telephony/
+6758cae Fix initial attach apn bug with OMH profile for LTE
+1f567a1 Fix issue that DDS can not get back to primary sub and network mode shows incorrect in settings.
+d77b4cd Telephony: Handle PS DETACH failure during DDS SWITCH
+d683d69 Abort Cross mapping process if SubInfo List is null
+
+   * hardware/qcom/display-caf/msm8226/
+9adc065 msm8226: add missing symlink to common.mk in msm8974
+
+   * hardware/qcom/display-caf/msm8610/
+e931f9e msm8610: add missing symlink to common.mk in msm8974
+
+   * hardware/qcom/fm/
+4c5f830 New Material icon
+
+   * hardware/qcom/wlan/
+325fb2e Revert "Adding support for passing userdata in nan_register_handler"
+df34a8d Revert "Further Availability Map Structure change"
+
+   * kernel/xiaomi/armani/
+306dab6 ARM: dts: msm: This belongs to dior, not armani
+08329ba Revert "LCD_KCAL: Color Control driver for armani"
+be91e12 prima: Disable CH144 support  * NV currently in use does not support CH144  * MAX_CFG_INI_ITEMS must be at least 343
+
+   * packages/apps/CMFileManager/
+6e03998 Support ambigous file extension mimetypes.
+1288edb CMFileManager: Fixed string typo
+b96748d CMFileManager: Changed status string to something more descriptive
+79d00ac cmfm: reduce banner size and adjust ratio to fit the banner view bounds
+f8a8d15 cmfm: fix typo in xml drawable
+72869df cmfm: update changelog
+1e3be7d CMFileManager: Removed copyright portion of about_summary
+96e8aa2 CMFileManager: Nitpicking on strings
+
+   * packages/apps/Calculator/
+207cff2 Calculator: remove cbrt option in floating calculator advanced window
+
+   * packages/apps/Contacts/
+01b69c2 Summarize local phone storage in MemoryStatusActivity.
+
+   * packages/apps/ContactsCommon/
+aa1e734 Store all local contacts in only one account.
+33e8f42 contactscommon: ensure preferences are loaded before reload data
+
+   * packages/apps/DeskClock/
+106cfa2 Hide flip setting if the phone doesn't have the required hardware sensor.
+ba1a197 TimerReceiver: Correctly show the remaining time for 100 hours
+
+   * packages/apps/Mms/
+6ba0152 MMS: Add feature to auto-enable mobile data for MMS send or receive.
+6246153 Backup: fix crash when listing backups
+
+   * packages/apps/Settings/
+133fd8f Setting: LiveDisplay: fix percentage not showing when the dialog shows up.
+64f88b4 Fix incorrect ManageApplications options menu order value.
+20fb81a Settings: fix mobile network switch being unchecked
+4d5c1d0 settings: fix build
+557eb0c Fix build
+f0babb5 Settings: prompt to fill new profiles out only once
+c44d2ca Use actual storage type of sdcard/usb (2/2).
+dea5e77 Settings: Remove "advanced mode" toggle if its defaulted to enabled.
+
+   * packages/apps/SetupWizard/
+c8e4c29 SetupWizard: Lock orientation prior to finish animation
+
+   * packages/apps/Trebuchet/
+19ee2fd Protected Apps: fix insets so that views stay above navbar
+42427c9 ProtectedApps: Fix protecting shortcuts with no ComponentNames
+
+   * packages/services/Telephony/
+693743e TelephonyService: Don't change preferred network type on multi RAT capable devices.
+50451ca TeleService: Set mode to 2g on other sim(DSDS) prior to change
+
+   * vendor/cm/
+75271cf Airtel MMS - Add authtype=1 for PAP
+a4f3e9a Update Telekom (T-Mobile) HU APN
+
+   * vendor/xiaomi/
+52baaaa Clean up unneeded FM file
+9052162 Remove ptt_socket_app
+59e5386 Update radio and qcom blobs (again)
+6f42ae6 Update radio and qcom blobs
+
+===================================
+Since Wed Mar 18 14:55:39 UTC 2015
+===================================
+
+
+   * build/
+5ea47ba build: Move bacon public key to device tree
+
+   * device/xiaomi/armani/
+c32313c Update framework base overlay
+dfdd417 Add missing led permissions
+24233a5 Update audio_effects.conf
+03a9165 Changes in performance profiles
+4bc8a43 Disable the bionic optimization
+a0bde1b Fix bluetooth selinux
+79b9727 Don't build qcom wifi hal for now
+bd42e10 Add charge only USB mode
+8b478e4 Enable automatic brightness by default
+18210c4 Adjust min-free value for lowmemorykiller
+76f5b72 Bluetooth: Update for lollipop
+94c4507 Remove deprecated
+fcdfe13 Changes in wifi module flags
+6022136 Disable gps emergency SUPL
+7cb4664 Remove deprecated egl.cfg
+a36b5c4 Reenable battery capacity in charging animation
+c0c9574 Revert "Change composition type to dyn"
+7fd392a More updates
+
+   * external/bluetooth/bluedroid/
+5e99e49 Bluetooth: Use correct sniff configuration for PAN & HS
+b20e9c3 Free Browse packet
+1d82011 Bluetooth: GAP: Don't send auth req from connection complete
+64f8d7f Bluetooth: Update call state before opening SCO.
+0c28838 DO NOT MERGE Change pairing_cb to assume temporary pairing by default
+
+   * external/busybox/
+e04727a Android: simplify BUSYBOX_CROSS_COMPILER_PREFIX
+
+   * external/dhcpcd/
+e499680 Fun with buffer overrruns.
+
+   * external/flac/
+47c292e libFLAC: merge master from Xiph
+
+   * external/okhttp/
+24aad76 Fix a bug in OkHostnameVerifier wildcard handling.
+
+   * external/whispersystems/WhisperPush/
+81f285c Automatic translation import
+
+   * frameworks/av/
+c498eab Revert "soundpool: reuse channel for same sample if available"
+130f0c4 Fix MTP delete
+f4d983a Fix bounds checking for GetPartialObject command
+da31859 MTP: add strict bounds checking for all incoming packets
+ba32742 audio policy service: fix possible memory overflow
+23423d3 audio policy: validate stream type received from binder calls.
+08328f1 IAudioPolicyService: bound array size in queryDefaultPreProcessing
+
+   * frameworks/base/
+db8cbad Automatic translation import
+20e7716 PackageManager: don't attempt to get theme on core boot
+ef79504 Themes: Properly hide recreateTheme
+3f6c27a Revert "Themes: Don't break API in MockContext"
+1b56475 Themes: Don't break API in MockContext
+d999962 SystemUI: survive notification update spam
+b92c2cc Don't start theme service on core only boot
+b85fb98 Clear Theme in System UI
+31fb016 Themes: Perform mapping when not from overlay
+c67bc8b third part apps can unlock the phone without password even if the phone has setted the password
+98df5dd Avoid boot looping when theme provider is unavailable
+6e854a8 SystemUpdateService: enable service but lock its receivers [1/2]
+083163a SystemUI: Fix nav bar transparency when enabling software keys
+9869348 SystemUI: load current user's qs tiles
+2f98e27 systemui: don't start-stop visualizer directly after a power save event
+617fe6d GlobalActions: Use circular user avatars
+09771c6 SystemUI: Correct long press intents of some tiles
+8c7b965 improve lock screen wallpaper behavior
+27d0b22 Themes: Always clone the new theme if non-null
+385e95f Sanitize display names, keep extensions intact.
+03c73af MTP: Update JNI for new packet getters
+994c209 Do not make ActivityContainer available to apps. DO NOT MERGE
+440244f Check that bitmap's size does not exceed 32 bits. DO NOT MERGE
+d5aeb07 Properly clean up when setting new InputFilter.
+d4fc9bf Handle bad ninepatch data.
+f1eb4a4 Fix build breakage in older branches by avoiding <> notation
+87c85c3 Fix ParceledListSlice to enforce the same concrete types among its elements.
+4abb2b6 AudioEffect JNI: use new max preprocessing constant
+b6935c4 Themes: Switch themes when user changes
+
+   * frameworks/native/
+f58a148 Update maxNumber to be smaller.
+
+   * frameworks/opt/net/wifi/
+6655e00 WiFi: Correct CMD_PNO_PERIODIC_SCAN command value
+
+   * frameworks/opt/telephony/
+5f8247a IccSmsInterfaceManager: Disable debug logging
+
+   * hardware/qcom/fm/
+74b4ecd Move Indonesia entries to arrays
+d3bada2 Automatic translation import
+12e24fe FMRadio: add Indonesia
+
+   * kernel/xiaomi/armani/
+84a651f Handle 'sk' being NULL in UID-based routing.
+25a349a net: core: Support UID-based routing.
+783005d net: support marking accepting TCP sockets
+5da9e5a net: add a sysctl to reflect the fwmark on replies
+fa215eb net: ipv6: autoconf routes into per-device tables
+363b2b8 net: ipv6: ping: Use socket mark in routing lookup
+2f6df5e net: sockev: Initial Commit
+01883d2 net: socket: Added notifier chains for socket administrative functions
+b547993 net: fib: fix incorrect call_rcu_bh()
+7c35b2e net: ipv6: Don't purge default router if accept_ra=2
+ceb164a net: usb: rmnet_usb_data: Disable too much logspam
+6568c00 net: usb: rmnet_usb_ctrl: Honor device polling interval
+7894c5e mmc: core: Update PON based on the system state
+9eeeb63 msm: mdss: fix rotator failures when pixel format changes
+59a03c4 msm: mdss: ensure rotator work is done before reconfiguring session
+1de4894 media: radio: Fix building and loading the IRIS transport
+2e1f37d armani: defconfig: Disable modules
+bbc251c video: mdp4: Color temperature interface using PCC
+
+   * libcore/
+fe42e96 Fix a bug in DefaultHostnameVerifier wildcard handling.
+
+   * packages/apps/AudioFX/
+da03ec8 Automatic translation import
+
+   * packages/apps/Bluetooth/
+cda26b8 Automatic translation import
+c905e5a Prevent duplicate OPP permission request dialogs
+0cb71bf Check previous user confirmation before auto-confirm put request
+57262f7 updateshare confirm logic missed cases like CONFIRMATION_DENIED, TIMEOUT. fix it
+
+   * packages/apps/BluetoothExt/
+1c3fe3b Automatic translation import
+
+   * packages/apps/CMAccount/
+d8545f5 Automatic translation import
+
+   * packages/apps/CMBugReport/
+c5bc4ee Automatic translation import
+
+   * packages/apps/CMFileManager/
+d66ebd2 Automatic translation import
+80daa0e CMFileManager: Fixed positioning of title in editor custom ActionBar layout
+07154e9 CMFileManager: Check if intent action is null when applying user defined initial directory
+da04013 CMFileManager: set search item icon to fixed width and centerCrop
+fb259f0 CMFileManager: set compute folder statistics to true by default
+df97de0 CM File Manager - Gracefully handle renaming on case-insensitive filesystems
+2185846 cmfm: delete obsolete themes resources
+b62df7a cmfm: force colorControlNormal to white
+03e534f cmfm: fix edit home bookmark icon
+336c384 CMFileManager: Fix back press events of SearchActivity
+
+   * packages/apps/CMUpdater/
+828c3d8 Automatic translation import
+946b7f5 CMUpdater: Drop DashClock extension and auto backup support
+
+   * packages/apps/CMWallpapers/
+be990f2 Automatic translation import
+
+   * packages/apps/Calculator/
+60b60f4 Automatic translation import
+
+   * packages/apps/Calendar/
+4f7af54 Automatic translation import
+
+   * packages/apps/Camera2/
+7a11a41 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+a34bb1e Automatic translation import
+
+   * packages/apps/Contacts/
+e7dc11a Automatic translation import
+e98c8a5 Contacts: Add checkableimageview to sim import picker
+
+   * packages/apps/ContactsCommon/
+af649c8 Automatic translation import
+
+   * packages/apps/DeskClock/
+db3a532 Automatic translation import
+
+   * packages/apps/Dialer/
+a59cffd Automatic translation import
+
+   * packages/apps/Eleven/
+a6a6cab Automatic translation import
+e039904 Eleven: fixed broken spacing
+1e2c7ab Eleven: Checkboxes to switches
+
+   * packages/apps/Email/
+50c4c11 email: add an option for delete the account
+9848795 email: don't block extras database
+
+   * packages/apps/Gallery2/
+9991ef6 Automatic translation import
+
+   * packages/apps/InCallUI/
+6240812 Automatic translation import
+
+   * packages/apps/LockClock/
+d81eba5 Automatic translation import
+
+   * packages/apps/Mms/
+c06f93e Automatic translation import
+
+   * packages/apps/Nfc/
+44ee38a Material Beam icon.
+
+   * packages/apps/PhoneCommon/
+48b1458 Automatic translation import
+
+   * packages/apps/Settings/
+f13b30c Settings: Set untraslatable
+f826275 Automatic translation import
+2524c45 Settings: add dashboard switch view for sw600dp
+0fbd6b6 Allow launching display rotation & lock screen settings externally
+88caa0f Settings: add switches for dashboard items
+83db613 Protected Apps: fix behavior for orientation changes
+7f35147 Added a check if a custom activity can be started
+2c5c5dc Settings: hide write to NFC in Wifi menu when appropriate
+
+   * packages/apps/SetupWizard/
+afcf65d Automatic translation import
+33683fc SetupWizard: Initialize the nav keys bundle boolean
+838248a SetupWizard: Fix regression for devices without custom default theme
+83be05d SetupWizard: Fix regression, only init pages once
+
+   * packages/apps/SoundRecorder/
+8ba259f Automatic translation import
+
+   * packages/apps/Stk/
+b0135c2 Automatic translation import
+
+   * packages/apps/Terminal/
+e4da6cf Automatic translation import
+
+   * packages/apps/ThemeChooser/
+9bc7b86 Automatic translation import
+
+   * packages/apps/Trebuchet/
+04ad82d Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+70b5f3d UnifiedEmail: Increase max attachment size to 25MB
+ff335f9 email: don't assume that onDrawerClose will be called
+
+   * packages/inputmethods/LatinIME/
+3909e40 (DO NOT MERGE) Fix Greek accented upper case letters
+
+   * packages/providers/DownloadProvider/
+a18a824 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+0b72077 Automatic translation import
+a6afd7e Fix icons with filters not being generated
+
+   * packages/services/Mms/
+d3944ea Automatic translation import
+
+   * packages/services/Telecomm/
+e556309 Automatic translation import
+
+   * packages/services/Telephony/
+234562b Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+7d20065 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+3a8cbf7 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+665b08d Automatic translation import
+
+   * system/core/
+92d5ea9 healthd: allow custom charger
+
+   * vendor/cm/
+768292d SystemUpdateService: enable service but lock its receivers [2/2]
+9c2413b Update Telenor HU APN
+eb600fe Add new Maxis combined APN
+
+   * vendor/xiaomi/
+9526cae Update adreno blobs
+c335916 Remove unused fm radio binary
+37812ea Add missing omx library
+
+===================================
+Since Fri Mar 13 10:49:18 UTC 2015
+===================================
+
+
+   * device/qcom/common/
+28310b2 power-8226: Remove unnecessary hint
+63f4751 power-8226: Increase the boost a bit
+94ed698 power-8226: Remove the HMP boost hint
+c534f6e power-8226: Add support for POWER_HINT_LOW_POWER
+5a31d99 power-8226: Various updates to Power HAL
+4ed36a9 power-8226: Add support for system performance profiles.
+
+   * device/xiaomi/armani/
+7c434dc Update flags
+
+   * external/skia/
+2e87b69 Bring back NEON optimized blitter S32_Opaque_D32_filter_DX
+
+   * external/whispersystems/WhisperPush/
+d3d6568 Automatic translation import
+
+   * external/wpa_supplicant_8/
+df7dc73 P2P: Consider 5 GHz channels also for auto GO
+db50417 Improve subject_match and domain_suffix_match documentation
+
+   * frameworks/av/
+649b5fb libmedia: Tone down logging
+33ade41 audiopolicy: Do not route VoIP call to HDMI
+8b91c59 stagefright: Correct ifdeffage of some QC codecs
+6a054d6 libstagefright: Add check for bits avail to read
+1abd0c5 soundpool: reuse channel for same sample if available
+7404a57 httplive: HLS enhancements
+1aedb67 libstagefright: Reset flac decoder eos during flush
+4728e99 libstagefright: Handle FLAC clips with very small block sizes
+84d6112 httplive: avoid zero byte read request
+29c4a56 StreamingSource: check mTSParser before dereferencing it.
+
+   * frameworks/base/
+4d813f8 Factory reset: Allow passing wipe_media to recovery
+bd4b190 SystemUI: CellularTile support multi-sim
+701bc3e Lockscreen visualizer: Disable out animation
+3b4c38c Do not start music app when headset is unplugged
+ebe396d livedisplay: Updated icon from Asher
+f1845bc Themes: Change themeChange config value to 0x300000
+772ca17 Automatic translation import
+8b6be3d livedisplay: Fix issues when using multiple users
+017b1b7 Revert "Bluetooth: Change userhandle to current from ALL"
+
+   * hardware/qcom/display-caf/msm8916/
+b01ae24 hwc: Add secure display attribute
+
+   * hardware/qcom/fm/
+c862dcb Automatic translation import
+
+   * packages/apps/AudioFX/
+4f0eb65 Automatic translation import
+
+   * packages/apps/Bluetooth/
+9a70af6 Automatic translation import
+
+   * packages/apps/BluetoothExt/
+31c2487 Automatic translation import
+
+   * packages/apps/Browser/
+3db546f Revert "Fix the smart search pattern."
+
+   * packages/apps/CMAccount/
+1bae2e5 Automatic translation import
+
+   * packages/apps/CMBugReport/
+177bb73 Automatic translation import
+
+   * packages/apps/CMFileManager/
+05ddc9c CMFileManager: protect code path for access mSdBookmarks
+9cc59b6 Automatic translation import
+
+   * packages/apps/CMUpdater/
+b424dc1 Automatic translation import
+
+   * packages/apps/Calculator/
+6447be0 Limit history expressions to a single line.
+461eb69 Automatic translation import
+
+   * packages/apps/Calendar/
+8d3bd6c Calendar: support ACTION_VIEW instead of ACTION_SEND
+1f28924 Automatic translation import
+
+   * packages/apps/Camera2/
+1d98281 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+c3ea6b5 Automatic translation import
+
+   * packages/apps/Contacts/
+a5a544f Automatic translation import
+
+   * packages/apps/ContactsCommon/
+f08e8aa Automatic translation import
+
+   * packages/apps/DeskClock/
+01a192a Automatic translation import
+
+   * packages/apps/Dialer/
+158fc5f Added Reverse Lookup Gebeld (NL)
+1b3a022 Move smart dialer initialization to onStart().
+c44882c Automatic translation import
+
+   * packages/apps/Eleven/
+89c155c Eleven: Show/Hide album art on lockscreen
+1acc38b Automatic translation import
+
+   * packages/apps/Gallery2/
+7911e6b Automatic translation import
+
+   * packages/apps/InCallUI/
+2a181b8 InCallUI: Adjust dimens for hdpi
+f815c10 Automatic translation import
+
+   * packages/apps/LockClock/
+9e90260 Automatic translation import
+
+   * packages/apps/Mms/
+98b5989 Mms: open VCal files instead of trying to send them
+2dae5c2 Automatic translation import
+271c955 Remove vibrate pattern on devices without vibrator
+
+   * packages/apps/PhoneCommon/
+a3ac20d PhoneCommon: Adjust dimens for hdpi
+0437e2c Automatic translation import
+
+   * packages/apps/Settings/
+26435ea Factory reset: Always show the "delete media" checkbox
+b77cddc Sound settings: remove vibrate category on devices that dont support it
+044b638 Protected Apps: remove incorrect header title
+e36cc80 Themes: Allow switchbar text color to be themeable
+41ab975 Automatic translation import
+14038d4 livedisplay: Fix for multiuser
+
+   * packages/apps/SetupWizard/
+ed5d467 SetupWizard: Better handling of launching into other activities
+836f867 Disable theme components for secondary users
+c7b84c2 Automatic translation import
+bfde63c SetupWizard: #blamethemes
+
+   * packages/apps/SoundRecorder/
+8fd4621 Automatic translation import
+
+   * packages/apps/Stk/
+c50f40a Automatic translation import
+
+   * packages/apps/Terminal/
+37622ae Automatic translation import
+
+   * packages/apps/ThemeChooser/
+979a19a Automatic translation import
+
+   * packages/apps/Trebuchet/
+368c91b Trebuchet: protect update path for widgetpreviews db
+5482c2f Trebuchet: disable search bar when there are no search activities
+b4b01cd Trebuchet: fix live settings bug
+4a156fd Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+559c5fd Fix suggestions text padding (AOSP Keyboard)
+
+   * packages/providers/DownloadProvider/
+0d7a9c6 Automatic translation import
+
+   * packages/providers/TelephonyProvider/
+bda9e4d Make TelephonyProvider a singleton across users
+
+   * packages/providers/ThemesProvider/
+7320de5 Automatic translation import
+
+   * packages/services/Mms/
+e6cce3a Automatic translation import
+
+   * packages/services/Telecomm/
+4e6de9d Automatic translation import
+
+   * packages/services/Telephony/
+98c026a Fix the build
+60f23f7 Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+a888455 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+6ec4a28 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+e5cfe1e Automatic translation import
+
+   * system/core/
+5d31618 init: Let a device's init.rc redefine service entries
+
+   * vendor/cm/
+dc699fb sepolicy: Permissions for userinit
+8df987a Add USMobile (MVNO) apn
+b62da1e apn: Add LG U+ LTE APN
+6ed255d Add additional APNs for US Cellular
+23c48f6 vendor:cm: Add Moto E contributors
+2b99918 Fix default Alarm tone
+1245bc2 Add APN for Smartfren
+
+===================================
+Since Fri Mar  6 07:48:17 UTC 2015
+===================================
+
+
+   * android/
+ddc4820 Track our own copy of chromium.org's openssl, AGAIN
+cd4df6f Manifest: add ManagedProvisioning
+b4bcec5 Manifest: Add msm8610 HAL repos
+
+   * build/
+daff3dc build: Update install tools packaging for target-files support
+d623957 build: Add support for additional kernel config snippet
+
+   * device/xiaomi/armani/
+ec81d2c Flag for our own gps hal
+6376f79 sepolicy: modifications for CmHardwareService
+82b669c Add init for WCDMA and CDMA variants
+5fe24be Remove deprecated overlay
+ecdfd34 Small fix in usb props
+
+   * external/busybox/
+9e941c4 mount: address a couple crashes
+
+   * external/chromium_org/third_party/openssl/
+6ecdf16 Fix FREAK attack
+
+   * external/stagefright-plugins/
+425bf78 stagefright-plugins: Re-add workarounds for certain audio formats
+
+   * external/whispersystems/WhisperPush/
+77dcb58 Automatic translation import
+
+   * frameworks/base/
+fbae4d9 Themes: Add CONFIG_THEME_FONT to Configuration.diff()
+d784584 Remove more duplicate sounds
+c14e0b1 MediaScanner : Add support for default ringtones per sim
+5f90642 Provider: Add multi SIM ringtone support in SettingsProvider
+0e33fa6 SystemUI: don't display protected lockscreen shortcuts
+8cbdab9 SystemUI: improve DISMISS_KEYGUARD_SECURELY_ACTION behavior
+93f8947 SystemUI: disable visualizers during power save mode
+3ba66f5 keyguard: don't use eq visualized in LowEndGfx devices
+45e1cc6 Themes: Process theme resources after package scanned [1/2]
+980fb96 services: AssetAtlasService: prevent IndexOutOfBoundsException
+a1e065a SysUI: Clip to outline in ActivatableNotificationView
+3d4c77d SystemUI: improve recreating statusbar
+2307241 Revert "systemui: Fix KeyguardMonitor callbacks during configuration changes"
+12db8b0 Revert "systemui: Fix race condition in setting notification panel height"
+0004687 qsutils: use package manager to query whether nfc is present
+7c755ed Themes: Add previous value and update time to mixnmatch [1/2]
+1347c0b livedisplay: Add "off" state and fix issues with QS tile
+359643a systemui: fix glitches with recents view and search widget
+d258b28 media: Scan Monkey Audio files
+408dc52 SystemUI: allow lock screen visualizer to be disabled
+5cd6bfa SystemUI: fix hidden clock appearing
+dcc6c85 Clean up graphics resources.
+851767c Revert "Fix memory leak in system_server when screen on/off"
+cdeabda SystemUI: fix disapearing clock
+0859354 SystemUI: fix small jump when expanding QS w/o notifications
+5812605 Themes: Perform null check on fontPkgName
+1fa4ac2 Themes: Check if newTheme has null fonts, icons, or overlays
+257b3d4 systemui: Fix race condition in setting notification panel height
+ba656ff systemui: animate clear recents button on exit animation
+f7286fb livedisplay: Fix color calibration
+0beb0fc systemui: Fix KeyguardMonitor callbacks during configuration changes
+ee848ef Themes: Handle null request types in ThemeConfig
+1c7c028 SystemUI: improve qs tile scroll handling
+cffcdc5 Clean up battery handling.
+16618a5 SystemUI: Allow seperate theming of guts icons
+b46f7dd [1/3] CmHardwareService: Initial implementation
+b631246 Automatic translation import
+378b594 Revert "Automatic translation import"
+3fce302 Automatic translation import
+70f3e4f frameworks: modify default system profiles
+61e88da Themes: fix copy paste error for applying ringtone/alarm
+3b0afb9 Themes: update themeChange value
+a28c120 SysUI: Be smarter about theme changes
+6305a15 Remove unused import.
+9fb61cb Hide unused msim icons on setting preference(2/2)
+
+   * frameworks/opt/chips/
+15785bc chips: fix NPE errors
+
+   * frameworks/opt/telephony/
+28b23bc Skip unknown tags instead of aborting when parsing UICC TLV data
+
+   * hardware/qcom/fm/
+f768c56 Automatic translation import
+
+   * kernel/xiaomi/armani/
+5ac6341 qseecom: fix secure app loading failure by kernel mode qseecom client
+f6eb2c4 qseecom: change the number of bytes to compare app names
+ce21229 qseecom: Add support to handle multiple app load & unload
+cf6c46f qseecom: Fix issues with failure to release client handle
+338e604 qseecom: Unload the app upon receiving qseecom_release.
+88081f2 qseecom: Fix clock get failures
+6873276 qseecom: Validate shared buffer length & virtual address
+a89064f qseecom: Change pr_warning message to pr_debug
+20c6bfe msm: vidc: Fix build: Cleanup v4l2 cluster construction
+b335e6a msm: vidc: add new control for limiting i/p buffer size
+ff125cd msm: vidc: Change in input buffer size calculation
+594765c msm: vidc: change concealment color
+753a1ec msm: vidc: Add AFD and CC metadata support to extradata
+d8c055c msm: vidc: Add support for different errors
+39ec734 msm: vidc: Add support for setting initial qp
+26196b2 msm: vidc: configure and set hier-p layers
+863c6b4 msm: vidc: add control to enable Hierarchical P num layers
+a5938f8 msm: vidc: Add support for MBI extradata
+ff06a70 msm: vidc: Return meaningful information for extra-data plane
+58aa8dd msm: vidc: Add support to request frame bits info as extra-data
+c3267c4 [media] v4l2: Add enums to request frame bits info as extra-data
+711d744 msm: vidc: Add support to request frame level QP information
+eb9c133 [media] v4l2: Add enum for frame level QP extra-data
+de050f41 msm: vidc: Add generic LTR mode support
+94148a3 msm: vidc: add LTR support for video encoder
+55c0791 msm: vidc: add support to set VP8 QP range
+c91b6b7 Revert "msm: vidc: Add AFD and CC metadata support to extradata"
+dac7e8f Revert "msm: vidc: Increase max buffers to VB2_MAX_FRAME (i.e. 64)"
+a31bf1b mdss: Add MDP_SMP_FORCE_ALLOC mdp flag
+906f742 Fix sizeof-pointer-memaccess warning with gcc 4.8
+984cd0c LCD_KCAL: Color Control driver for armani
+d46fc0d misc: ImmVibeSPI: add support for setting vibration intensity
+bcfc9be wcnss: Configure WLAN MAC addr through user control interface
+04e96f3 ALSA: Export audio effects header
+d8bc2ba ASoC: msm: Allow DOLBY_DAP to be selected on MSM8226
+46f4d33 input: touchscreen: ft5x06: fix suspend on FB_BLANK_POWERDOWN Thanks to @ilopez85
+3c97f75 armani: Add CM defconfig
+5b8e50d Add Pronto WLAN Driver from kk_3.5_rb1.21
+0e00a70 Revert "msm: vidc: Update vb2q buffer sizes"
+8a6b389 Revert "msm: camera: Return current lens position in actuator driver"
+298c643 Revert "msm: camera: Extend LED current for Dual LED support."
+9bd9520 Revert "msm: mdss: Avoid GPIO warnings during boot up"
+b9e121b Revert "msm: socinfo: populate arch_read_hardware_id"
+551c525 Revert "ARM: dts: msm: add remote debugger driver dt entry for 8226"
+04eae71 LNX.LA.3.5.1-10110-8x26.0 -> Xiaomi Redmi 1S
+
+   * packages/apps/BluetoothExt/
+1240d13 Automatic translation import
+
+   * packages/apps/Browser/
+aa65d32 Browser: fix default bookmarks urls
+3b1e986 Delete broken xxhdpi progress drawable.
+bc39d70 browser: set security state even if user disable security alerts
+
+   * packages/apps/CMAccount/
+57cda8f CMAccount: Override default activity transitions if in OOBE
+a3f259b Automatic translation import
+
+   * packages/apps/CMBugReport/
+abc382c CMBugReport: fix report being stuck at uploading
+
+   * packages/apps/CMFileManager/
+a0e7ac5 CMFileManager: Fix back press events Use onBackPressed in stead of onKeyUp for back press events
+89b3b11 CMFileManager: Improved confusing, cumbersome and incorrect strings
+1667395 Automatic translation import
+
+   * packages/apps/CMUpdater/
+d6fa967 Automatic translation import
+
+   * packages/apps/Calculator/
+d8e858f Automatic translation import
+
+   * packages/apps/Calendar/
+e0a097b Calendar: add feature to select/deselect all events in delete view
+0b00a7e Automatic translation import
+
+   * packages/apps/Camera2/
+708b6b2 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+d198408 Automatic translation import
+
+   * packages/apps/Contacts/
+617bb3b Revert "Fix the event name"
+5231670 Fix the event name
+e0bb86e Expose the editor account header background & contact list text colors.
+94cb200 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+0d2ed5a ContactsCommon: fix FC when deleting SIM contacts after SIM is removed
+a680fc7 Only reload contacts if relevant SharedPreferences change.
+898ee9c Exposed hard coded text colors for starred/group tiles.
+9c174b6 Automatic translation import
+
+   * packages/apps/Dialer/
+475a7e9 Dialer: Add call waiting vibrate option
+032220e Do not reload smart dial database twice in DialtactsActivity.
+48dca12 Call Vibration Settings: Fix preference key name
+78af649 Automatic translation import
+
+   * packages/apps/Eleven/
+51dadc6 Automatic translation import
+
+   * packages/apps/Gallery2/
+f50365f Automatic translation import
+
+   * packages/apps/InCallUI/
+4743d75 InCallUI: Bring back vibrate on call waiting
+967f67c Fix MSIM incoming call notification handling.
+2805a49 Automatic translation import
+
+   * packages/apps/LockClock/
+500804d cLock: Add to launcher
+f1da736 LockClock: Ignore "inaccurate" locations
+6bbcc51 Automatic translation import
+
+   * packages/apps/Mms/
+ae6c7d6 Mms: better vCard parser (getExtraSrc)
+b1974ac MMS: Add 'FullTimestamp' and 'OriginalTimestamp'
+31485f2 Expose hard coded background and text colors for compose activity. Credits go to Eaton and Nicholas.
+145ffe8 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+8a1fa06 Automatic translation import
+
+   * packages/apps/Settings/
+7922b8f Revert "Revert "Settings: fix potential NPE when resetting profiles""
+e3a73a7 Settings: merge ProfilesList into ProfilesSettings
+32815ee Revert "Settings: fix potential NPE when resetting profiles"
+0e2c1f1 Regulatory text color: make this readable
+d0cc973 Settings: theme mobile network settings from data usage screen
+e2d5bb4 Settings: bring up IME when renaming profile
+20385d8 Settings: hide keyguard visualizer toggle on low end gfx devices
+869d79b Settings: fix "Mobile Networks" menu option in DataUsageSummary.
+4baea5b Settings: fix potential NPE when resetting profiles
+8983201 Settings: Fix factory reset lock confirmation header text
+d09d7ec livedisplay: Add an "off" state
+135e13e settings: prevent NPE in DisplaySettings
+ab7f361 Use 100K steps for color temperature sliders.
+c7aa601 Settings: allow lock screen visualizer to be disabled
+012f5b2 Settings: add summary for advanced mode
+6125771 settings: Use consistent headers for Privacy Guard
+cb27581 Settings: Override default activity transitions for OOBE wifi
+f6f3c18 Settings: Cleanup battery saver settings
+ddbb2a0 Settings: Fix hiding proximity wake-up option
+89f5302 Settings: we do not ship Google Now Launcher wallpapers
+caccdad Settings: Change to CmHardwareService
+b64e211 Automatic translation import
+a5c50c1 Fix typo
+21ff781 Hide unused msim icons on setting preference(1/2)
+
+   * packages/apps/SetupWizard/
+0ed67f5 SetupWizard: Only go through OOBE if owner
+f66c56b SetupWizard: Only update network state when resumed
+77fce34 SetupWizard: Update legal link
+0d31b31 SetupWizard: Refactor for better transitions out of OOBE
+7732b74 SetupWizard: move to CmHardwareService
+7faec91 Automatic translation import
+7c8e091 SetupWizard: Fix race condition on finish
+
+   * packages/apps/SoundRecorder/
+d912ea5 Automatic translation import
+
+   * packages/apps/Stk/
+199cb6a Automatic translation import
+
+   * packages/apps/Terminal/
+740e8a4 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+2ee64a3 Automatic translation import
+
+   * packages/apps/Trebuchet/
+06e3e07 I'm Trebuchet, the cm launcher
+e08c5f0 App Drawer: respect drawer show/hide icon lables
+861d111 App Drawer: take dynamic grid updates
+2372ffc App drawer: respect protected apps
+4e5c80f App Drawer: Disables specific settings for the paginated app drawer while the vertical app drawer is selected
+e8b8d9c App Drawer: fix drawer visibility after cancelling widget drop
+7af3eeb App Drawer: internationalization
+022da85 App Drawer: Add toggle functionality to change back to legacy app drawer
+3698517 App drawer smooth scrolling
+f4784dd Trebuchet: App Drawer - clean up open/close animations
+d932452 Trebuchet: Implement new app drawer.
+73b5610 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+55e9bb9 UnifiedEmail: Fix build
+c6af340 unified email: prefer account display name to sender name
+
+   * packages/inputmethods/LatinIME/
+24a0462 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+05775ec Automatic translation import
+
+   * packages/providers/ThemesProvider/
+6c29892 Themes: Process theme resources after package scanned [2/2]
+cc0e0e1 Return InstallState.UNKOWN if context or pkgName null
+4938b49 Themes: Add previous value and update time to mixnmatch [2/2]
+d61bdb0 Cleanup theme update path
+cfbac9f Update target API on theme updates
+
+   * packages/services/Mms/
+616d537 Automatic translation import
+
+   * packages/services/Telecomm/
+45b9c33 Merge "Telecomm: Move to CmHardwareService" into cm-12.0
+8cde779 Automatic translation import
+
+   * packages/services/Telephony/
+b710b9d phone: Fix crash in MSISDNEditPreference when changing phone num.
+219cd9e Dialer settings: fix "Additional settings" up arrow inconsistency
+699f273 Fix phone account settings translations
+4ea0820 Fix network mode on non-msim devices
+81cbabd Add CMHW permission
+3bfcd54 Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+1671fe4 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+b510f7c Automatic translation import
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+c29b886 Refresh x86_64-linux-android-4.9 (darwin-x86)
+
+   * system/vold/
+97991de vold: cryptfs: Free adjusted_passwd
+8da2191 vold: cryptfs: Correct PFE error message
+
+   * vendor/cm/
+0397dbf APN: Add Lowi
+94dde9b APN: Fix Pepephone 4G
+1d68926 cm: Add import for prebundled APKs
+b4bf950 sepolicy: recovery: Allow data file write
+d1fb504 vendor:cm: fixup formatting of CONTRIBUTORS
+69c2e7f [3/3] CmHardwareService: add sepolicy
+3b7f3d2 Vendor: Update Privacy policy URL
+b1285f2 APN: Add Pepephone 4G
+
