@@ -1,0 +1,302 @@
+===================================
+Since Tue Apr  7 15:38:46 UTC 2015
+===================================
+
+
+   * device/xiaomi/armani/
+45888de Revert "Remove unneeded gps files and services"
+969184c Update batt_temp values in thermal conf
+793470f Increase read_ahead_kb
+
+   * frameworks/av/
+0da00ae wipwip
+499f248 IAudioPolicyService: bound array size in queryDefaultPreProcessing
+
+   * frameworks/base/
+c3656a6 AudioEffect JNI: use new max preprocessing constant
+80df185 Externally Reported Moderate Security Issue: SQL Injection in WAPPushManager
+28d823b Themes: Unapply specific components on theme uninstall
+d260036 framework-res: add AccountPreference style
+1999993 SystemUI: fix notifs not coming back after unmarking as spam
+a5f6354 Expose lock pattern path color for themes.
+8cb74ac WallpaperCropper: if generating a thumbnail fails, remove temp tile
+
+   * kernel/xiaomi/armani/
+f67e1c9 ASoC: wcd9xxx: Increase voltage range for the detection of plug type
+
+   * packages/apps/Bluetooth/
+8500758 Prevent duplicate OPP permission request dialogs
+998a0bc Check previous user confirmation before auto-confirm put request
+0454165 updateshare confirm logic missed cases like CONFIRMATION_DENIED, TIMEOUT. fix it
+
+   * packages/apps/Contacts/
+9171b81 Improve contact copy string
+a656094 Contacts: Give progress updates and fix copy to sim if mAdnCache is empty.
+8156e92 Always use contacts sms icon for quick contact card
+
+   * packages/apps/Mms/
+5274131 Mms: fix quick popup unlock screen state management
+
+   * packages/apps/Settings/
+75f0ef6 Settings: use new style for Account preferences
+3c3ba67 Expose text color for themes.
+
+   * packages/apps/SoundRecorder/
+b31b6a1 SoundRecorder: Rewrite logic to funnel all recorder interaction.
+
+   * vendor/cm/
+711552e APNs: Remove leading whitespace for a couple mmsc
+0cb72b9 apns: Added APNs for Movistar Peru
+
+   * vendor/xiaomi/
+54dece5 Revert "Remove unneeded gps files"
+654f7b4 Revert "Update GPS blobs"
+
+===================================
+Since Sun Apr  5 13:45:06 UTC 2015
+===================================
+
+
+   * device/xiaomi/armani/
+d795458 Fix changing LED colors
+
+   * external/koush/Superuser/
+036a6f6 Automatic translation import
+
+   * frameworks/base/
+9e4c6b2 Automatic translation import
+
+   * packages/apps/CMAccount/
+a28d045 Automatic translation import
+
+   * packages/apps/CMHome/
+bf57314 Automatic translation import
+
+   * packages/apps/CMWallpapers/
+cbd3dd6 Automatic translation import
+
+   * packages/apps/Contacts/
+4883ced Automatic translation import
+
+   * packages/apps/Mms/
+e9098c0 Automatic translation import
+
+   * packages/apps/Settings/
+2e88be2 Automatic translation import
+
+   * packages/services/Telephony/
+e63a8a5 Automatic translation import
+
+   * vendor/cm/
+ad8e81e Update APNs for Smartfren
+
+===================================
+Since Sun Apr  5 10:38:30 UTC 2015
+===================================
+
+
+===================================
+Since Sun Mar 29 19:20:43 UTC 2015
+===================================
+
+
+   * build/
+91c1338 build: Add the factorypackage target
+
+   * device/xiaomi/armani/
+b1591b9 Remove unneeded gps files and services
+e14e532 liblights: Fix speed and duration of led blink
+7143f07 Rename hardware to armani
+1198867 Update liblight
+6b61ea4 Add missing led permissions
+1d2f80e Use powersave in performance profiles
+8f84c89 Ensure governor changes are always propagated to all CPUs
+778f02b Update thermal-engine-8226.conf
+7baa521 Remove unnecessary FM script
+13f1283 Organize gps conf files and set hal path flag
+a673f47 Set secondary network mode
+
+   * external/koush/Superuser/
+519abe9 Automatic translation import
+
+   * external/libnfc-nci/
+5f4c1e3 Revert "Call nfc_ncif_update_window after processing cback"
+
+   * external/whispersystems/WhisperPush/
+75262e6 Automatic translation import
+
+   * frameworks/base/
+3c71ea2 Automatic translation import
+
+   * hardware/qcom/fm/
+285a93d Automatic translation import
+
+   * kernel/xiaomi/armani/
+5367c54 ARM: dts: msm: This belongs to dior, not armani
+
+   * packages/apps/Apollo/
+cc5b5da Automatic translation import
+
+   * packages/apps/BluetoothExt/
+8381874 Automatic translation import
+
+   * packages/apps/Browser/
+5456437 Automatic translation import
+
+   * packages/apps/CMAccount/
+a1a9891 Updated strings
+2b839dd Automatic translation import
+
+   * packages/apps/CMBugReport/
+2a1632d Automatic translation import
+
+   * packages/apps/CMFileManager/
+70a0685 Automatic translation import
+d7558cf make sure MountPointInfo and DiskUsageInfo runs in the UI Thread.
+
+   * packages/apps/CMUpdater/
+aa014c6 Automatic translation import
+
+   * packages/apps/Calculator/
+c886b68 Automatic translation import
+
+   * packages/apps/Calendar/
+019856c Automatic translation import
+
+   * packages/apps/Camera2/
+fae9ad0 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+d51d7ad Automatic translation import
+
+   * packages/apps/Contacts/
+4ed4ab5 Automatic translation import
+
+   * packages/apps/DSPManager/
+94129f4 Automatic translation import
+
+   * packages/apps/Exchange/
+45c4333 Automatic translation import
+
+   * packages/apps/Mms/
+c897c74 Automatic translation import
+
+   * packages/apps/Settings/
+89d2bf7 Setttings: update KS strings
+5ffe52b Settings: make ks opt-out dialog non-cancelable
+1a3ec90 Automatic translation import
+7e8abf3 Remove leading space
+
+   * packages/apps/SoundRecorder/
+d6ccab7 soundrecorder: Don't allow writing to sdcard in user builds
+
+   * packages/apps/Stk/
+e3ea49e Automatic translation import
+
+   * packages/apps/Trebuchet/
+32f9144 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+ebf0775 Rearrange Slavic & Greek morekeys
+e983eda Rearrange morekeys
+6391ff7 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+af8e6cd Automatic translation import
+
+   * packages/services/Telephony/
+83ed4ee Automatic translation import
+
+   * packages/wallpapers/Basic/
+eb9a771 PolarClock: Don't draw on invisible surfaces
+
+   * packages/wallpapers/PhotoPhase/
+595bb1a Automatic translation import
+
+   * system/core/
+32eb3e0 liblog: Forward xlog to regular android buffers on demand
+
+   * system/extras/
+d178a34 setup_fs: Add an option to skip rebooting if formatting succeeds
+
+   * vendor/cm/
+9ccb7ad terminal emulator: update libjackpal version
+
+   * vendor/xiaomi/
+0e022f6 Update GPS blobs
+5b50254 Remove unneeded gps files
+5e36337 Revert "Update audio blobs"
+321d39d Update thermal blobs
+59f8031 Update audio blobs
+746b1df Clean up unneeded FM files
+
+===================================
+Since Thu Mar 26 18:38:50 UTC 2015
+===================================
+
+
+   * frameworks/base/
+a1621d2 framework: add KillSwitch stubs
+1e86e5f Make forward/reverse lookup default overlay
+
+   * packages/apps/ContactsCommon/
+6eb9dda Only check for valid SIM on SIM accounts
+
+   * packages/apps/Settings/
+f06ea03 Settings: update kill switch
+a868b4b Settings: add killswitch logic to factory reset screen
+
+===================================
+Since Mon Mar 23 09:36:47 UTC 2015
+===================================
+
+
+   * external/bluetooth/bluedroid/
+9ae55a3 LE: Fix HOGP connection issues caused by incorrect HCI packet flags
+
+   * external/libnfc-nci/
+070e334 pn547: Force rewrite of config even if we think it's the same
+
+   * external/wpa_supplicant_8/
+66ad89f wpa_supplicant: Force the p2p channels to reuse frequencies used by STA
+0610e33 Android: Don't use extended P2P functionality (ANDROID_P2P) for wl12xx
+
+   * frameworks/base/
+d34b545 Fix data cycle calculation when CYCLE_WEEKLY
+abc03db Properly clean up when setting new InputFilter.
+76c2dd5 ProtectedApps: setComponentProtectedSetting check null ComponentName
+c101881 WallpaperCropper: run addTemporaryWallpaperTile in an AsyncTask
+
+   * kernel/xiaomi/armani/
+7626a7b prima: Disable CH144 support  * NV currently in use does not support CH144  * MAX_CFG_INI_ITEMS must be at least 343
+
+   * packages/apps/CMAccount/
+49485e5 SetupWizard: Strings for kill switch
+
+   * packages/apps/Contacts/
+d6af4b6 fixed wrong number of elements in alert dialog
+
+   * packages/apps/DeskClock/
+d2918bf TimerReceiver: Correctly show the remaining time for 100 hours
+
+   * packages/apps/Settings/
+02d111f Themes: Add new background drawable for LockscreenTargets
+afdb7eb Settings: fix changing profile triggers not updating actions page
+4009a08 Themes: Expose hardcoded text colors
+
+   * packages/apps/Trebuchet/
+f963b11 ProtectedApps: map items without componentNames by position
+4b60765 Protected Apps: fix insets so that views stay above navbar
+d8bdb0e ProtectedApps: Fix protecting shortcuts with no ComponentNames
+
+   * packages/apps/VoicePlus/
+d4ad304 Use Locale country as fallback for TelephonyManager.
+dce662f Fix & improve country detection for cellular failover.
+
+   * packages/services/Telephony/
+b7a2f9e callbarring: Only show error dialogs if the activity is running
+
+   * vendor/cm/
+8af40b2 Airtel MMS - Add authtype=1 for PAP
+0e03dbd Update Telekom (T-Mobile) HU APN
+
