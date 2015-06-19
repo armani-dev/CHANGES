@@ -1,0 +1,317 @@
+===================================
+Since Sun Jun 14 13:19:10 UTC 2015
+===================================
+
+
+   * device/xiaomi/armani/
+3093938 Bring bdroid_buildcfg.h in line with CAF
+ee37d1a Fix changing LED colors
+c813602 liblights: Fix speed and duration of led blink
+6643fa7 mkbootimg: Don't append dtb to zImage
+
+   * kernel/xiaomi/armani/
+8459ee0 ARM: use -mcpu=cortex-a7 when targeting MSM8226 CPUs (Cortex-A7 based)
+344e8e5 arm/dts: armani: Only include specific DTBs
+
+===================================
+Since Wed Jun  3 17:51:51 UTC 2015
+===================================
+
+
+   * vendor/cm/
+aa6bbf0 Update Sonera APNs
+58472d8 apn: Add China Telecomm 4G APN support
+26b03fc Update Ting GSM APNs
+
+===================================
+Since Tue May 26 17:47:14 UTC 2015
+===================================
+
+
+   * external/koush/Superuser/
+fff6d3d Automatic translation import
+
+   * external/whispersystems/WhisperPush/
+5162e24 Automatic translation import
+
+   * frameworks/base/
+58e985c Automatic translation import
+
+   * hardware/qcom/fm/
+c7e39ec Automatic translation import
+
+   * packages/apps/Apollo/
+20eccdc Automatic translation import
+
+   * packages/apps/Bluetooth/
+9fc6181 Automatic translation import
+
+   * packages/apps/BluetoothExt/
+2df3f1d Automatic translation import
+
+   * packages/apps/Browser/
+0f54616 Automatic translation import
+
+   * packages/apps/CMAccount/
+fc7d7c8 Automatic translation import
+
+   * packages/apps/CMBugReport/
+60629c6 Automatic translation import
+
+   * packages/apps/CMFileManager/
+7414d3f Automatic translation import
+
+   * packages/apps/CMHome/
+2a8d6b7 Automatic translation import
+
+   * packages/apps/CMUpdater/
+55b3d05 Automatic translation import
+
+   * packages/apps/CMWallpapers/
+d210044 Automatic translation import
+
+   * packages/apps/Calculator/
+9c04e35 Automatic translation import
+
+   * packages/apps/Calendar/
+528a52f Automatic translation import
+
+   * packages/apps/Camera2/
+4e16182 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+3e584a8 Automatic translation import
+
+   * packages/apps/Contacts/
+b207895 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+e5ed9ba Automatic translation import
+
+   * packages/apps/DSPManager/
+03657fa Automatic translation import
+
+   * packages/apps/DeskClock/
+719baee Automatic translation import
+
+   * packages/apps/Dialer/
+16ca408 Automatic translation import
+
+   * packages/apps/Email/
+f81c5f2 Automatic translation import
+
+   * packages/apps/Gallery2/
+932eb3c Automatic translation import
+
+   * packages/apps/InCallUI/
+b9edcad Automatic translation import
+
+   * packages/apps/LockClock/
+7c005ca Automatic translation import
+
+   * packages/apps/Mms/
+fbdceee Automatic translation import
+e7624a0 Mms: setInputType in ComposeMessageActivity during onResume
+
+   * packages/apps/Settings/
+cb75ca9 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+219d136 Automatic translation import
+
+   * packages/apps/Stk/
+5b106e9 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+10ffa81 Automatic translation import
+
+   * packages/apps/Torch/
+cb697ba Automatic translation import
+
+   * packages/apps/Trebuchet/
+a9291ea Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+9a348e8 Automatic translation import
+
+   * packages/apps/VoicePlus/
+a58bd02 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+417e13f Automatic translation import
+
+   * packages/providers/ContactsProvider/
+529c87e Automatic translation import
+
+   * packages/providers/DownloadProvider/
+7e938de Automatic translation import
+
+   * packages/services/Telephony/
+c8eceef Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+2849fd9 Automatic translation import
+
+   * vendor/cm/
+ee74bb9 Deprecate epc.tmobile.com APN
+04f954d APNs: Correct MMSC for HoT Austria
+7829307 Temp fix for Bouygues telecom issues
+36fed2e apns: Removed APN configuration for Noverca.
+477ee61 Drop hipri,supl from Smartfren4G
+
+===================================
+Since Sat May 16 12:53:07 UTC 2015
+===================================
+
+
+   * packages/apps/Browser/
+13dd5e1 browser: fix most visited page
+
+   * packages/apps/Contacts/
+bdec220 Prevent potential crash when exporting contact to sim card
+
+   * packages/apps/ContactsCommon/
+c7beaec Only query the msim adn provider if the device is multi sim
+
+   * packages/apps/Mms/
+d6e357b Mms: Fix selection-list retention and non-contact omission in SelectRecipientsList
+
+   * packages/apps/Settings/
+bfe61c9 Settings: persist backlight brightness setting
+25ea6f2 Settings: fix button back light restore logic
+
+   * vendor/cm/
+ce53ac4 Split Smartfren MMS out
+4ddc345 Update Smartfren APN protocol to IPV4V6
+871c527 Added several APNs, updated a couple carrier names
+16570ec APNs: Separate Simyo ES' entry (default and mms)
+d27f170 APNs: moar MVNO's
+e4ac214 apns: Added APN configuration for Suop MVNO (Spain)
+8a3d839 APNs: 716: added Claro, Entel; 732: Fixed COMCEL
+43680f2 APNs: Add MVNO HoT Austria Internet and MMS APN configuration
+
+===================================
+Since Mon May 11 19:39:16 UTC 2015
+===================================
+
+
+   * build/
+5145c01 build: Unset JAVA env vars to read version
+
+   * packages/apps/Calculator/
+79f5506 Split floating calc display text color to its own value.
+
+   * packages/apps/Camera2/
+b378956 Camera2: Add LOCAL_CERTIFICATE := platform
+
+   * packages/apps/Dialer/
+4fef6c9 Dialer: remove contact importing from Dialer
+
+   * packages/apps/Mms/
+e860cd5 Mms: apply input mode type to ComposeMessage activity
+
+   * vendor/cm/
+f975ad0 Add authentication parameters to MVNO NL APN configuration
+39359be Added APN for Costa Rica ICE Kolbi
+1f4cb33 Updated Telekom RO APN to reflect their recent name change
+22d243d Removed obsolete internet APN for Indosat
+
+===================================
+Since Tue May  5 16:13:49 UTC 2015
+===================================
+
+
+   * external/whispersystems/WhisperPush/
+b2511ce Automatic translation import
+
+   * frameworks/base/
+4c766f5 Automatic translation import
+
+   * hardware/qcom/fm/
+e365ed3 Automatic translation import
+
+   * packages/apps/Apollo/
+82be12a Automatic translation import
+
+   * packages/apps/BluetoothExt/
+549e9f2 Automatic translation import
+
+   * packages/apps/Browser/
+fa558a0 Automatic translation import
+68230fa browser: Fix build
+
+   * packages/apps/CMAccount/
+717b224 Automatic translation import
+
+   * packages/apps/CMFileManager/
+70661a7 Automatic translation import
+
+   * packages/apps/CMUpdater/
+87124a9 Automatic translation import
+
+   * packages/apps/CMWallpapers/
+58a909b Automatic translation import
+
+   * packages/apps/Calculator/
+c0e51ed Automatic translation import
+
+   * packages/apps/Calendar/
+5fbb26b Automatic translation import
+
+   * packages/apps/Contacts/
+b9abdb9 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+714461e Automatic translation import
+
+   * packages/apps/DSPManager/
+d09c564 Automatic translation import
+
+   * packages/apps/DeskClock/
+ce1cf67 Automatic translation import
+
+   * packages/apps/Dialer/
+7d692cf Automatic translation import
+
+   * packages/apps/Email/
+c95f21e Automatic translation import
+
+   * packages/apps/Gallery2/
+d256eda Automatic translation import
+
+   * packages/apps/LockClock/
+5052ab8 Automatic translation import
+
+   * packages/apps/Mms/
+1c8c571 Automatic translation import
+
+   * packages/apps/Settings/
+635da6e Automatic translation import
+
+   * packages/apps/SoundRecorder/
+9836aa0 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+bdba407 Automatic translation import
+
+   * packages/apps/Torch/
+67b5ed9 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+8054d7e Automatic translation import
+
+   * packages/services/Telephony/
+3bfdbcf Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+edb9da1 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+1b8be4e Automatic translation import
+
+   * vendor/cm/
+b217427 Fix typo and build
+bc7e1a7 Fixed typo in APN config for Nicaraguan networks.
+a7fe183 apns-conf.xml: (DK) merge BiBob and Telenor APNs. remove mvno values.
+0a6ce7b Added Eagle Mobile MMS apn configuration.
+
