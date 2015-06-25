@@ -1,0 +1,2482 @@
+===================================
+Since Fri Jun 19 12:51:12 UTC 2015
+===================================
+
+
+   * android/
+6901e79 manifest: remove final > extra
+55977e2 Add cmsdk prebuilts repo.
+fd19a7d Add Android Support Library prebuilts
+
+   * bootable/recovery/
+ce34fee recovery: bu: disable xcomp during backup/restore
+
+   * device/qcom/sepolicy/
+6a2a0b7 sepolicy: Allow time_daemon to use POSIX clocks
+802f07f Label factory reset protection partition.
+f95decc selinux: Peripheral manager: Allow system server to talk to per_mgr
+310f839 sepolicy: Update policy for peripheral manager
+ca54507 sepolicy: Update sepolicy for qseecom rpmb component
+92f86ac sepolicy: Add support for pm-proxy executable
+622a951 sepolicy: Allow write to S3D node
+0f5394a SEAndroid: Add access to res_info sysfs node
+04946f0 Seandroid: Add policy for energy-awareness.
+
+   * device/xiaomi/armani/
+1d99ae2 sepolicy: Address mediaserver denial
+a947606 Nothing to see here
+aafd11b Remove unused mms overlay
+1dcc693 Set fingerprint and other device props
+89245db Enable drm prop
+af7d696 Don't symlink firmware files
+3a155db Reorganize makefiles
+30c0df8 sepolicy: Address wcnss_service denial
+1f93464 Don't need to copy FFMPEG config anymore
+
+   * external/android-visualizer/
+3a5b85a visualizer: don't draw fade out paint when there's no content
+291c020 visualizer view: optimize allocations during drawing
+
+   * external/android/support-prebuilt/
+3f3f929 Initial commit
+5f28d74 Initial empty repository
+
+   * external/chromium_org/
+f02dfc7 net: disable SSLv3.
+
+   * external/dhcpcd/
+60ea6f5 dhcpcd: Send unique IAID
+
+   * external/ffmpeg/
+3b79b80 ffmpeg: Set cpu arch for silvermont config
+74773c1 ffmpeg: Readd missing X86 fixups
+
+   * external/libtar/
+6f1e8f6 libtar: Support transparent compression
+
+   * external/sepolicy/
+887d7af Define types for userdata and cache block devices.
+
+   * external/stagefright-plugins/
+3272744 stagefright-plugins: Update codec list with capabilities
+36780e8 stagefright-plugins: Set sensible defaults for audio decoders
+e5f8759 ffmpeg: Remove a couple of codecs we don't need
+
+   * external/whispersystems/WhisperPush/
+125c51a WhisperPush: add Twilio SMS number for Indonesia
+34eeeb6 Automatic translation import
+5d1d882 Do not launchGcmRegistration if never registered
+
+   * frameworks/av/
+775c557 stagefright: ffmpeg: Slightly raise the threshold for the ffmpeg scanner
+8a85fea nuplayer: Fix incorrect audio resume time during seek
+
+   * frameworks/base/
+b515114 alarmmanager: Reduce calls to elapsedRealtime()
+290b5fb Fix a GL error leak issue
+5a98695 SystemUI: visualizer state improvements
+52a01e5 Don't use the SPN_STRINGS_UPDATED broadcast.
+d370ca5 Recalculate emergency after adding or removing mobile controllers.
+7553b92 Remove some useless code in KeyguardUpdateMonitor.
+899ef6c Optimize GPS property reloading.
+3e9f683 Add sms short codes for Indonesia
+dc6c43f SystemUI: fix dpad arrow keys after rotation
+837b967 Revert "base: zenmode: add 90 minutes downtime"
+3a26922 Fix LiveDisplay notification.
+d596ba7 SystemUI: fix visualizer tile initial state
+165174e Frameworks/base: Add removeAll for ArraySet
+0e734d1 core: Protect against system server take down on empty tile order.
+a6b40de Automatic translation import
+4cd97f7 Default time format is hard coded to 24
+f166866 Revert "Determine default 12/24 hour time format setting from locale."
+462c9b9 base: zenmode: add 90 minutes downtime
+1cba30a wifi: Allow Settings to retrieve country code (2/3)
+25ea5bb base: wifi priorities
+6a5a1d8 Profiles: fix mute ring mode not applying
+7fa62bb themes: Load icon packs outside the big lock
+c108038 Improve dynamic tile strings
+dc2db5a base: dynamic tiles
+1fc5382 qs: use external resource package for custom tiles
+5d1a70a KillProcessGroup on background thread
+d65899f Revert "Kill process asynchronously on updateOomAdjLocked."
+3e56e26 Fix overflow/underflow problem in comparison
+0bb5525 Fix bug regarding the comparator sorts Alarms into increasing time order.
+d109477 am: Fix delayed GC merge damage, again
+72624de SystemUI: fix navbar dpad arrow keys regression
+4a9b471 themes: Fix strictmode warnings
+
+   * frameworks/native/
+941007a surfaceflinger: use Mutex timedLock instead of tryLock loop
+7c9f0ca SF: Reduce resync samples without present
+
+   * frameworks/opt/chips/
+ca3c8d1 Apply anti-aliasing when drawing chips.
+
+   * frameworks/opt/net/wifi/
+8360d47 Merge "wifi: Allow Settings to retrieve country code (1/3)" into cm-12.1
+
+   * frameworks/opt/telephony/
+67ea90e Send out a new SPN_STRINGS_UPDATED broadcast if the sub ID changes.
+3500144 Revert "SystemUI can not receive intent"
+
+   * hardware/qcom/audio-caf/msm8916/
+c483a9f post_proc: remove unnecessary command size check
+
+   * hardware/qcom/audio-caf/msm8994/
+51d2833 hal: Add option to use low latency as primary output
+afe3bed hal: Invert more build flags
+a4018a8 hal: Fix voice call recording for msm8974
+0cf4659 hal: Invert standard build flags
+eb91444 hal: Fix digital USB headset combo device
+28ad56e hal: Add support for dedicated VoIP devices
+
+   * hardware/qcom/display-caf/msm8960/
+8c77071 hwc: Bump up version to 1.4
+
+   * hardware/qcom/fm/
+a82d69b Fix status text to reflect when FM is enabled.
+8a1eda5 Automatic translation import
+
+   * hardware/qcom/media-caf/msm8916/
+09064da Merge remote-tracking branch 'caf/LA.BR.1.2.4_rb1.2' into cm-12.1
+
+   * packages/apps/AudioFX/
+4804487 Automatic translation import
+
+   * packages/apps/BluetoothExt/
+5166471 Automatic translation import
+
+   * packages/apps/CMAccount/
+8d801e6 Automatic translation import
+
+   * packages/apps/CMBugReport/
+31ee191 Automatic translation import
+
+   * packages/apps/CMFileManager/
+22b9eab Shell console: fix bug in shell output stream
+1b15dff Automatic translation import
+91c9e78 Fix parsing of shell command output regardless of encoding
+
+   * packages/apps/CMUpdater/
+af7f779 Automatic translation import
+
+   * packages/apps/Calculator/
+64af337 Remove duplicate color.
+
+   * packages/apps/Calendar/
+0ddae60 Automatic translation import
+
+   * packages/apps/Camera2/
+9fe4127 Automatic translation import
+
+   * packages/apps/Contacts/
+420be57 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+306c803 Automatic translation import
+
+   * packages/apps/DeskClock/
+3fec825 Automatic translation import
+
+   * packages/apps/Dialer/
+265e145 Automatic translation import
+
+   * packages/apps/Eleven/
+9b33f1a Automatic translation import
+
+   * packages/apps/Email/
+eeea1e1 Automatic translation import
+
+   * packages/apps/Gallery2/
+9c02ac4 Automatic translation import
+
+   * packages/apps/InCallUI/
+a3d7205 Automatic translation import
+a7cbcc8 Show waiting state in call title also for MSIM.
+
+   * packages/apps/LockClock/
+c71fdd2 Automatic translation import
+
+   * packages/apps/Mms/
+ac26093 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+d8b2750 Automatic translation import
+
+   * packages/apps/Settings/
+7e7a8b9 Settings: fix confirm pattern crash on rotate
+d0bc382 Remove stray file
+8e6a1c3 Automatic translation import
+25f5a16 wifi: Allow configuration of country code for wifi (3/3)
+f1e81f5 settings: wifi priorities
+a83dfba settings: dynamic tiles
+c3c36c2 Avoid SElinux denial accessing SIM card lock
+4646bac Avoid SElinux denial accessing IMEI information
+9c1236d SecuritySettings: Assert the instance of KeyStore before use
+
+   * packages/apps/SetupWizard/
+e8ae2d7 Automatic translation import
+b31cb54 Fix incorrect retrieval of SIM Network Operator.
+
+   * packages/apps/ThemeChooser/
+d72c46d Automatic translation import
+
+   * packages/apps/Trebuchet/
+b04fdb1 Automatic translation import
+cae9521 Fix unintended dynamic grid resize side effects.
+e806def Trebuchet: Fix popupMenu behavior and clean up old code.
+
+   * packages/apps/TvSettings/
+60e6e26 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+0068c4a Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+fa184cb Automatic translation import
+
+   * packages/services/Mms/
+9193b7e Automatic translation import
+
+   * packages/services/Telecomm/
+9dcf39f Telecom : Add callInfo provider abstraction
+b537713 Automatic translation import
+2be100b Telecom : Remove null check for blacklist
+
+   * packages/services/Telephony/
+0e1355e Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+0cc4e55 Galaxy4: Force 32bit
+
+   * packages/wallpapers/HoloSpiral/
+0085554 HoloSpiral: Force 32bit
+
+   * packages/wallpapers/MusicVisualization/
+621fdf5 MusicVisualization: Force 32bit
+
+   * packages/wallpapers/NoiseField/
+9084d74 NoiseField: Force 32bit
+
+   * packages/wallpapers/PhaseBeam/
+f1b3336 PhaseBeam: Force 32bit
+a2fe1f4 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+335829c Automatic translation import
+
+   * prebuilts/cmsdk/
+5bff108 prebuilts/cmsdk: Update API text for API level 1.
+819c312 prebuilts/cmsdk: Add prebuilt jars for cmsdk.
+db9ab1a prebuilts/cmsdk: Add api text files for API level 1.
+62a6bfd prebuilts/cmsdk: Add declared permission info for API level 1.
+cc52a1d Initial empty repository
+
+   * system/extras/
+ad697d2 make_ext4fs: Fix mac build
+
+   * vendor/cm/
+0c80c8c Fix Sprint 3G
+51fd842 vendor/cm: Represent as CyanogenMod API's
+3314aac vendor/cm: Remove search widget from developer docs.
+be48647 vendor/cm: Point to proper prebuilts/cmsdk directories.
+ea32668 Support downloading from Maven
+
+   * vendor/cmsdk/
+f1f9f25 CMSDK: Only target specific packages for checkapi.
+3ca85b3 CMSDK: Add SINCE API level for docs.
+c8b2fba Automatic translation import
+
+===================================
+Since Sun Jun 14 13:19:10 UTC 2015
+===================================
+
+
+   * bootable/recovery/
+2387b7c sr: Fix log text color
+
+   * build/
+2283792 minnow_max: search for cm.mk in additional directories
+d944132 envsetup: repolastsync
+
+   * device/qcom/sepolicy/
+bf4e775 common: Fixup healthd's ability to deal with poweroff alarms
+5746509 WFD: Revert SELinux changes for wfd running in its own service/domain
+
+   * external/sepolicy/
+f207533 Revert "WFD : Adding policy exceptions in app domain for wfd"
+1d7bc1d domain: Restore original neverallow rules for shipping builds
+
+   * external/stagefright-plugins/
+ee5d283 stagefright-plugins: Minor fix for FFMPEG 2.7
+1e35faa stagefright-plugins: Convert tabs to spaces
+f50a061 stagefright-plugins: Refactoring the extractor
+1778caf stagefright-plugins: Clean up makefiles
+56bdc69 stagefright-plugins: Move and update codec XML
+86506b6 stagefright-plugins: Refactor the decoders
+
+   * external/whispersystems/curve25519/
+fab8a9d Merge "curve25519: prevent dex2oat method verify failure" into cm-12.1
+
+   * frameworks/av/
+4f6010d stagefright: Fix issues with software decoders
+96e0621 Nuplayer: During flush operation flush audiosink
+4f9390d audiooutput: Serialize access to AudioOutput
+
+   * frameworks/base/
+df6bcfe AudioService: don't launch music player while in call
+6525773 Close cursor after getting supported components.
+0365da6 SettingsProvider: turn off mobile data roaming by default
+7ad154e PackageManagerService: Don't attempt to dexopt platform-res.
+4409419 Call recording encoder/format choice 3/3
+77a20f8 Show reboot dialog using themed resources
+526fa6d Get themed resources in KeyButtonView
+279e385 SystemUI: hide blur when showing keyguard media
+15fd4f9 Properly animate SIM PIN entry screen transition.
+53445ef Revert "fix bug about view cache in RemoteViews"
+0b7175c Handle case where profiles.xml was partially saved
+9f38789 SystemUI: Expose values in status bar expanded header
+ceaeeb0 Explicitly declare which permissions can be granted via signature
+7039e3b Allow permissions to be granted via whitelisted signatures
+2b0b733 Density scaling: return device's default density
+29b8274 SystemUI: don't reinflate search view on rotate
+9173974 Revert "Fixes large number of thumbnails leads to low memory"
+658a918 Enable ticker when heads up notifications are disabled
+
+   * frameworks/opt/telephony/
+b579636 Telephony : Ensure private numbers are blocked if block unknown numbers is enabled
+6060db7 SystemUI can not receive intent
+
+   * hardware/qcom/audio-caf/msm8916/
+c89f5bc audio: Only allow non-legacy HAL
+
+   * hardware/qcom/audio-caf/msm8994/
+31ee81b hal: Clean up compilation warnings
+
+   * hardware/qcom/display-caf/msm8994/
+81c9dab Revert "hqd: Use MSM_VIDC_TARGET_LIST for Venus color format"
+
+   * packages/apps/Bluetooth/
+030c315 Bluetooth: request audio focus on incoming call
+
+   * packages/apps/Browser/
+fa6c57f Browser: add duckduckgo search engine to DE locale
+
+   * packages/apps/Calculator/
+57ceb53 Calculator: allow for deletion when selector is next to a separator
+
+   * packages/apps/CellBroadcastReceiver/
+c1d075e Remove per-SIM CB configuration.
+
+   * packages/apps/Contacts/
+0b4714e Fix local account name display for groups.
+63eb42f Contacts : Change 'up' actionbar indicator to a check mark in add/edit contacts
+902c329 Remove arbitrary set visibility call
+
+   * packages/apps/ContactsCommon/
+fb208f5 Add local phone account as a writable AccountTypes.
+
+   * packages/apps/DeskClock/
+55fd70a DeskClock: fix behavior with alarms when device is off
+
+   * packages/apps/Dialer/
+3571f5d dialer: better smart call string
+0c4d805 Ensure the smart dial name matcher is initialized in onStart().
+f81b428 Call recording encoder/format choice 1/3
+
+   * packages/apps/Eleven/
+dc90042 AudioPreviewActivity: Better external audio previewing
+
+   * packages/apps/Email/
+2f399ed Don't cancel PendingIntents used for AlarmManager.
+b12754d Optimize connection loss and re-gain behaviour.
+8fc4de4 Refine thread handling.
+a2383f8 Properly unregister alarm manager callbacks.
+e2edd7c Use AlarmManager to schedule an IDLE connection restart.
+0ddd7f3 Don't auto-register IDLE when gaining connection.
+aa3af2e Do less work on IDLE refresh.
+37466e2 Improve debug logging.
+
+   * packages/apps/InCallUI/
+c0cad1e InCallUi: Mitigate redial/recent call double tap state loss.
+
+   * packages/apps/Mms/
+f901e38 Expose message link text color
+
+   * packages/apps/Settings/
+ef0c7e7 Settings: persist profile dialogs while rotationg screen
+db4845a Settings: Ensure fragment is visible before updating footer
+616453b Settings: Disable mobile network settings if sub is invalid/unusable.
+03c1704 Don't clear cache on null UiDetailProvider
+d866828 BatteryLight: Reset all settings back to default
+34a4f63 Settings: Fix HighTouchSensitivity & TouchscreenHovering
+
+   * packages/apps/SetupWizard/
+b72e820 SetupWizard: protect against IllegalStateExceptions in telephony
+ffc0dbd SetupWizard: add overlay to uncheck cyanogen theme option by default
+c5e926d SetupWizard: Add hook to finish setup for CTS automation
+1fc47a0 SetupWizard: allow FINISH_SETUP to be granted via whitelist
+
+   * packages/apps/ThemeChooser/
+86a960a Add CleanSpec.mk to fix the build errors after UI update
+
+   * packages/apps/Trebuchet/
+e963932 Don't load title from intent if title loaded from DB
+8de4b98 Scrolling: Fix fade in workspaces from ignoring us
+92bffe8 Trebuchet: FloatMath is deprecated in API22
+
+   * packages/providers/DownloadProvider/
+4359b2e DownloadManager : Only remove stale id if download is not deleted
+f326c62 DownloadManager: allow ACCESS_ALL_DOWNLOADS to be granted via whitelist
+
+   * packages/providers/TelephonyProvider/
+d8da02b TelephonyProvider : Add sub_id to ICC columns
+
+   * packages/services/Telecomm/
+6e7ab5e Telecom: don't set incall state when call was disconnected
+
+   * packages/services/Telephony/
+7979140 Telephony: Add roaming mode options to mobile network settings
+73453a8 Call recording encoder/format choice 2/3
+
+   * system/core/
+655650d Mutex: add timedLock() method
+cd24260 Provide better advice on using gdb with debuggerd on crashed applications.
+
+   * vendor/cm/
+5970250 cm: Update stagefright-plugins depdendencies
+617261e Revert "cm: Add import for prebundled APKs"
+
+===================================
+Since Wed Jun  3 17:51:51 UTC 2015
+===================================
+
+
+   * android/
+8b207c3 Switch to our fork of external/lzma
+
+   * art/
+9514788 Allow skipping of dalvik cache pruning if boot marker is in place.
+
+   * build/
+ff3412c otasigcheck: Extract the key
+35f57e9 build: Add the factorypackage target
+c0b3f26 Remove LatinIME as it is included per target in vendor/cm
+7d01c1d build/core: Inherit vendor/* makefiles for check-api.
+751ae85 Allow dopush to load binaries onto the "wrong" device
+
+   * device/qcom/sepolicy/
+e8034d4 sepolicy:Allow mm-qcamerad to access sensormanager service access.
+
+   * external/chromium_org/third_party/boringssl/src/
+7ac4475 mitigate logjam (CVE-2015-4000)
+
+   * external/dhcpcd/
+3ad41a3 dhcpcd: Send proper DUID
+
+   * external/ffmpeg/
+796cb40 ffmpeg: Regenerate configurations for FFMPEG 2.7
+2335923 ffmpeg: Add script to regenerate the configs
+d7a1c6c ffmpeg: Update Android build configuration
+6949e0a x86: Use yasm from prebuilts and don't depend on host install
+81ab6be Add configuration for silvermont CPU based on Atom.
+e5b00a5 Clean up some build-time warnings
+8e4b83f Get ffmpeg building for emulatorx86
+90392b9 ffmpeg: Fix variable collisions
+f52b9bf build: Use ARM mode for arm32 builds
+67d3d8b Fixup armv8-a building, and make multiarch builds work
+f6ac7cc avutil: Use _SC_NPROCESSORS_CONF
+43b5192 Update Android build for FFMPEG 2.5
+f605d2a Android porting for ffmpeg 2.1 release
+259bb25 configure: Disable VSX on unspecified / generic CPUs
+665b670 avformat: Fix bug in parse_rps for HEVC.
+1051c15 takdec: ensure chan2 is a valid channel index
+5a0862a avcodec/h264_slice: Use AVFrame diemensions for grayscale handling
+6e94e77 avdevice/lavfi: do not rescale AV_NOPTS_VALUE in lavfi_read_packet()
+f5bb7b9 MAINTAINERS: add 2.7
+0e92091 Update for 2.7
+90932a9 add RELEASE_NOTES, based on previous
+58995f6 sonic: set avctx->channels in sonic_decode_init
+3a99f6e Changelog: Add 2.7 entry
+a5f44bc doc/APIchanges: fill in missing stuff
+6ddb109 doc/APIchanges: Add 2.7 separator
+83307a3 libavutil/channel_layout: Correctly return layout when channel specification ends with a trailing 'c'.
+34ae98a lavf/webm_chunk: Remove AVFMT_ALLOW_FLUSH
+0916938 avcodec/jpeg2000dec: Fix gain regression with gray16
+6bf8d9e fate: Force jpeg2000 decoder for dcinema
+adbe1d7 avcodec/libopenjpegdec: Mark as experimental if <= 1.3
+dbbb31e avcodec/jpeg2000: remove unused variable
+32b1131 avformat/oggenc: Fix return code in case of flushing
+dac7b27 Merge commit 'b14086ca38efa1a86cb0f0c6aa147b05f698877b'
+962654f Merge commit 'b380337020e271c5431aa8ef8f8e9dfda5e919b2'
+551813a Merge commit '210921722bf828b3b895ebcbc34374e6c4452c6f'
+840465e Merge commit '09447f2b0fafac6d9565aab82a4c5f16fc99ee5e'
+5f48a73 Merge commit 'fb1473080223a634b8ac2cca48a632d037a0a69d'
+4b082bc doc/muxers: document new break_non_keyframes option
+44327cb avcodec/jpeg2000: Disable special case for JPEG2000_QSTY_SI
+45db921 avcodec/jpeg2000dec: Add placeholder for PLT parsing
+b6ee191 avcodec/jpeg2000dec: Handle Psot = 0
+b14086c mkv: Correctly report the latest packet had been flushed
+e60b018 lavf/segment: add an option to allow breaking on non-keyframes
+b380337 mpjpegdec: don't try to alloc an AVIOContext when probe is guaranteed to fail
+2109217 imc: add required padding for GetBitContext buffer
+09447f2 ac3_parser: add required padding for GetBitContext buffer
+fb14730 aac_parser: add required padding for GetBitContext buffer
+e100966 avcodec/x86/h264_weight: handle weight1=128
+7c9fcdf avcodec/jpeg2000dec: Fix some 5/3 bitexactness issues
+ecefce4 lavf/tls_securetransport: fix SNI support when not verifying
+074159e avcodec/jpeg2000dec: Fix subsampled decoding
+12ba1b2 avcodec/jpeg2000dec: Check that coords match before applying ICT
+028c59c avcodec/jpeg2000dec: Fix high bit depth branch sample shift
+6fdbaa2 vp8: change mv_{min,max}.{x,y} type to int
+1382add mpjpegdec: don't try to alloc an AVIOContext when probe is guaranteed to fail
+d5a6456 Merge commit '4733a12dd17a91d606e0079ff9bb48b9f419cbef'
+3d66357 Merge commit '6308cd4868d2bd5fdf8bfa8dd10856c9a91874f5'
+77510a9 Merge commit 'bc1eace1b3654c490cb2c226b3c80854244dbb9a'
+d1f7b31 Merge commit 'f7e932473314e6ca4c851d49cbde8570b6e66383'
+01a6ae1 Merge commit '8ef98855d25e457094468e2e1a79d9b10d6445b2'
+402b18a Merge commit 'caf7be30b11288c498fae67be4741bfbf083d977'
+83e3516 Merge commit '925b80d64029d41962e5998d7d901226c3a9baea'
+3244a17 Merge commit '9bb11be0e5a75782c3139ad058c2b571499aa37d'
+b18eac7 vp9: change type of tile_size from unsigned to int64_t
+e05fda9 Merge commit 'f8716a1408f4f4ec63857b7015fbd62f9eac344a'
+db8ae37 Merge commit 'da0c8664b4dc906696803685f7e53ade68594ab8'
+34d278f mpjpegdec: fix memory leak in probe function
+a4557b7 Merge commit 'a6f19d6a9f8d1e08653d9d77581e8c823f4955c2'
+56f0fe6 swr: Fix ASSERT_LEVEL warning
+653bf3c avcodec/hq_hqa: Fix signness of tag
+130a6c0 avcodec/apng: Add partial support for blending with PAL8 pixel format
+33292c0 avcodec/apng: Add support for blending with GRAY8A pixel format
+0ab1c46 avcodec/apng: Add blending support for non-alpha pixel formats
+ed09bb3 avcodec/apng: Dispose previous frame properly
+6dd5371 lavf/tls: let the user specify what name to verify against
+4733a12 rtpdec_asf: Check memory allocation and free memory on error
+6308cd4 mov: Check memory allocation
+bc1eace jack: Check memory allocation
+f7e9324 audiointerleave: Always initialize new_pkt
+8ef9885 sctp: Always initialize outmsg struct
+caf7be3 mpjpgdec: free AVIOContext leak on early probe fail
+925b80d mpegvideo: Move OutFormat enum to mpegutils.h
+9bb11be mpegvideo: Split picture allocation for encoding and decoding
+f8716a1 mpegvideo: Rework frame_size_alloc function
+da0c866 mpegvideo: Move various temporary buffers to a separate context
+a6f19d6 configure: Support MSVC 2015
+7630cce avformat/mxfenc: Allow overriding /manual setting of the signal standard
+4b343f7 atrac3plus: give the phase_shift flag a better name.
+d765e07 atrac3plus: add support for GHA phase inversion.
+ac2dad9 avformat/version: Bump version for single jpeg muxer
+5cf84e5 doc/ffserver: Add entry for missing jpeg variant
+3b89a67 ffserver: Use singlejpeg muxer for jpeg
+51ac1f6 avformat: Add single jpeg muxer
+9906057 avcodec/aacdec: Do not return a uninitialized value
+153d23e Merge commit 'bc76c46943272515805d7ac48ca39f14826d1fed'
+476692a Merge commit 'a188108ebf28ebac9d2b8fc7d5b391aef45698b3'
+8eb2c41 Merge commit '677c804aa3a78d61b21e6423165a252846c20f0e'
+ce838ad Merge commit '252d6200c36e7eaa79f8d5205b7d731179e94897'
+8985e7c Merge commit '9b56ac74b170d12027fbc81f581a451a709f1105'
+7856afe avformat/hdsenc: Change duration from single to to double precision
+0dbea46 avformat/rmenc: Remove float usage
+4c4c3d5 avcodec/libstagefright: Check for pthread_create() failure
+40cc3be avfilter: fix a few 5 spaces indent
+7c45327 avdevice/iec61883: Check pthread init for failures
+ddda9ce ffserver: Check for ffio_set_buf_size() failure
+0023ea4 avformat/aviobuf: Check for ffio_set_buf_size() failure
+dc55477 avformat/ffmdec: Check ffio_set_buf_size() return value
+d603906 ffserver: Check allocations (likely not all)
+bc76c46 aac: Wait to know the channels before allocating frame
+a188108 aac: Support channel configurations 11 and 12
+677c804 aac: correctly map 7.1ch-wide AAC from FDK AAC encoder
+252d620 avio: Add avio_put_str16be
+9b56ac7 mpjpeg: Initial implementation
+e225f5f fate: add missing avdevice dependency to closed caption test
+cc90435 avcodec/allcodecs: Re-order nvenc encoders below x264/5.
+42db4aa vf_colormatrix: calculate coefficients only once
+46428ea avcodec/mpegvideo: Use av_memdup() for allocating thread_context
+7ddedd2 avcodec/mpegvideo: Clear thread_context array before allocating
+f30a7d9 avcodec/mpegvideo: Merge thread context initialization loops
+7e46611 avcodec/nvenc: Add 'nvenc_h264' as an alternative name for 'nvenc'
+e79c40f avcodec/nvenc: Rename nvenc_h265 to nvenc_hevc
+c10e6bc Revert "avcodec: Rename nvenc.c to nvenc_a.c, to avoid conflict with the other implementation"
+d47de79 Revert "Merge commit 'b08caa87c35a768ec0abb16b1e99c3a85f1df28e'"
+58b49f7 Revert "nvenc: remove cuda.h requirement for nvenc_a"
+728c82a Revert "avcodec/Makefile: fix checkheaders for nvenc_b"
+8a6536c Revert "Changelog: Drop duplicate NVENC entry"
+7944b0c avutil/colorspace: Remove RGB_TO_Y/U/V
+a03b694 avcodec/exr: fix crash caused by merge
+1b4dd59 configure: improve the checks for gmtime_r and localtime_r
+440fa77 Changelog: Drop duplicate NVENC entry
+272f87f avdevice/x11grab: use av_clip() instead of nested min & max
+533c37d avcodec/snowenc: use av_clip() instead of nested min & max
+622ef80 avcodec/mpegvideo: use av_clip() instead of nested min & max
+0f6118c ffplay: use av_clip() instead of nested min & max
+ade5684 hevc: fix typo (mpv -> mvp).
+7897ed0 Merge remote-tracking branch 'cigaes/master'
+c5a0895 swresample: fix initilaize/initialize typo
+be1862f doc/filters: fix inaccuarte/inaccurate typo
+44d1921 lavf/http: Add simple autodetection for client HTTP method, based on AVIO_FLAG_READ.
+290b237 lavf/http: Indent else-clause.
+a7e7c68 lavf/http: Properly process HTTP header on listen.
+8cfaa76 lavf/http: Rudimentary error handling for HTTP requests received from clients.
+bbcee92 lavf/http: Process HTTP header before sending response.
+aa74401 lavf/http: Document method option.
+f073764 avformat/mxfenc: Add mxf muxer avclass
+802cca5 avcodec/s302m: Only set the sample rate when some data is output
+42c41e9 avformat/utils: Do not select audio streams with unknown sample rate in av_find_best_stream()
+51080df avcodec/s302m: Check for non PCM Streams
+a86928d flvdec: fix lack of duration for some files
+108b738 avformat/flvdec: Show unknown tags at debug level
+790a3cd avformat/flvdec: Add TYPE_ONCAPTIONINFO
+b2fecce avformat/flvdec: increase buffer size for parsing metadata string key
+6fd15d6 Revert addition of a few fixed_dsp functions to APIChanges
+06b4937 avutil/ppc/cpu: add include avassert.h
+af8d63e avutil/softfloat: Fix alternative implementation of av_normalize1_sf()
+6690ca2 avutil/softfloat: Fix alternative implementation of av_normalize_sf()
+5bf84a5 arm: only enable setend on ARMv6
+d3585c5 avutil/softfloat: Move av_sincos_sf() from header to c file
+19ed3e3 libavutil/doc: Changes in documentation due to changes to fixed_dsp
+904ea60 avutil/softfloat: Add more tests for the normalization
+c7ce16e avutil/softfloat: Fix thresholds in av_normalize_sf()
+c93602a avcodec/rdft: Use more specific error codes
+7be0f48 lavf/matroskaenc: Write Block Keyframe correctly
+c94d907 avcodec/utils: Assert that audio decoders do not report using more data than was input
+c265763 avcodec/alsdec: Check for overread
+6b6ae7c avcodec/atrac3plusdec: consume only as many bytes as available
+3c803ed avcodec/adpcm: Check for overreads
+a34d902 avcodec/mips: MSA (MIPS-SIMD-Arch) optimizations for HEVC idct functions
+7131aba libavutil/softfloat: Fix av_normalize1_sf bias.
+a213e57 lavf/riffenc: Set correct block align for mp2.
+3b4e694 lavfi/tinterlace: Double aspect ratio for modes merge and pad.
+b143614 swresample/resample: fix typos
+e0fd319 avcodec/proresenc_anatoliy: Use more specific error codes
+4cb7cd4 avcodec/snow: replace unspecific error code
+c3f87f7 swresample/swresample: Cleanup on init failure.
+cc17b43 swresample: Add swr_get_out_samples()
+da7c8fd fate: add missing lavfi indev dependency to closed caption test
+52acd22 libswresample/rematrix: Check for malloc errors
+e91debf fate: Add Closed caption test
+1a06d09 libavutil: Add new fixed dsp functions.
+3e34b74 Revert "avformat/rtpenc: check av_packet_get_side_data() return, fix null ptr dereference"
+aef34ab avcodec/mips: MSA (MIPS-SIMD-Arch) optimizations for HEVC uni mc epel functions
+c96c73b avcodec/mips: MSA (MIPS-SIMD-Arch) optimizations for HEVC mc epel functions
+88188f5 avcodec/mips: MSA (MIPS-SIMD-Arch) optimizations for HEVC biw mc functions
+
+   * external/lzma/
+9382c0a xz: Enable crc64 support
+
+   * external/whispersystems/TextSecure/
+01e6af5 TextSecure: Deprecate old curve25519.
+
+   * external/whispersystems/WhisperPush/
+6fdfa64 Automatic translation import
+b210b15 Automatic translation import
+
+   * external/whispersystems/curve25519/
+aea39b2 curve25519: Make sure we're building the libcurve JNI.
+e9e7df8 curve25519: prevent dex2oat method verify failure
+
+   * frameworks/av/
+37882c1 audiopolicy: Use legacy alsa to guard incall music feature
+a43fc72 audiopolicy: Unbreak incall music
+ab5b940 NuPlayer: Clear stale track packets on seek
+14df986 nuplayer: start or stop audio sink from renderer only
+a7cf34b Revert "audio: Reduce device switch delay"
+3854030 Fix integer overflow during MP4 atom processing
+e586b3e Fix integer underflow in ESDS processing
+16c78bb Fix several ineffective integer overflow checks
+3cbb418 audio: removed stream type check from AudioTrack
+7ff13ee nuplayer: improve startup/rebuffering for http progressive playback
+1df821b frameworks/av: Fix NULL check for source
+45bbdff stagefright: Replace strncpy with strlcpy
+774df3f NuPlayer: Fix incorrect time update for pause followed by seek, resume
+67054e8 NuPlayer: Fix for pcm offload not using offload path after pause time out
+3759ee4 AudioFlinger: Add PCM offload format for dumpsys logging
+e44aa1c NuPlayer: Fix for PCM offload fallback on BT
+e640dc4 RTSPSource: check audio buffer count
+f266c28 nuplayer: Don't write data to sink if sink is stopped
+a39faef libstagefright: Support PCM channel mask update
+2aa3a23 frameworks/av: do not allow voip direct output for non 16-bit PCM
+22a8369 Nuplayer: Fix no image or image will be delay issue
+72ae734 Fix div zero error in corrupted media file
+ba8d3f2 MediaCodec: use non-blocking call to get service
+0d94b66 Signal EOS at end of mpeg video to flush out final sample
+5e179e6 libstagefright: free mMoovBoxBuffer
+4816034 Don't fail read when "seeking" to current position
+489d096 ESQueue:use 0x000001 instead of 0x00000001 as sync word in H264/MPEG_VIDEO
+3fd6088 audio: fix incall music ifdefs (3/3)
+9cc1c24 audiopolicy: Fix call recording for legacy qcom HAL (again)
+
+   * frameworks/base/
+3aa55a3 Automatic translation import
+e380da9 Fix USB intent warning on deviceAttached()
+50acc80 ExternalStorageFormatter: pass whether to wipe internal storage
+16208a2 fix build
+47874fb fix bug about view cache in RemoteViews
+1d0e262 [ActivityManager] Fix index OOB when updating visible.
+7c8169b Kill process asynchronously on updateOomAdjLocked.
+383ec10 Run BatteryCallback on CpuTracker thread.
+481e72b PackageManagerService: override native lib root for prebundled packages
+e56a4b2 Add File.separator to end of internalPath
+a761767 Fix in effectCallback to avoid sending callbacks to dead objects
+e3d2102 Add hotspot icon to status bar
+1da3b63 Close race condition in binderDied()
+d150d36 Bluetooth: Adding synchronization to handle multiple threads
+96a2c34 power: Fix locking for wakeup proximity check
+b055ea8 audio: fix incall music ifdefs (2/3)
+e2c7a61 SystemUI: always log statusbar state
+9972c85 Revert "frameworks/base: Make minfree values optimal for 32bit devices"
+4c16334 SystemUI: Add missing QS accessibility messages
+94ff516 SystemUI: Add new dimens values for expanded status bar padding
+de75b0d Revert "Revert "Boot up optimization for phoneprocess""
+8b35a49 Add a method to query the voicemail number.
+07432aa MediaScanner: Detect folders
+e14e2b5 Fix for empty RSSI triangle after boot
+011f0aa SystemUI: add missed statusbar state logging
+ebe3b5c Revert "SystemUI: Fix no LED indication for missed call when screen off"
+9837473 SystemUI: remove duplicate PhoneStatusBar variables
+8eba73a SystemUI: add RecentsView EventLogs
+ecb46f7 services: button brightness should check proximity
+8e037a5 Automatic translation import
+83617eb Don't set mHomeConsumed to true for KEY_ACTION_SLEEP
+a70bb2d frameworks: display: shorten automatic brightness debounce
+786b496 SystemUI: Expose weather text colors
+eea8576 SystemUi: Support expanded styles for custom tiles.
+227e7b6 PowerManagerService: Fix updating of mUserActivitySummary
+bb53f32 Density scaling: scale compatibility apps, wm command support
+449590b Revert "Revert "Allow custom density setting""
+d7493d3 Drop protection level of certain SMS-related system permissions
+1fe36a5 Code Cleanup: No longer required as AOSP commit supersedes this
+17ca5ac SystemUI: use smaller padding for battery
+fe342dc VolumePanel: volume bar disorderly jump when drag it.
+
+   * frameworks/opt/net/wifi/
+e5efc13 wifi: wifi priorities
+a967bee wifi: Allow Settings to retrieve country code (1/3)
+
+   * frameworks/opt/telephony/
+993931d Telephony: DDS switch oemhook message sent twice
+76bcb1b Fix duplicate events received in DcTracker.
+d41cf16 Check for DDS validity
+7c8b934 Reject network request when DDS is invalid
+b9b9458 Telephony: On demand DDS switch uses preferred sub
+b760973 Ignore DdsRequest for non DDS network factory
+d9097e7 Fix DDS switch issue from GSM to CDMA.
+ba13040 Fix issue that DDS can not get back to primary sub and network mode shows incorrect in settings.
+2043011 Fix the build
+efddb3b msim: order getSubInfo list by slot ID
+29048d5 Revert "SubscriptionController: getPhoneId() should never return negative values"
+b7c44b3 MSIM: Change default fallback subId value
+303c9cd Fix ACTION_DEFAULT_SUBSCRIPTION_CHANGED is not sent after power on
+f1d2b82 Telephony: Actually abort flex mapping if subs are null.
+
+   * hardware/broadcom/libbt/
+962fb7b libbt-vendor: add support for samsung bluetooth
+
+   * hardware/libhardware/
+55d4e44 audio: Add audio amplifier HAL
+
+   * hardware/qcom/audio-caf/msm8916/
+c727b4f hal: Correctly set backend to best available parameters
+
+   * hardware/qcom/audio-caf/msm8960/
+2be3615 audio: Convert libaudioamp to audio_amplifier HAL
+8f8cd4e audio: Make audio device accessible to HAL functions
+
+   * hardware/qcom/audio-caf/msm8974/
+7a4cab3 hal: update input source type during open input stream
+43db9f9 hal: Prevent de-routing in case the usecase doesn't share codec backend
+397bd23 hal: Fix ANR if In-Call recording is started at end of voice call
+813eb28 hal: Update pcm_open flag for VOIP
+6be0bd5 audio: Modified atoi to atoll to convert large Numeric values
+67221b2 hal: Convert libaudioamp to audio_amplifier HAL
+
+   * hardware/qcom/audio-caf/msm8994/
+c1d292b hal: Convert libaudioamp to audio_amplifier HAL
+0833cbf audio: add amplifier stream start/standby operations
+d6bcc4d hal: Support the audio amplifier hook
+
+   * hardware/qcom/fm/
+c918997 Automatic translation import
+c639dcb FM: fix mRadioTextScroller usage in transmitter activity
+74bbf9e Automatic translation import
+
+   * packages/apps/AudioFX/
+a002264 Automatic translation import
+abd4582 Automatic translation import
+
+   * packages/apps/Bluetooth/
+24d0636 Automatic translation import
+46cb1cd Automatic translation import
+
+   * packages/apps/BluetoothExt/
+7219889 Automatic translation import
+80f9f31 Automatic translation import
+
+   * packages/apps/CMAccount/
+993e456 Automatic translation import
+32deb55 Automatic translation import
+
+   * packages/apps/CMBugReport/
+4cbeab1 Automatic translation import
+d47553f Automatic translation import
+
+   * packages/apps/CMFileManager/
+9cd3ae0 Automatic translation import
+215e746 Properly validate fields when resetting password
+039ec12 onResume: Refresh current view
+912b05e Sizes: Let disk usage show sizes as doubles
+c91b03d MediaScanning: Update with calls to Mediascanner
+5911442 Delete destination file when copy fails
+9a92b04 Automatic translation import
+
+   * packages/apps/CMUpdater/
+2b4a767 Automatic translation import
+7deba71 Automatic translation import
+
+   * packages/apps/CMWallpapers/
+779d8e3 Automatic translation import
+803bbb1 Automatic translation import
+
+   * packages/apps/Calculator/
+02acaf3 Automatic translation import
+37e5244 Floating Calculator: Reposition to fit landscape devices
+5a114d7 Automatic translation import
+054a57b Calculator: Fix issue with overflowing text
+
+   * packages/apps/Calendar/
+3b41700 Automatic translation import
+8d868e0 Calendar: when sharing calendar events use File.createTempFile
+5888bc2 Automatic translation import
+
+   * packages/apps/Camera2/
+508637a Camera2: Fix Undo button behaviour
+55e7a32 Automatic translation import
+09788ec Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+e594881 Automatic translation import
+0fe1787 Automatic translation import
+
+   * packages/apps/Contacts/
+bed2845 Automatic translation import
+ff213cd Keep a local instance of mContactData when copying to SIM card.
+a32d3fb Automatic translation import
+2751aca Contacts:remove memory status from overflow in search mode
+
+   * packages/apps/ContactsCommon/
+4a20fc4 Automatic translation import
+8adcbe9 Automatic translation import
+
+   * packages/apps/DeskClock/
+d3c7e72 Automatic translation import
+d31b700 DeskClock: Correctly reschedule alarms on system time change
+cb9b6b7 Automatic translation import
+
+   * packages/apps/Dialer/
+f831b88 Automatic translation import
+a3a0c77 Fix up call log search UX.
+b9bbfc4 Improve performance of call log.
+f66a0fb Automatic translation import
+02a8e10 Improve SmartDialer
+2d42fc2 Dialer: Enable Call Recording for France
+d7e581a Enable Call Recording for the United Kingdom
+
+   * packages/apps/Eleven/
+90f1f8f Automatic translation import
+1e6400f Automatic translation import
+
+   * packages/apps/Email/
+094f8e3 Automatic translation import
+ebf12f6 Use an inexact timer for the IDLE refresh.
+9a652f8 Don't throw a NPE when operating on a destroyed list.
+c0df55c Fix some more argument order issues.
+e7c9a85 Simplify logic.
+c9a9148 Fix some typos.
+f901689 Don't solely rely on the presence of RECENT for checking for new mail.
+381a2c2 Don't re-sync when refreshing the IDLE connection.
+6a98534 Fix crash when attempting to view EML files.
+9cec127 Reset idling flag when cancelling early due to being cancelled.
+b14e762 Add some debug statements.
+ff4fe40 Assign debug tags to IMAP communication output.
+74e72ce Fix argument order.
+1a52879 Simplify code.
+664eb34 Automatic translation import
+32419c5 email: catch the correct exception while closing the buffers
+681988f Fix ArrayIndexOutOfBoundsException.
+b80c3bd email: fix NPE
+
+   * packages/apps/Gallery2/
+f82af5f Automatic translation import
+7674775 Automatic translation import
+
+   * packages/apps/InCallUI/
+40c053f Automatic translation import
+8526631 Automatic translation import
+
+   * packages/apps/LockClock/
+3dc05d2 Automatic translation import
+6fc33ab Automatic translation import
+
+   * packages/apps/Mms/
+4bded0c Automatic translation import
+dbea1dc Don't filter share intent
+eaf701c Automatic translation import
+152607b Compose Message: Fix visual glitch.
+
+   * packages/apps/PhoneCommon/
+0076ca8 Automatic translation import
+
+   * packages/apps/Settings/
+da9d4f7 Automatic translation import
+9585cba MasterClear: update UI
+958a421 Protected Apps: Fix rotate FC
+f471850 Use framework name and icon for system UID.
+1524dc3 Automatic translation import
+b02f828 Settings: fix potential NPE
+716f8a8 Settings: Fix there is no sounds and delays 1s when pressing "Touch sounds" sometimes
+0415a80 PrivacyGuard: restore ListView position on resume, for real
+9849f6f Fix up increasing ring tone volume preview behaviour.
+1d81754 Settings: remove mobile networks menu if ro.radio.noril is set
+
+   * packages/apps/SetupWizard/
+761381f Automatic translation import
+b7c5182 SetupWizard: Ensure setup complete flags are set for secondary users
+82bbed9 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+6fc6dc6 Automatic translation import
+28ed11d Automatic translation import
+
+   * packages/apps/Stk/
+4f4b502 Automatic translation import
+ba6c178 Automatic translation import
+
+   * packages/apps/Terminal/
+a7623a0 Automatic translation import
+e45f639 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+b21b233 Automatic translation import
+348d827 Automatic translation import
+ec1af86 Small UI refresh
+
+   * packages/apps/Trebuchet/
+f418219 Automatic translation import
+80dea15 Trebuchet: Fix bug with removing items from folders
+2a6fcc0 trebuchet: Externalize backup API key string
+7d00658 Rotation: fix icons disappearing
+d321030 Automatic translation import
+12103ba Stop unnecessary exception posting to logcat.
+31d1211 RTL: fix app drawer layout
+7e6fd7d Launcher: Check if componentName is null prior to getPackageName()
+1b9d414 Update default workspace.
+e25ab7b Move icons to fit within Dynamic grid upon resize.
+
+   * packages/apps/TvSettings/
+64bc3e9 Automatic translation import
+6dfe00f Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+435ff6a Automatic translation import
+946b1e4 Remove obsolete theme.
+787e618 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+589267d Add support for Bépo keyboard layout
+
+   * packages/providers/DownloadProvider/
+5f0bb34 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+6edce49 Automatic translation import
+30f698f Automatic translation import
+
+   * packages/services/Mms/
+ad83633 Automatic translation import
+
+   * packages/services/Telecomm/
+f747e94 Automatic translation import
+ad91e86 Merge "Allow system apps to query the voicemail number." into cm-12.1
+353f49f Automatic translation import
+2d77a33 Allow system apps to query the voicemail number.
+
+   * packages/services/Telephony/
+48ed985 Automatic translation import
+986ce14 Fix phone not initialized exception
+4993c78 Style non-interactive dialog in the same way as interactive one.
+216aad0 Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+3eea2df Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+c5fc571 Automatic translation import
+7852e60 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+5a93453 Automatic translation import
+
+   * system/core/
+e3465bf audio: fix incall music ifdefs (1/3)
+346e202 liblog: add Amazon logging functions for prebuilt compatibility
+
+   * vendor/cm/
+71799a1 cm: Add backup API key for Trebuchet
+6d603b2 Update Sonera APNs
+b2bd321 vendor/cm: Create CM_PLATFORM_SDK_VERSION.
+b1ac685 apn: Add China Telecomm 4G APN support
+793385e Move LatinIME to phone/tablet configs
+ecc8b17 cm: Point to the right files for checkapi-cm.
+744a257 CM: Provide apicheck and cm-specific config inheritance.
+15e432d init: stop ril daemons if ro.radio.noril is set
+655d8d6 Update Ting GSM APNs
+0150c43 add MetroPCS's IPv6 APN
+
+   * vendor/cmsdk/
+635f8f1 cmsdk: notify new listeners all registered custom tiles
+08a3470 cmsdk: customtiles: allow load resources from external packages
+6b9dbb2 Automatic translation import
+9567e3e cmsdk: fix customtile listener service registering logic
+c616c93 Merge "Automatic translation import" into cm-12.1
+f58b595 cmsdk: do not crash system if CustomTileListenerService isn't present
+3f7e428 CMSDK: Update current and system api texts.
+853240e Automatic translation import
+5024f16 CMSDK: Utilize a SparseArray instead of Map, avoid autoboxing.
+757d564 CMSDK: Update for versioning tests.
+e08be73 CMSDK: Create versioning for platform SDK.
+16cd8dd CMSDK: Update tests for ExpandedStyles
+1299f2b CMSDK: Document the capabilities of ExpandedStyles for CustomTile.
+ee4e8f9 CMSDK: Update samples for expanded styles.
+eac6272 CMSDK: Create support for ExpandedStyles in CustomTiles.
+2c6734a CMSDK: Actually hide ThemeVersion.
+
+===================================
+Since Tue May 26 17:47:14 UTC 2015
+===================================
+
+
+   * bionic/
+8b8e5d3 libc : memcpy : allow to disable opt for some targets
+
+   * build/
+55ad5e9 envsetup: cleanup the full list
+6aef1fa lunch: sort the choices
+bf6582e build: avoid recovery patch if device setup can't do it correctly
+71a1e36 envsetup: add mk_timer
+
+   * device/qcom/common/
+ba07eaa power-8916: Enable the perf options for performance mode
+dfea86b init: Add persmissions to access res_info node for HDMI timing info
+2a1e25e init: Set permissions for physical address
+b3bbabf init_msm: S3D mode permissions
+e48885f init: Add permissions for CEC nodes
+
+   * device/qcom/sepolicy/
+2d2760e sepolicy: Update BCL sysfs nodes in file context
+
+   * device/xiaomi/armani/
+c206c8e overlay: Mms: Show smsc and configure enter key
+b765c2c sepolicy: Address bootanim denial
+ffdcfeb Cleanup boardconfig
+
+   * external/bluetooth/bluedroid/
+f212f43 bluetooth: a2dp: Property account pcm.counter
+8523b6a bluetooth: a2dp: Allow 2 full tick's worth of data to be sent
+92362be bluetooth: a2dp: Buffer sufficient data to keep devices happy
+
+   * external/ffmpeg/
+1200289 Merge commit '0289f81241e720452b5a77713488d54d3ec252d7'
+6034b4b Merge commit '7f596368a404363d72b1be6d16c51420a71bc523'
+ee08beb Merge commit 'e97446e600578392549ef6d0191f2020dae7f8bf'
+5116381 Merge commit 'b9875b497a38f494acb599083b0d004545958697'
+c08a64b Merge commit '76eb0950b8d82b1e9617b9c854f091e13bb23131'
+cdc0087 avutil/ppc/cpu: Our code assumes vsx implies altivec, thus assert this
+9614df4 avformat/mov: Retry same packet on IO failure to avoid loosing a packet
+771537e ffmpeg_dxva2: call GetDesktopWindow() in place of GetShellWindow()
+0289f81 aac: Correctly map multichannel ADTS AAC with non-zero channel_config + PCE
+b8c0cf7 avfilter/vf_blend: add linearlight and glow mode
+7f59636 bink: Factorize bink put_pixel
+e97446e configure: Check for DXVA2_ConfigPictureDecode instead of LPDIRECT3DSURFACE9
+b9875b4 configure: Remove unnecessary tests for d3d11va
+76eb095 configure: Don't run "export $e" for an empty string
+ce1761d avcodec/mips: MSA (MIPS-SIMD-Arch) optimizations for HEVC uniw mc functions
+d7a7625 avformat/mxfenc: Accept MXF D-10 with 49.999840 Mbit/sec
+196b885 swresample/dither: check memory allocation
+7495e72 avcodec/apng: Remove blending support for AV_PIX_FMT_ARGB
+0291560 swresample: Check the return value of resampler->init()
+21e40f0 Merge commit '876d441fbe37c3ffc57ada9ce1f9ea841ca4c9de'
+12a83bc libopenjpegdec: register logging callback functions
+cb658d1 libopenjpegenc: use variable instead of type for sizeof
+1577526 libopenjpegenc: add NULL check for img before accessing it
+b0af404 configure: Remove now redundant vsx setting code
+876d441 configure: don't enable tls protocols if network is disabled
+3e04746 avfilter/vf_blend: add hardmix mode
+20cea0c avfilter/vf_blend: fix vividlight blend mode
+ac97392 avfilter/vf_blend: clip result for divide blend mode
+d5db4a7 configure: Do not dump the whole environment to stdout
+2a33972 Merge commit 'fd11465b21ac90bf6964b0c0ca9d6ba64cd3291d'
+f939bf5 Merge commit '604abd025dac4cc73a2f6b0c000c3695c16fb000'
+cec3456 Merge commit '06db45523c1068c24f049ef2b20fcdead3bf36d8'
+ce4e57d avformat/sbgdec: Check alloc_array_elem() return value
+fccde16 avcodec/flacenc: Simplify sizeof()
+b70582e avcodec/proresenc_anatoliy: Check av_frame_alloc() return code
+ea9daef compat/os2threads: Check av_malloc() return code
+cea3c9b ffserver: check return code of avio_alloc_context()
+e43f3c8 avformat/mxfdec: return error instead of segfaulting if there are no streams
+bb1f153 avcodec: loongson3 optimized h264chroma put and avg with mmi
+fd11465 configure: Use pkg-config for fdk-aac
+604abd0 configure: Provide an option to override the environment
+06db455 configure: Support the extended pkgconf syntax
+aede1a1 avcodec/mips: MSA (MIPS-SIMD-Arch) optimizations for HEVC bi mc functions
+da05c62 Merge commit '8349bedfa5eac7f261ac43053a2f66b894bac288'
+9ac3417 Merge commit 'ff7ae4b9df6e89d99dbd5434408123b80a4f6cd7'
+14617e3 Merge commit '172b2cee17a3779c114ba065dd7b25dcf61e408f'
+7fc6545 configure: don't enable any tls protocol if network is disabled
+89fa32e avcodec/snowenc: avoid floats in the rangecoder initialization
+8349bed configure: Remove some unnecessary exported config items
+ff7ae4b configure: Require LPDIRECT3DSURFACE9 for dxva2
+172b2ce dxva2: Add ifdefs around structs that might not be available
+f805d7b avcodec/rangecoder: avoid float operation
+3be811a avcodec/Makefile: fix checkheaders for nvenc_b
+56fe1bb doc/formats.texi: document max_interlave_delta muxing option
+627dd7f avformat/movenc: Fix potential signed overflows
+138581c vp9: clamp final zero MV if find_ref_mvs() found no suitable candidates.
+deed77f Merge commit '28fa58cf5d939151108345d7ddddebbd51d9b684'
+3f36607 Merge commit '31de41babcd96f8ac2e6632454737aecb3710df7'
+df19c17 Merge commit '08d006f5a8ae0faef76d3dccea699c3af3db5b63'
+9cedb88 Merge commit '674b79148ff29f40cbd569f5585bf99c71204bf5'
+030c20f avutil/float_dsp: Fix ambiguous wording about vector products
+2e92a27 avformat/mxfenc: Correct klv_fill_key
+589d39c Merge commit '63ce9fd23cfa5ac0d9a862be0da138108dc1c505'
+8939667 Merge commit '84c5ff911f3f0557c8f97a964f74ceb01dd6d214'
+28fa58c dxva2: Fix build when only D3D11 or DXVA2 is used
+31de41b configure: Check if ID3D11VideoDecoder exists, not just the header to enable d3d11va
+08d006f h264: Fix HWACCEL_MAX for D3D11
+674b791 hevc: Fix HWACCEL_MAX for D3D11
+63ce9fd rtmpdh: Use GMP functions directly, instead of nettle wrappers
+84c5ff9 rtmpdh: Fix the indentation in a struct
+f104970 nvenc: remove cuda.h requirement for nvenc_a
+a1957a4 avcodec/ppc/pixblockdsp: Fix type of get_pixels_vsx()
+9806cca avutil/ppc/cpu: Remove !ARCH_PPC64 check for mfspr, the code should now support ppc64
+1e0c34f avformat/utils: Simplify get_std_framerate() check
+d8bbb99 Merge commit 'b08caa87c35a768ec0abb16b1e99c3a85f1df28e'
+d0d0913 avcodec: Rename nvenc.c to nvenc_a.c, to avoid conflict with the other implementation
+211dcdc Merge commit '522d971c7f5921bebcea2fc50e67056afdabb951'
+1dc5896 Merge commit '83797da6e36c1aadd85f41ca237dce823fc7bfa1'
+07f606b Merge commit 'e1ea365f7e1477c78865b866a180712174536c20'
+f24b7d7 Merge commit '28fb80dcbf6f63eedfcfffc725a6bf0069d03fab'
+abee197 Merge commit '42df71d9bbb1a5b4bce0bb34417692565c72d390'
+6ed8341 Merge commit '0994e142132200c706f704271b5a7ae81d128f5c'
+615e73a Merge commit '03927cb73399e6f07185fc7f8851d7612b4187b6'
+1a903f0 Merge commit 'fef2f4722bcbfe1c3802898b0f5deb6356132c91'
+8b94cee Merge commit '9fb483fede7207c1f3965e5ae1ac0ee82e4d7a4e'
+fb7b5dc Merge commit '41658bc88553dab8499e4dfca311559dcbae2674'
+3377f6f Merge commit '8df5fbf0b0c0ba12b033e61c28fc240f4bccba47'
+513673a Merge commit '7ca603f96f93d988e01d161d611f69a4ecaa3f02'
+73e150f Merge commit '7d2a6826912b629f17f3b0c5268e334fa123c4c9'
+10531d4 Merge commit '7fccc96dc3c0bb2fa2079cbf4e4cf1aff2db46c8'
+3a8b16f Merge commit '69277069dd225f5ae02f0215e877a06522d834d3'
+7110b02 Merge commit 'e524f37356156893cae50fc46451bd4a6198703d'
+e7a6514 avcodec/aacpsy: Clear the correct pointer
+63fdedc Merge commit '074a1b37325bf6d1483fc23ebf1255e78d998339'
+0f69f02 Merge commit '149fa0b7ac180fe1df48a2e379c560813555bf57'
+0aba719 Merge commit 'b2b766914a49c4e3537df3a585e97b98d432edd2'
+fd116b8 Merge commit '378a00087fdadcc9b34165c05cd10a1a15f3fe61'
+eb5a308 Merge commit '31a117a0e6d6eafdf997bfe0843f3e3d39cc0332'
+f5ee10c Merge commit '2f15846ad7ad57beb0bca99c624affa0facf284b'
+f9dcf16 Merge commit '902a55f7161ffea10e13c1e7df14022e2ed90514'
+cdf6804 Merge commit '35818b8aaf4d669ed0bbb05c3fd06e619f2db01a'
+9e1cdfb Merge commit '5c720657c23afd798ae0db7c7362eb859a89ab3d'
+ebab902 Merge commit 'bff0349d9da527084e1433167466d8afc9e25c7f'
+3bd4343 Merge commit 'cffb9ea81bd16d2ed8bce187b6bf0279c07b3b9b'
+2bedd17 Merge commit '8e9c39e81fe5ba34010a7ba05cbe4ae31f177d89'
+348319f Merge commit 'a8a90906fb0ad0f8d3c68a97f182528ee3b5198c'
+c2876c0 Merge commit 'f261a55d72753bcec33369954809732abae8f8f7'
+61e1287 Merge commit '3f38d4b816b2aeca15c0b90000ea7ed40377eb0c'
+b66b1a1 Merge commit 'd68c05380cebf563915412182643a8be04ef890b'
+c16e99e x86: check for AV_CPU_FLAG_AVXSLOW where useful
+16c430e Merge commit 'cae39851201b7781f1262e1c23627b45e6e80bb4'
+c140227 Merge commit 'f7cafb5d02aa3f26c185f6f9851413ad77a73872'
+1ff4777 Merge commit 'd0bf20a4f25ac5de021c860a0c8ad05638ee2078'
+1046b6b avutil/ppc/float_dsp_init: Disable duplicate functions
+da9a6f4 Merge commit 'eecd29b3fd7fee221580798346d6582b75c7ade4'
+1aff905 configure: ldbrx seems not working on qemu power8, disable for now
+58a4204 Merge commit '7d07ee5a9bd170a06d26fd967cf8de5d3b1ce331'
+902ce2a Merge commit 'da60b99a8857d5ca236f32c1799a066e0135a866'
+3f21cdd Merge commit 'f22ebd2555d15b59e109a5b630dd71374b076d0b'
+8dcbfb7 Merge commit '3058872c293e239e3b51e86fe18cfbe720aadff1'
+47cc1a2 avutil/ppc/cpu: Check if unistd.h is available before including it
+ff19954 Merge commit 'baa94563fede8959a638b0fa132dd2124acd93e8'
+08f229d Merge commit '7014b65995b1fe6188fb53447bf61b08e3963355'
+e8676c7 Merge commit '72cebae0d981dde144340cf51f3c323f01e215e5'
+876a663 Merge commit '254eb5b6faebb7bcfc3cefc1edced6652fe9d5be'
+d61386a avformat/libquvi: fix error handling
+b08caa8 nvenc: H264 and HEVC encoders
+522d971 xsub: Check memory allocation
+83797da wma: Check memory allocation
+e1ea365 truemotion2: Check memory allocation
+28fb80d svq1: Check memory allocation
+42df71d ratecontrol: Check memory allocation
+0994e14 pthread: Check memory allocation
+03927cb psymodel: Check memory allocation
+fef2f47 xvid: Check memory allocation
+9fb483f x264: Check memory allocation
+41658bc libtheora: Check memory allocation
+8df5fbf lcl: Check memory allocation
+7ca603f jpegls: Check memory allocation
+7d2a682 huffyuv: Check memory allocation
+7fccc96 eatgv: Check memory allocation
+6927706 dct: Check memory allocation
+e524f37 asv: Check memory allocation
+074a1b3 aacpsy: Check memory allocation
+3ad3529 avfilter/vf_mpdecimate: add comment about 8x8 SAD
+6590acf avfilter/vf_mpdecimate: support more pixel formats, including GBRP
+50f112c avfilter/vf_mpdecimate: debug logging of threshold stats
+149fa0b mpegvideo: Move MotionEstContext and function declarations to a separate header
+b2b7669 mpegvideo: mpeg12: Move function declarations
+378a000 mpegvideo: Move tables to a separate file
+31a117a mpegvideo: msmpeg4: Move function declarations
+2f15846 mpegvideo: wmv2: Move function declarations
+902a55f dxva2_hevc: re-write reference frame handling
+35818b8 dxva2_hevc: fix 32x32 scaling lists
+5c72065 mov: always check avio_read return value
+bff0349 avio: Add avio_read wrapper to simplify error checking
+cffb9ea mov: reject zero bytes_per_frame with non-zero samples_per_frame
+8e9c39e mov: abort on EOF in ff_mov_read_chan
+a8a9090 mov: Correctly allocate ctts_data
+f261a55 mov: Fix two memleaks
+fb1be63 avfilter/vf_mpdecimate: pass the same AVClass context as use elsewhere to av_pixelutils_get_sad_fn()
+3f38d4b vp9: Parse subsampling and report missing feature
+b60c445 tests: add some ASS/SSA/MKS remux and transcode tests
+d68c053 x86: check for AV_CPU_FLAG_AVXSLOW where useful
+cae3985 x86: Add helper macros to check for slow cpuflags
+f7cafb5 x86: add AV_CPU_FLAG_AVXSLOW flag
+d0bf20a ppc: vsx: Implement diff_pixels and get_pixels
+eecd29b ppc: vsx: Implement float_dsp
+7d07ee5 ppc: cpu: Add support for VSX and POWER8 extensions
+da60b99 ppc: Restrict some Altivec implementations to Big Endian
+f22ebd2 ppc: configure: Support ISA 2.06 and later
+3058872 ppc: Clarify and extend the cpuid check
+baa9456 ppc: linux: Check altivec using the auxv
+7014b65 ppc: pixblockdsp: Use the abriged vector types
+72cebae ppc: avutil: Use the abriged vector types
+254eb5b ppc: avutil: Drop a potentially dangerous workaround
+c729021 configure: Check for SecItemImport for securetransport as well
+168195f Merge commit '881b80b3294483696a21b21a69fa5eee30f33037'
+881b80b network: prevent SIGPIPE on OSX
+0363776 avfilter/vf_fade: Force alpha pixel format if alpha is set to 1
+11aa050 avcodec/parser: Print an error in case of reallocation fails in ff_combine_frame()
+6f51674 postproc: Avoid floats in maxClipped computation
+ebe919c postproc/postprocess_template: Compute packedYScale and QPCorrecture without floats
+c41e0ae network: prevent SIGPIPE on OSX
+e9d646f Merge commit '0181ae9af2de1526464d23209b82e6674d362f5d'
+7d1cfbb Merge commit '5ecabd3c54b7c802522dc338838c9a4c2dc42948'
+3ef5702 libopenjpegdec: check existence of image component data
+161d0ac doc/ffmpeg: Document xerror
+a3ec1d6 avformat/movenc: Add loction/xyz support to allow copying data between mov files
+0181ae9 h264: Make sure reinit failures mark the context as not initialized
+5ecabd3 msrle: Use FFABS to determine the frame size in msrle_decode_pal4
+08b7d19 avformat/mov: Also export loci altitude
+1607f77 avformat/mov: Append place name instead of overwriting for loci
+4dd2253 lavf/tls_securetransport: add missing copyright notice
+debf4d6 avcodec/dvbsubdec: Fix buf_size check in dvbsub_parse_display_definition_segment()
+aa9c6b6 avformat/h264dec: Add ff_tlog() with trace information about h264 probing
+dae8980 avformat/h264dec: Fix detection of invalid h264 with 0x100 startcodes
+2e15f07 Merge commit 'b2f0f37d242f1194fe1f886557cf6cefdf98caf6'
+b2f0f37 rtmpdh: Generate the whole private exponent using av_get_random_seed() with nettle/gmp
+f24d92b lavf/tls: Support Secure Transport
+bedb5d5 configure: Fix showcqt fft dependancy
+083b1a3 build: add configure option pkgconfigdir
+e374405 libavutil: Cosmetic changes to fixed_dsp file.
+153639c mov: fix DTS calculation for samples with negative stts duration
+403940d avcodec/mpegvideo: Use FFSWAP to exchange pointers
+f86e7c5 avcodec/ac3_parser: Avoid floats in bitrate computation
+061a592 avformat/movenc: Check that track_width_1616 fits within the available 32bit before storing it
+14bc570 avformat/movenc: avoid floats in width/height/aspect ratio computations
+3331213 avformat/concatdec: Enable auto_convert by default
+e1b0019 avformat/mov: Avoid float usage in yuv_to_rgba()
+4b8b3ef Merge commit 'e9e86d9ef637f5a600c76b352ffe5a82b71b25d1'
+42a6a38 Merge commit '8016a1bd3b60e917e1b12748dd80c06c3462c286'
+48e02e2 Merge commit '063f7467e4d14ab7fe01b2845dab60cc75df8b53'
+fbeb3fa Merge commit '0508faaa11bf7507ffdd655aee57c9dc5a8203f4'
+beecbe1 Merge commit '9f1b3050d9e31e9283d818f3640f3460ac8cfb5b'
+4c0b30b Merge commit '127d813bcb5705202b7100cf1eccd1e26d72ba14'
+392832f Merge commit '78efc69e7c990226f4b913721ef1b308ca5bfa04'
+e9e86d9 rtmpdh: Create sufficiently long private keys for gcrypt/nettle
+8016a1b rtmpdh: Remove an unnecessary check in the gcrypt/nettle dh_compute_key
+063f746 rtmpdh: Add fate test for the DH handshake routine
+0508faa rtmpdh: Pass the actual buffer size of the output secret key
+9f1b305 rtmpdh: Check the output buffer size in the openssl version of dh_compute_key
+127d813 rtmpdh: Fix a local variable name in the nettle/gcrypt codepath
+78efc69 rtmpdh: Make sure ret is initialized in the nettle version of bn_hex2bn
+c7bd6a5 dxva2_hevc: re-write reference frame handling
+b7a0b30 dxva2_hevc: fix 32x32 scaling lists
+d860084 avcodec/mpegvideo: Reset bitstream_buffer_size on allocation failure
+e5d1152 avcodec/mpegvideo: Check pointer when allocation fail
+e85d91d avformat/avienc: Correct possible dereference of null
+e2f3ea1 Merge commit 'a64a5773ea5f7337cd1d87cfdf511914d317fe81'
+b666e81 Merge commit 'e4610300de6869bd6b3b00e76cfeabb6d7653dcd'
+7026d8a Merge commit '1b1bb2c4efc126d74d44d8c421860c85f932ecb1'
+c508fef Merge commit '324e50ee95929a9491b855c5e15451145bd5d1ec'
+7564762 Merge commit '6f57375d707de40dcec28d3cef886c364e032c21'
+68cce01 Merge commit 'fa1923f18205410a3b0aa6c0e77cb31443ef340d'
+9b736f7 Merge commit '419e3404d07acaac019e8f363c281e17c3a3d622'
+f0b9911 Merge commit 'd4d90504a687d2c0ef77ccf11d831f24dcff9cf1'
+5c41608 Merge commit 'dd4d709be705edaec0bc35c426bf8434e942b7df'
+7b45790 avcodec/mips/hevcdsp_msa: Restructure as per avutil/mips/generic_macros_msa.h
+a64a577 pixfmt: remove misleading and broken documentation
+e461030 x86: cavs: Remove an unneeded scratch buffer
+10b77fb avcodec/mips: Split uni mc optimizations to new file
+1b1bb2c rl: Add error checking to ff_rl_init().
+324e50e rl: Add a function for freeing dynamically allocated tables.
+6f57375 rl: Rename ff_*_rl() to ff_rl_*()
+fa1923f mpegvideo: Move ff_*_rl functions to a separate file
+419e340 mpegvideo: Drop exchange_uv() function and use its code directly
+6f2c64f dvdsubdec: implement flushing
+0ad04bf dvdsubdec: reset buffer size on invalid over-large packets
+b06e82e Merge remote-tracking branch 'cehoyos/master'
+d4d9050 tls_gnutls: Add missing includes for the gcrypt thread safety callbacks
+5a3d254 avformat/mxfenc: Support storing signal standard for D10 muxing
+4792fb9 lavc/x264: Support bgr0 as input pix_fmt.
+57eecd9 lavf: Use av_codec_get_tag2() in avformat_query_codec().
+bcd7bf7 avcodec/mips: Restructure as per avutil/mips/generic_macros_msa.h
+dd4d709 x86inc: Clear __SECT__
+02a4991 avutil/mips: Restructure of generic macros
+7206b94 network: Move variable declaration under an #if
+cf52e6d avcodec/ffv1dec: Fix skip_alpha
+204b228 x86inc: Clear __SECT__
+2b388e6 Revert "Move struc FFTContext below SECTION_RODATA"
+eff2ed2 Merge commit '57cde2b180fcec0eaf60aad65f436ab6420546f5'
+a9f1d58 lavf: move TLS-related ifdeffery to library specific files
+fbf9583 Merge commit 'd8ffb2055f0e0fcb5d025bab72eb19c2a886c125'
+4a006b9 lavf: split tls.c
+07fc479 avformat/mpsubdec: Use double instead of float for timestamp calculations
+f722009 avformat/mp3dec: Ensure the buffer is large enough to avoid seeks from the first frame search
+2b3e9bb avformat/mp3: skip junk at the beginning of mp3 files
+2ae0396 avformat/mpsubdec: change multipler to int, it only stores 1 and 100
+e89e23e avcodec: loongson3 optimized h264dsp weighted mc with mmi
+1cf87e1 doc/build_system: Document GEN, text taken from the webpage
+073f4b9 fate: Update exif tests after 09ec31ce3aab41407965e7a95b7d145702434c26
+09ec31c ffprobe: print stream_index with frame data
+c312bfa x86/cpu: add AV_CPU_FLAG_AVXSLOW flag
+52fc3e3 avfilter/x86/vf_hqdn3d: Fix register types
+4240e6a avfilter/vf_hqdn3d: Initialize the whole LUT
+7ae805d avcodec/nvenc: Fix typo: 1204 -> 1024
+023040e avformat/movenc: Allow muxing mp3 with samplerate < 16khz if the user sets strict to -1
+4fe3844 ffmpeg: do not print misleading recommanditions on 1pass vpx encoding
+4ae090f Merge commit 'cf1f3d837e1266034a487de5b575bd76426c6b10'
+57cde2b lavf: move TLS-related ifdeffery to library specific files
+d8ffb20 lavf: split tls.c
+cf86fd0 avformat/matroskaenc: Avoid floats in default duration calculation
+8aa9853 avformat/ircamenc: Avoid floats
+
+   * external/stagefright-plugins/
+ffed52f FFmpegExtractor: mark HEVC as supported
+
+   * frameworks/base/
+8559194 MultiSelectListPreference.java should deal with onRestoreInstanceState method
+5d93ed8 Observer DEV_FORCE_SHOW_NAVBAR in LockTaskNotify
+aab323e VolumePanel: better handling of updating sliders in expanded view
+faa430b VolumePanel: show hint for unlinked notification slider too
+ecda406 Introduce Theme Versioning [1/2]
+1c16b02 frameworks/base: enable localization of Chinese operator's PLMN
+89e7035 Sync status bar signal cluster code with AOSP.
+a44d9bc fingerprint: register correct function for nativeEnrollCancel
+0e16053 fingerprint: detach java vm in HAL callback
+76fb380 Automatic translation import
+3cefeaf Profiles: Setup uuid's for the defaults
+233c032 Settings: Fix install apps will fail after setting Preferred install location as Removable SD card and removing SD card
+a882d0f SystemUI: prompt for SIM PIN if lockscreen is disabled
+f0ad896 Fix typo in density assignment.
+316a437 Revert "Allow custom density setting"
+164fba7 Determine default 12/24 hour time format setting from locale.
+5bf7e67 Modify GC Delay to include subsequent launches. (fix)
+1175798 Revert "Better density scaling compatibility"
+84047b0 Profiles: re-enable data toggling
+f61367b Better density scaling compatibility
+118aa61 systemui: notify everyone that lockscreen is not going to be shown
+2ae003c Increase brightness faster if ambient light is brightening quickly.
+15dab3c Revert "frameworks: display: Added automatic brightness configs"
+a05d81a Allow sending vendor- or device-specific commands to the camera HAL.
+09aa5c3 PackageManagerService: Create means of installing prebundled applications
+
+   * frameworks/native/
+9f76295 Add dalvik heap override for xxxhdpi phone
+404f4eb Add HWUI overrides for xxxhdpi phone
+
+   * frameworks/opt/telephony/
+61cf25a Revert "Set default SMS outgoing check interval to 15 minutes"
+18ba6a1 RIL: Fix datacall parcel reading
+
+   * hardware/qcom/display-caf/msm8960/
+6b2a623 gralloc: hwc: Propagate PROTECTED flag to hwc
+eee4836 libhwcomposer: Enable rotator on resolution change
+
+   * hardware/qcom/display-caf/msm8974/
+3616da7 Revert "hwc: Skip load based composition for video playback."
+
+   * hardware/qcom/fm/
+db747fc Automatic translation import
+
+   * packages/apps/AudioFX/
+5029f8f Expose text color and background colors for Theming
+c99dcd8 Expose actionbar background for Theming
+
+   * packages/apps/CMFileManager/
+ae97d0f Automatic translation import
+
+   * packages/apps/CMUpdater/
+9348232 Automatic translation import
+
+   * packages/apps/Calendar/
+90e7fbe Automatic translation import
+
+   * packages/apps/Camera2/
+a1cdd29 Fix storage location NPE
+38a8b2d Automatic translation import
+d981627 Add Storage preference (1/2)
+d4e6548 Introduce a 'device plugin' concept.
+
+   * packages/apps/Contacts/
+ddbe222 Automatic translation import
+
+   * packages/apps/DeskClock/
+4b5976d Automatic translation import
+
+   * packages/apps/Dialer/
+b675a6a Remove some dead code.
+22335cd [2/2] Dialer: SmartMute
+c9b91d0 Dialer: Ensure device ids not null
+452508c Automatic translation import
+34d3535 Update blacklist strings
+
+   * packages/apps/Eleven/
+e923782 Automatic translation import
+1aad7c8 Eleven: Add playlist cover art to search results
+88469b7 Eleven: remove an unnecessary check when playing music to improve perf
+5ffc7db Eleven: Add a play Album option on songs
+995226c Merge "Eleven: Remove inset from top tracks circle" into cm-12.1
+4c9a305 Eleven: Remove inset from top tracks circle
+
+   * packages/apps/Email/
+7632c13 Automatic translation import
+dd81d6d EmailTests: fix api change
+2c32ba7 email: fix tests
+
+   * packages/apps/Gallery2/
+97739e1 Gallery2: Fix crash when Bluetooth service is disabled
+a33834e Add Storage preference (2/2)
+
+   * packages/apps/InCallUI/
+faf5a34 [1/2] InCallUI: SmartMute
+9cd8afb Fix: The EndCallButton overlaps the digital key 0 after switch system language during an active call
+affe211 Automatic translation import
+
+   * packages/apps/LockClock/
+eb16c77 Automatic translation import
+
+   * packages/apps/Mms/
+5db195d Add UAProf URL to carrier-specific configs
+f8cb438 Create the contact photo manager as service.
+f6f583d Automatic translation import
+eee8961 Carrier-specific MMS limits
+567413e Mms : Add users permission to prevent crash
+
+   * packages/apps/PhoneCommon/
+5032ee9 PhoneCommon : Add layouts to support hdpi devices
+
+   * packages/apps/Settings/
+a37c9de the status of brightness not refresh in power control widget after manual adjustment of brightnes
+fd9ce1c Settings: Fix preferred install location dialog will dismiss after rotating screen
+75bc4ab Profiles: Get Default profile with its UUID instead of name
+60a3f39 Settings: Fix setting app install location as "Removable SD card" without SD card inserted
+e8f736c Integrate mobile network settings into SIM settings for MSIM.
+9563800 Remove 'Show empty SIMs' option.
+b7fcb26 Settings: fix an issue where text is not showing up on first instance.
+6f96f2e Cleanup SMS limits
+0629b4b Automatic translation import
+06b1265 Settings:Not responding In-app search function
+b99e3fe profiles: respect lockscreen policies
+c384f71 Add button in "hidden" settings to flip "VoLTE Provisioned" flag
+e08de72 Profiles: fix SeekBarVolumizer behavior
+d24c204 Settings: use WindowManager to set custom DPI
+bc8f2d9 Kill off a few MSIM tab hosts.
+
+   * packages/apps/SetupWizard/
+b94d443 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+fc620fe Automatic translation import
+3fa7657 Allow changing status/navigation bars when styles selected
+
+   * packages/apps/Trebuchet/
+5643b7f Trebuchet: send metrics values as strings
+d482eb7 Fix power save mode broken ui/animations
+20bf4bd Trebuchet: fix excessive drawing with folders
+ac3febf Move tablet preference ahead of the default
+35fbd48 trebuchet: Don't use new hotness on tablets
+f1c2734 trebuchet: Enable the new hotness by default.
+fff40f6 Trebuchet Statistics:  - Add plumbing for sending events.  - Add aggregation service that runs on some interval  - Hook send events into respective UX interactions
+347c6ec Fix the hint text of rename folder can't change with system language
+16416d4 Trebuchet: fix NPE during touch events
+
+   * packages/apps/TvSettings/
+810333f Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+0a11aaa Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+2aa2853 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+93634c9 Delete preview table rows on theme update
+0d4fca3 Handle null parameters when creating query strings
+b83a558 Check old install state before reapplying icon pack
+
+   * packages/services/Telecomm/
+fcaa59c Merge "Show multi-line notification if there's more than 1 missed call." into cm-12.1
+df433bc Automatic translation import
+e9f0ec6 Show multi-line notification if there's more than 1 missed call.
+
+   * packages/services/Telephony/
+05600e6 TeleService: pass sub ID to APN setting
+109a0bf Telephony: Bye bye Holo USSD dialog
+c84a7ba Restyle USSD AlertDialog.
+7c15f71 Update activity title if called in MSIM case.
+b587068 Automatic translation import
+ba719a2 msim: Fix up activity for Call settings
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+c5d5557 Rebuild with r212222 to fix devirtualization bug in GCC4.9 (darwin)
+
+   * system/extras/
+2924506 make_ext4fs: Support kernel transparent compression v2
+
+   * vendor/cm/
+0ab505f Deprecate epc.tmobile.com APN
+2d9f1d7 APNs: Correct MMSC for HoT Austria
+c56364b apns: Removed APN configuration for Noverca.
+60051ef config: Create TV targets (full and mini)
+ad91867 Temp fix for Bouygues telecom issues
+d32b741 FOTA: Create /cache/recovery in init.rc for FOTA
+8f74448 CM: Make sure we're parsing api versions for cmsdk docs.
+9e9fea3 Fix invalid roaming_protocol for telenor.smart APN
+6560891 Drop hipri,supl from Smartfren4G
+
+   * vendor/cmsdk/
+273f2db CMSDK: Add check-api generated texts.
+62c951e CMSDK: Setup initial check-api mechanism.
+25410f2 Introduce Theme Versioning [2/2]
+cbc19f5 Automatic translation import
+064eda2 Merge "CMSDK: Hide CMContextConstants from docs." into cm-12.1
+e2feecb CMSDK: Hide CMContextConstants from docs.
+
+===================================
+Since Sat May 16 12:53:07 UTC 2015
+===================================
+
+
+   * android/
+14c4326 Remove external/srec
+ec7c531 5.1.1_r2 -> 5.1.1_r3
+b04680e 5.1.1_r1 -> 5.1.1_r2
+
+   * art/
+be62737 Revert "AArch64: Fix incorrect use of preceding LIR."
+1e14008 AArch64: Fix incorrect use of preceding LIR.
+47e066e AArch64: Addressing Cortex-A53 erratum 835769.
+
+   * build/
+c3cc5ec Merge tag 'android-5.1.1_r3' into HEAD
+
+   * device/qcom/common/
+425d7d8 device/qcom/common: Add permissions for mode and modes
+
+   * device/xiaomi/armani/
+53c9cb9 sepolicy: Address some denials
+
+   * external/bluetooth/bluedroid/
+0842099 Revert "bluedroid: Support dynamic A2DP stream parameters"
+
+   * external/ffmpeg/
+1fb9b2a avutil: Add av_q2intfloat()
+894d8cf avformat/movenc: Avoid floats & float rounding in tmcd nb_frames calculation
+f902b0b avformat/asfdec: Avoid float usage in duration calculation
+cf1f3d8 doc: Fix spelling of 'Transmission'
+db07fc2 avformat/mpegts: Avoid float in bitrate calculation
+1b23654 avcodec/h264: Fix HWACCEL_MAX for D3D11
+688147c avcodec/hevc: Fix HWACCEL_MAX for D3D11
+5cddfc53 avcodec/dxva2_h264: Fix "may be used uninitialized" warnings
+9ae766d avcodec/vdpau: Re-factor pre-hwaccel helper functions into separate header
+7ed5d78 avcodec/dxva2: Fix "may be used uninitialized" warnings
+a838b22 configure: Check if ID3D11VideoDecoder exists, not just the header to enable d3d11va
+5bc2c39 avfilter/x86/vf_fspp: Fix invalid combination of opcode and operands
+5193407 lavf/dnxhd: Autodetect more files that can be decoded.
+83a04f8 mov: reject zero bytes_per_frame with non-zero samples_per_frame
+3232ac4 configure: d3d11va is auto-detected like the others
+860ac0a lavf/riff: Add 0x729A as TwoCC for G.729.
+94d07b3 avcodec/dxva2: Fix build without D3D11
+947b74e Merge commit 'd8039ef8d221ea273aa4f1e62e5df21bf618c772'
+9aabc92 Improve upon dynamic arrays- movtext subtitles
+e48a9ac libshine: fix support for shine 3.0
+c50904f avcodec/mjpegenc_common: Use ff_mpv_reallocate_putbitbuffer()
+00f3bb2 avcodec/mpegvideo: Factor ff_mpv_reallocate_putbitbuffer() out
+cf401cd avformat/rmenc: Avoid floats in duration calculation
+343654c avformat/mpegenc: Replace *0.7 by *7/10
+73f7179 avformat/mpegenc: Do not use floats for vcd_padding_bitrate
+2ce6e41 ffmpeg_opt: Set the video VBV parameters only for the video stream from -target
+d8039ef D3D11va: add a Direct3D11 video decoder similar to DXVA2
+bd46e78 avcodec/put_bits: Assert that size in set_put_bits_buffer_size() does not cause integer overflows
+291ad5c avcodec/bitstream: Assert that there is enough space left in avpriv_copy_bits()
+8f5ffed avcodec/put_bits: Assert that there is enough space left in skip_put_bytes()
+561d3a5 avcodec/mpegvideo_enc: Update the buffer size as more slices are merged
+e4c2ec8 avcodec/put_bits: Update size_in_bits in set_put_bits_buffer_size()
+8ce564e avformat/mov: Mark avio context of decompressed atoms as seekable
+1cacecc avcodec/libutvideoenc: Fix memleak
+c5a07f1 libdcadec: search for frames that start late in a packet
+db5ea69 avcodec/ituh263enc: Pass PutBitContext into h263p_encode_umotion() instead of MpegEncContext
+404fe63 avcodec: Pass PutBitContext into ff_h263_encode_motion() instead of MpegEncContext
+b71dc29 avcodec/h263: Remove unused argument of h263_get_motion_length()
+39de31c avcodec/mpeg4video: Reorder operations to reduce accesses to err_recognition
+b71528d mov: always check avio_read return value
+8e77f8a mov: fix two memleaks
+a571886 mov: abort on EOF in ff_mov_read_chan
+0c3b4ef avformat/movenc: Remove float use from rgb_to_yuv()
+28134d6 avformat/swfenc: Remove another unneeded float computation
+5d4ff4a avformat/swfenc: Remove unneeded floats
+17264cd avformat/avienc: Avoid float usage
+3bf57ac avformat/4xm: Change fps to AVRational
+de0d3fe avcodec/y41pdec: Avoid using float for size test
+8952254 libwebp: simplify AVCodec.close functions
+57d9788 configure: simplify libwebp checks
+ed4932a nutdec: fix various memleaks on failure
+4ae1560 avcodec/dcadec: Search and decode frame in case it starts later in a packet
+40a3e1e avformat/wavdec: Increase dts packet threshold to fix more misdetections
+9f57694 avformat/wavdec: Increase probe_packets limit
+0b79a38 nutdec: always check the get_str return value
+1096c46 libwebp: use a separate AVClass for each encoder
+44ca8a6 libwebpenc_common: add header guards
+98be2d9 libwebp: remove unneeded defines
+02cf59f WebP encoder: use WebPAnimEncoder API when available.
+ebb0ca3 avformat/nutdec: Check X in 2nd branch of index reading
+f275f9e Merge commit '4e17946f10d39eec6cc03fb249ae8147373141b6'
+179527f Merge commit 'a3f4c930ac3f49f47b6e6ffda925d0dcf80320e2'
+a25ee5f Merge commit 'd528045558825f01472e9bee873f60c98d661e53'
+bc37359 Merge commit '6f54dc43cee6b2f5d183acf98b32a3cf8be4a4fc'
+d5227ce Merge commit '9c1db92ad372d4cd69e0490e691c56e4097cb193'
+d9b264b Merge commit '848e86f74d3e6e87fa592ee8ba8c184cc5fd9a42'
+337aa17 avcodec/movtextdec: Add support for large boxes(>32 bit)
+4e17946 mpegvideo: Rework various functions not to use MpegEncContext directly
+a3f4c93 mpegvideo: Have ff_mpeg_ref_picture use AVCodecContext directly
+d528045 mpegvideo: Have ff_mpeg_unref_picture use AVCodecContext directly
+6f54dc4 mpegvideo: Drop stream_codec_tag
+9c1db92 mpegvideo: Drop err_recognition
+848e86f mpegvideo: Drop flags and flags2
+3b176af avformat/mxfenc: Add color siting element
+a45cf63 libavformat/mux: Add ff_choose_chroma_location()
+d09321b avcodec/mpeg12dec: Fix chroma location
+ebb08f3 avutil/pixfmt: Clarify DV example comments for AVChromaLocation
+1617a89 Merge commit '29216d7fd14d1cec16821867d17c90b5c49e8c07'
+29216d7 tls: fix compilation when both gnutls and openssl are enabled
+e91fbfd tls: fix compilation when both gnutls and openssl are enabled
+f99fed7 WebP encoder: extract out some methods into a separate helper library.
+a0124b8 Merge commit '94599a6de3822b13c94096d764868128f388ba28'
+9221e36 Merge commit 'd13b124eaf452b267480074b2e6946538ed03a6e'
+162644c Merge commit 'd15eec4d6bdfa3bd4c4b5b7dd2dbd699ba253d02'
+6b56fcb WebP muxer: support a packet containing animated WebP.
+94599a6 tls: Remove all the local polling loops
+d13b124 tls: Remove the nonblocking code
+d15eec4 tls: Use custom IO to read from the URLContext
+1c6ede3 doc/ffmpeg: basic documentation for -copy/ignore_unknown
+c886dd2 avformat/mov: check result of avio_seek
+18833da ffmpeg: Support copying unknown streams
+33e9473 avcodec/mips: loongson fix bugs in mathops optimization
+818275b avutil/pixfmt: s/luma sample positions/horizontal luma sample positions/
+8a141ad avutil/pixfmt: make luma sample positions even more explicit in the AVChromaLocation ASCII art
+b95df4c avutil/pixfmt: Clarify mpeg example comments for AVChromaLocation
+acccc28 avutil/pixfmt: clarify chroma location text further, as "first" is ambigous
+a3b0130 avutil/pixfmt: Clarify that the ASCII art describes the location of the first chroma sample of AVChromaLocation
+0b9d636 ffmpeg_opt: add missing space in error message
+737b0ca Merge remote-tracking branch 'cehoyos/master'
+592b053 ffmpeg_opt: fix the error message log level for the unsupported stream types
+100df10 ffmpeg_opt: Give the user a hint on how to ignore unsupported streams
+40bf368 libvpx: add support for yuv440p and yuv440p10/12 encoding
+209e91c lavc/qdrw: Do not fail decoding valid Quickdraw images.
+4fb3efd lavf/mov: Use AVCOL_SPC constants when checking color_space.
+c4f8641 lavf/mov: Write colour matrix "6" for color_space bt470bg.
+a2aff26 ffmpeg: support ignoring unsupported mapped streams
+8f6b919 lavf/mkv: Only skip prores header if the packet is large enough.
+6423557 Merge commit '3efe0393e4f0eaa27bac8833edbd7d3cff4704e1'
+bb23a15 nutdec: abort if EOF is reached in decode_info_header/read_sm_data
+265d884 avcodec/vmnc: Add back adapted comment about 24bit
+6b783d2 Merge commit '7046bd9bc9ce04521edf453c9b603d84d69c7512'
+fa7dec8 nutdec: stop skipping bytes at EOF
+37e6798 nutdec: fix infinite resync loops
+b6ca7bf avcodec/vmnc: Simplify "24bit" support
+a4c7aea Merge commit 'eafbc6716cede6d4a652f8bedf82f2901c68d06d'
+6d1935d avcodec/hevc: Remove unused variable
+f9d0578 configure: add cpuflags for loongson3 series cpu
+b3496b4 avformat/nutdec: Fix recovery when immedeately after seeking a failure happens
+6bbb2f8 avformat/nutdec: Return error on EOF from get_str()
+611e108 fate: Add fate-mathops test
+50965e0 avcodec: add mathops test
+eb0c08b lavc/vmnc: Fix 32bit colour-space, there is no transparency.
+0d41f1f configure: disable mipsfpu for loongson3
+886ba93 doc/encoders: add flac
+b44a55a Fix movtext crashes caused due to lack of proper bounds checking
+b8e7f2b avcodec/flacenc: Support Multi dimensional quantization
+3efe039 hevc: make avcodec_decode_video2() fail if get_format() fails
+7046bd9 lavfi: Move avcodec header to the only filter needing it
+eafbc67 vmnc: Delay pixel size check
+2154108 avcodec/flacenc: Mark pointers/array arguments const which are not changed
+5dfcb4f avcodec/flacenc: Simplify md5 calculation code by using AV_WL24()
+710abaf avutil/pixfmt: Improve ascii art showing the meaning of the AVChromaLocation values
+7786a91 avcodec/flacenc: Move udata and sums to FlacSubframe
+df5e408 fate: Add test for -exact_rice_parameters 1
+80f9d6e avcodec/flacenc: Support calculating rice parameters exactly
+d3dcd28 avcodec/flacenc: Do not copy unused udata array -> 5x faster calc_rice_params()
+d0ac2f5 avcodec/golomb: Remove disabled and broken code
+8ea9334 avcodec/mss2: use < 0 instead of != 0 to check for error of vlc initialization
+b0322e4 ffmpeg_opt: Compensate for DTS/PTS difference in seeking when its based on DTS
+b012bd5 libavcodec/x265: detect csps in libx265_encode_init_csp()
+4b0f78a avcodec/snow_dwt: Remove ff_ prefix from ff_spatial_idwt_init() and ff_spatial_idwt_slice()
+c6bf27d avcodec/hevc_cabac: Rename ff_hevc_transform_skip_flag_decode() to hevc_transform_skip_flag_decode()
+0c0d1a4 avfilter/avfiltergraph: Rename ff_avfilter_graph_config_pointers to graph_config_pointers.
+e32d832 avformat/mxfenc: Set horizontal chroma subsample value from pixel format if available
+58afb31 avformat/mxfenc: Set the component depth from the pixel format if available
+451be67 Merge remote-tracking branch 'rbultje/vp9-bugfixes'
+66f4b1e cmdutils: Fix sign error in display matrix auto-rotation code
+57e3804 ffmpeg: Do not copy the display matrix if rotation meta-data is manually added
+14c4b25 avcodec/golomb: fix reading huge signed rice golomb values
+c720b9c avcodec/golomb: get_ur_golomb_jpegls: Fix reading huge k values
+4f2fcac avformat/hlsenc: do not append an endlist tag when the stream ends
+572a829 avformat/hlsenc: Add hls flag for starting a playlist with  a discontinuity on startup
+8fd01b4 avformat/hlsenc: Add hls flag for rounding m3u8 durations to whole numbers, problems with floats on some devices
+b6fcb2b avcodec/flacdec: Attempt to auto-detect old buggy flac
+83356cf lavc/vc1: Never decode vc1 as gray if gray decoding was not enabled.
+ee8c183 lavf/mpeg: Do not detect unknown audio in Hikvision streams as alaw.
+70c0433 lavc: Print a warning if gray decoding was requested but not enabled.
+2acc065 lavf/wav: Read files >4G if no smaller filesize was written.
+2608f11 lavf/wav: Print an error if files >4G are written.
+101f26e lavc/h263: Set color_range for gray decoding.
+4d8bd60 lavc/vc1: Set color_range for gray decoding.
+caa41d1 lavf/mov: Tell users about the use_absolute_path option.
+1eda555 lavc/qdrw: Fix overwrite when reading invalid Quickdraw images.
+e609cfd lavc/flac: Fix encoding and decoding with high lpc.
+38f5a26 lavc/flacdec: Sanitize FLACSTREAMINFO usage.
+488383a avformat/avidec: add mp2 to the list of exceptions instead of generally treating dshow_block_align==1 special
+b87dd7f ffmpeg: only apply last picture flush code at EOF
+8e3b1f2 avfilter/buffersink: return EOF if closed link in av_buffersink_get_frame_flags()
+bd8f2fa Merge commit '732dd658687bd9a2e5c622e38c481825b57af250'
+3fb726c avcodec/aacenc: use < 0 instead of != 0 for error checks
+2580bae avcodec/j2kenc: Use ret < 0 instead of ret != 0 for error checks
+da4ef13 avformat/mux: use <0 instead of != 0 for error check of init_muxer()
+900e3af vp9: match another find_ref_mvs() bug in libvpx.
+732dd65 doc: Add $branch to FATE config template
+
+   * external/whispersystems/WhisperPush/
+8011005 Automatic translation import
+
+   * external/wpa_supplicant_8/
+688bbc2 WPS: Fix HTTP chunked transfer encoding parser
+bc7e82d AP WMM: Fix integer underflow in WMM Action frame parser
+
+   * frameworks/base/
+8eaa028 [1/2] Themes: Multiwallpaper support
+74aae7b Revert to previous battery padding
+397e77f Automatic translation import
+e8b4335 QS: add Sync tile (1/2)
+5abb0f2 SystemServer: Skip TorchService construction if no flash feature detected
+9ac5aa2 Add alternate WebView provider package
+757c739 base: Fix array bounds exception in getSecondaryStorageState
+1dfc43a unbreak density scaling
+d1689f3 Fix another off-by-one error in computeEllipsis
+eccafdf apps2sd: Only allow "move to ___" if the media is mounted [2/2]
+6ca2651 SystemUI: Move custom tile listener service registration to phonestatusbar.
+03c2f2c VolumePanel: Properly update expanded volume panel sliders
+2196dbf [1/2] Recognized multiple wallpapers in theme
+d9cf18e DreamManager: be aware of device lid
+363abfb VolumePanel: Don't timeout quickly if expanded
+91c7ce9 Align recents clear button to screen edge instead of tasks if close
+47cbe3a fix CTS DisplayTest.testGetMetrics()
+3dcd365 SystemUI: improve dpad arrow key state logic
+d9f1b3d Revert "Remove unnecessary sleep in ActivityThread."
+eb9ff0e Fix bugs regarding delay the dispatching of non-wakeup alarms
+2d55b7c Fix for infinite loop in RemoteViewsAdapter
+2589adf Fix bug of unnecessary wakeups after completed syncs.
+1edb451 Remove the window whose client process has died or become zombie
+6d08c9a Don't relayout based on a window that isn't visible
+7c16969 Not include fullscreen opaque window on screenshot
+1d6f9ba Only one task within the stack should moveToBack
+3a9f515 Fix racing condition of mTouchExcludeRegion
+1ff1e02 Measure absolute value of pointer motion distance
+36697c3 Make ACCESS_THEME_MANAGER permission system|signature
+e99897e Return original value if icon info is null
+6e73ab5 Make default overlay for "spell checker"
+1e7279b BaseStatusBar: Inform StatusBarService if a notification is flagged spam
+6fc65da AudioService: persist volume of ring stream when ringer mode changed
+48686c8 [1/3] Implement better legacy support for themes
+afe6a2a PackageManager: don't attempt to get theme on core boot
+bf04307 Adjust display inversion matrix to account for luminance
+30f1d75 Use the correct parent size to initialize animations
+67a37d1 Don't apply animation clip to dialog activities
+f78aec6 Fix lost singleton provider after force-stopping user or package.
+daa97a5 Also restart provider if there is external handle.
+3188368 Check caller status precisely when registering receiver.
+7f5f651 fix return value scale of notifyANR()
+eddab20 Prevent windows from freezing screen while timeout
+f30a941 Sometimes the application context is null
+3231781 Fix context leak
+8d14b15 Frameworks/base: Fix old code in MediaPlayer
+
+   * frameworks/native/
+c5502f1 libgui: bail assertion if sensorservice cannot be found
+
+   * frameworks/opt/net/wifi/
+10c17ae Silence verbose Wifi logging
+
+   * frameworks/opt/telephony/
+811c351 Revert "SMSUsageMonitor: read limit values from Settings.Secure"
+3f96311 telephony: extend the user notification toggle for restricted mobile access
+5c05255 Make mImsPhone static. DO NOT MERGE ANYWHERE
+2d1f7da Don't needlessly disable data.
+fe85370 Don't clear invalid defaults before SIM info of all SIMs is populated.
+2d7101c telephony: Release pending network requests when releasing a request
+
+   * hardware/qcom/fm/
+eda6dc5 Automatic translation import
+0249a87 FM: respect hw.fm.internal_antenna
+
+   * packages/apps/AudioFX/
+0484975 Automatic translation import
+
+   * packages/apps/Bluetooth/
+aa069ea Automatic translation import
+
+   * packages/apps/BluetoothExt/
+8f9b3cf Automatic translation import
+
+   * packages/apps/Browser/
+43361dc Automatic translation import
+
+   * packages/apps/CMAccount/
+a4574cd Automatic translation import
+
+   * packages/apps/CMBugReport/
+c41b56b Automatic translation import
+8bc24d3 CMBugReport: more null checks
+
+   * packages/apps/CMFileManager/
+b1bac2d Fix there are no folders in NavigationView Pinned file manager
+4841e94 Automatic translation import
+9a75e1b [CMFileManager]Fix CMFileManager sometimes crash.
+0d31e17 [CMFileManager]Fix the FileManager Crash.
+41232db CMFileManager: Improved strings
+0c06f5c [CMFileManager] The remember selection don't work when open a file
+835447a Update Editor Activity to handle Content URI
+08a24ff Prevent possible OutOfBoundsException
+
+   * packages/apps/CMUpdater/
+258bb1c Automatic translation import
+
+   * packages/apps/Calculator/
+1e66bce Automatic translation import
+
+   * packages/apps/Calendar/
+241a809 Calendar: fix recurrence picker switch
+65bbc72 Automatic translation import
+80a93a5 Check date string size before trimming it
+
+   * packages/apps/Camera2/
+5eb519b Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+975a26c Automatic translation import
+
+   * packages/apps/Contacts/
+f34ba1c Automatic translation import
+a91eaf7 fix crash in QuickContact on sending contact via sms
+a8f6bff Contacts : Remove silent option from ringtone
+
+   * packages/apps/ContactsCommon/
+16790cc Automatic translation import
+
+   * packages/apps/DeskClock/
+697c825 Automatic translation import
+
+   * packages/apps/Dialer/
+5cb64f4 Automatic translation import
+
+   * packages/apps/Eleven/
+4da5f3f Automatic translation import
+bacadd7 Merge "Add Landscape support to Eleven" into cm-12.1
+4427680 Add Landscape support to Eleven
+
+   * packages/apps/Email/
+3a75a69 email: fix Exchange sync frequency account setup
+7074819 Automatic translation import
+3bd9a83 email: imap push
+
+   * packages/apps/Gallery2/
+7622a90 Automatic translation import
+
+   * packages/apps/InCallUI/
+394a948 Automatic translation import
+
+   * packages/apps/LockClock/
+e56c775 Automatic translation import
+5f8fa15 Fix weird bug in LockClock
+
+   * packages/apps/Mms/
+ce5681f Automatic translation import
+f3a2464 Mms : Change 'Add to People' to 'Add to Contacts'
+6d7c762 Mms : Don't close single helper db instances
+
+   * packages/apps/PhoneCommon/
+a7081fa Automatic translation import
+
+   * packages/apps/Settings/
+f460b1f Settings: Add some more entries into 'SMS message limit' menu
+7e9b261 Improve string
+7cfb559 Automatic translation import
+4030437 Settings: update dashboard icons
+408b373 QS: add Sync tile (2/2)
+8fd0c5d Keep the content when change the orientation
+99d9e94 Exclude themes from being moved to external storage
+9fa03b3 apps2sd: Only allow "move to ___" if the media is mounted [1/2]
+6c771d2 apps2sd: Enable apps2sd for apps with unspecified install location
+c429e68 CryptKeeper improvements
+83b4a99 Settings: add marquee to Device administrators screen
+ef0a11d CryptKeeper: layout whole screen in bounds
+eae637c Settings: Livedisplay: Respect default values passed from CMHW
+ab062c1 Settings: improve Search
+
+   * packages/apps/SetupWizard/
+a9d0039 Automatic translation import
+b2ceb1f OOBE: fix NPE in choose data sim page
+
+   * packages/apps/SoundRecorder/
+06e1ebe Automatic translation import
+
+   * packages/apps/Stk/
+ea15282 Automatic translation import
+
+   * packages/apps/Terminal/
+15210f0 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+3b49175 Automatic translation import
+689bdb1 ThemeChooser: add uninstall shortcut to ChooserDetailFragment
+01431bd [3/3] Implement better legacy support for themes
+
+   * packages/apps/Trebuchet/
+911938a Automatic translation import
+d15317d Trebuchet : Activate the default homepage selection button on first run
+d24a8a9 Increase SDK Version to support Android for Work
+
+   * packages/apps/TvSettings/
+75f1a0c Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+7707e35 email: linkify phone numbers
+1e353df Automatic translation import
+1c2391e email: do not close the input attachment buffer in Conversion#parseBodyFields
+
+   * packages/inputmethods/LatinIME/
+fd5ea5a make default overlay for "show correction suggestion"
+
+   * packages/providers/DownloadProvider/
+149f521 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+bb432a1 [2/2] Themes: Multiwallpaper support
+d19fe5d [2/2] Recognized multiple wallpapers in theme
+4d4c54e Fix exception on themes without lockscreen images
+a8594f9 FIX: Preview table upgrade path
+d2d2ffd [2/3] Implement better legacy support for themes
+
+   * packages/services/Telecomm/
+3710790 Automatic translation import
+
+   * packages/services/Telephony/
+2ec51a9 Automatic translation import
+ec8c8a8 Fix CDMA vs. WCDMA typo in cs translations
+be6d6ee Telephony: Further improve network selection
+
+   * packages/wallpapers/Galaxy4/
+5a37f25 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+77a504a Automatic translation import
+
+   * system/core/
+c7b3725 Merge tag 'android-5.1.1_r3' into HEAD
+
+   * system/vold/
+d578419 Adjust to r3 fs_mgr changes
+
+   * vendor/cm/
+e190d66 CM: Update droiddoc template for cmsdk
+54d5498 APNs: 716: added Claro, Entel; 732: Fixed COMCEL
+7790c60 APNs: Add MVNO HoT Austria Internet and MMS APN configuration
+580ac6f APNs: moar MVNO's
+6a5733a APNs: Separate Simyo ES' entry (default and mms)
+ebda3cd apns: Added APN configuration for Suop MVNO (Spain)
+9635acd Added several APNs, updated a couple carrier names
+c352261 Split Smartfren MMS out
+88e99ec CM: Update styles for droiddoc.
+7ebb507 CM: Provide droiddoc cmsdk template.
+
+   * vendor/cmsdk/
+0b75e32 Improve strings
+38afe8d Automatic translation import
+0f8bcd7 Merge "CMSDK: Make sure to hide internal package from docs." into cm-12.1
+fb07983 CMSDK: Point to vendor/cm cmsdk templates for web.
+9389190 CMSDK: Make sure to hide internal package from docs.
+8c36c41 CMSDK: Update code comments for permission changes.
+2217bb4 CMSDK: Remove dead code.
+
+===================================
+Since Mon May 11 19:39:16 UTC 2015
+===================================
+
+
+   * bionic/
+6bb134b libc: denver should compile bcopy
+
+   * bootable/recovery/
+bcf98fe updater: Allow devices to suppress BLKDISCARD
+
+   * build/
+5de47ce build: Unset JAVA_TOOL_OPTIONS to read java version
+cc943aa build: Ignore filters on platform library.
+4e34e76 build: Add IGNORE_SUBDIR to clear vars.
+1ade406 build/core: Create means of ignoring subdir layer for packages.
+d445a0f build/target: Include CM platform jar in system server.
+7891efa kernel: Fix kernelconfig build
+
+   * device/xiaomi/armani/
+6402eb8 mkbootimg: Don't append dtb to zImage
+b51b6b6 Revert "Add back egl.cfg"
+33a4b59 Revert "Give wpa_supplicant access to rfkill"
+1a3f2eb Enable ambient display
+3a01597 Use bk1 instead of footer for encryption
+
+   * external/chromium_org/
+0dc04ed Fix build for MacOSX 10.10.X and CLI Tools 6.1.1
+
+   * external/ffmpeg/
+ccfb03e vp9: fix scaled motion vector clipping for sub8x8 blocks.
+f8598ce avdevice/v4l2: Fix vertical alignment in list_formats() output
+50393bc avformat/mov: Fix parsing short loci
+9e4f0cf avformat/mov: Print reason of loci parsing failure
+77cc0d5 ffmpeg: Support preserving the source key frame timings
+68c1e91 vp9: improve signbias check.
+3a91a07 ffmpeg: Remove another unneeded ost->filter_graph check
+3051e7f avcodec/hevc: Fix typo in num_entry_point_offsets check
+c64b2d4 avcodec/libtheoraenc: Check for av_malloc failure
+32b6d31 vp9: don't allow compound references if error_resilience is enabled.
+5de142d vp9: clamp segmented lflvl before applying ref/mode deltas.
+c81677e vp9: reset loopfilter mode/ref deltas on keyframe.
+8812691 vp9: fix crash when playing back 440/440 content with width%64<56.
+3e634e3 vp9: extend loopfilter workaround for vp9 h/v mix-up to work for 422.
+e6ec65d avformat/rtsp: print a debug level note if time parsing fails
+ff1d85b avcodec/svq1dec: Remove duplicate buf_size check
+fc624ec avcodec/dcadec: Check active_bands
+0f3e695 avcodec/dcadec: Check scale table index
+ade8a46 avcodec/sonic: More completely check sample_rate_index and channels
+c131a9f avcodec/sonic: check memory allocations
+cdd25f9 avcodec/smvjpegdec: check avcodec_decode_video2() return code
+2944694 avcodec/shorten: More complete pred_order check
+2d15588 avcodec/shorten: Fix code depending on signed overflow behavior
+d201bec avcodec/shorten: Check skip_bytes()
+c347f75 avcodec/put_bits: Remove dead code in put_bits()
+c4c6aea avcodec/proresdec2: Reset slice_count on deallocation
+5e1d530 avcodec/vp9: Use separate memset for counts.eob
+670702f ffmpeg: Print an error if avfilter_graph_queue_command() failed
+da2f156 ffmpeg: remove unneeded ost->filter check
+3793caa avcodec/acelp_vectors: Assert that x is within the array in ff_set_fixed_vector()
+dc4a621 avcodec/vp3: Cleanup order of operations for current_run check
+29045fb vp9: clip motion vectors in the same way as libvpx does.
+ca688de fate: increase the number of filtered frames to 20 for edgedetect* & hue
+96a58a8 vp9: set skip flag if the block had no coded coefficients.
+b5508f7 lavf/webmdashenc: fix unchecked strftime
+47cbcf2 avcodec/h264_slice: Fix ranges in assert
+9f0b898 avcodec/dvbsubdec: Clear w/h/size on region buffer allocation failure
+8f1afde avcodec/diracdec: Make data_unit_size unsigned
+1e4a77d vp9: apply mv scaling workaround only when subsampling is enabled.
+dc96c0f vp9: read all 4x4 blocks in sub8x8 blocks individually with scalability.
+e12188e vp9: fix segmentation map referencing upon framesize change.
+a9bf628 avcodec/dcadec: Check subsubframes
+a6a4577 avcodec/dcadec: Check nchans
+d32d059 vp9: disable more pmulhrsw optimizations in idct16/32.
+96d30c3 vp9: disable all pmulhrsw in 8/16 iadst x86 optimizations.
+cc5e4bb hevc: make avcodec_decode_video2() fail if get_format() fails
+f6b8b96 avcodec/cavsdec: Use ff_set_dimensions()
+c5c06e3 avcodec/cavsdec: Check frame_rate_code
+139e1c8 avcodec/cavsdec: Check esc_code
+729466d libavutil/softfloat: Add test case for av_add_sf
+019daa0 avcodec/qdrw: Fix the code which asks for version 1 samples
+5c8e4bf avcodec/qdrw: another try at skipping the first 512 bytes
+5c219e2 avcodec/srtdec: attempt to correct SubRip positioning
+56bc0a6 avcodec/ass: make default playback resolution available to decoders
+a2cd07d avcodec/ppc/h264dsp: POWER LE support in h264_idct_dc_add_internal() fix vec_lvsl bug
+8252f63 avcodec/mips: MSA (MIPS-SIMD-Arch) optimizations for HEVC uni hv mc functions
+88f2940 avformat/nutdec: Remove unused variable
+eaeb632 nutdec: Remove unused label
+50d878d avcodec/msrledec: Ask for sample that uses a branch with a unused byte
+22f15f5 avcodec/on2avc: Check run more carefully
+93cfa7d avcodec/mpeg4audio: add some padding/alignment to MAX_PCE_SIZE
+adb7372 swr: fix alignment issue caused by 8ch sse functions
+cc48409 Merge commit 'e7c5e17d4fbd7c83fb331bf327e25ebd8e6a8623'
+a3adba3 Merge commit '3b5e5e6a29d62462d0505287042fa4c2b99c4f2b'
+3bf81d3 Merge commit '85ca012ba680bdf942d95ab98c74f6a28f447588'
+53d2b69 Merge commit 'd84429d41e24437536907af1e6b73197ecf3f6db'
+e539751 Merge commit '8fc11abe1fea4f211cc7dbd58a173d1221627d90'
+4b28907 avcodec/qdrw: cleanup skip code
+b6e8166 Merge commit '0348e74c01a099a3787ae21df1c2a742fc846163'
+5d9873e Merge commit 'd0dce15da34c0e4eee6c683be299de0221db00d3'
+cb7c4f7 cafdec: free extradata before allocating it
+a3ede6b cafdec: check avio_read return value
+81cf910 avcodec/mjpegdec: fix len computation in ff_mjpeg_decode_dqt()
+cf9ab11 avcodec/mjpegdec: Check len in ff_mjpeg_decode_dht()
+e7c5e17 vda: Make output CVPixelBuffer format configurable
+dc35a58 avcodec/mjpegdec: Check len in ff_mjpeg_decode_dqt()
+3b5e5e6 libx265: Use the Multi-library Interface
+6d3f178 avcodec/jpeglsdec: assert that overflows end at exactly x=w
+f8f155a avcodec/jpeg2000dec: fix boolean operator
+04da0d2 avcodec/hevc_ps: Move log2_ctb_size checks up to prevent undefined shift operations
+65e5032 avcodec/hevc_ps: Explicitly check num_tile_* for negative values
+b195aa5 avcodec/hevc_ps: Check vps_num_hrd_parameters
+16c95b1 avcodec/hevc_ps: More completely check vps_num_layer_sets
+6679d5f avcodec/hevc: Simplify entry_point_offset parsing
+1c6ae98 avcodec/hevc: Check num_entry_point_offsets
+3e9d5e1 avcodec/hevc: Check offset_len
+6d787ae doc/ffprobe.xsd: add build_date and build_time as optional attributes
+b0294f0 doc/ffprobe.xsd: remove extra sequence from streamType
+891df2a libswscale/x86/hscale_fast_bilinear_simd.c: There's no need to save BX if it's in the clobber list.
+48e9f68 libswscale/x86/hscale_fast_bilinear_simd.c: Include BX in the clobber list on x86_64, because it isn't implicitly included when PIC is on.
+ce95c14 configure: disabled -mips64 option for loongson and remove redundant cpuflags
+51f6455 imgutils: initialize palette padding bytes in av_image_alloc
+a7c0c79 aacdec: remove a duplicated line
+00f5c8f avfilter/vf_zoompan: free out AVFrame on failure
+93b0ee2 avcodec/hevc_sei: Check num_sps_ids_minus1 value
+8a62b80 avcodec/vqavideo: Check chunk size
+ec38a1b aacdec: don't return frames without data
+d3c9f1f avfilter/avf_showcqt: Fix gamma comparisons
+0d05406 avfilter/vf_cover_rect: Handle the case where the cover rectangle is as large as the input
+1431b4c avfilter/vf_fftfilt: Add MAX_PLANES and change it to 4
+b62b329 avformat/hevc: Check num_negative_pics and num_positive_pics
+2cddc0b avformat/hevc: Check cpb_cnt_minus1
+7a27aa1 avformat/hls: Handle read_buffer allocation failure
+70e022c avformat/idcin: Remove redundant chunk size check
+171af59 avformat/matroskadec: Cleanup error handling for bz2 & zlib
+56abf35 avformat/nutdec: Fix use of uinitialized value
+a23379a avformat/rtpdec_xiph: Move pkt_len onto one side of the check
+aa51699 avformat/rtpdec_xiph: Check upper bound on len in xiph_handle_packet()
+81198a6 avformat/rtpenc_jpeg: Check remaining buffer size for SOS
+85ca012 mjpegenc: Fix JFIF header byte ordering
+d84429d dnxhd: Print unknown header when found
+8fc11ab mkv: Print unsupported mov tags when found
+0348e74 quickdraw: Skip the empty 512 byte header for images
+d0dce15 quickdraw: Make the palette opaque
+c3671e1 avformat/riffenc: Use size_t for strlen in ff_riff_write_info_tag()
+94e293a avfilter/af_aphaser: reject too small delay
+93cc5ca lavf/img2dec: add option to disable pattern matching
+37efad4 fate: Test pullup and fieldmatch with 5 instead of 1 frame
+2ce2462 Merge commit 'da5c6a97bbfe34d4b30a89e72150dd400299ddce'
+85bbe1d Merge commit '0670acc4f1c4ceb16968818a654e07a3f550a8c9'
+acf4925 tools/graph2dot: use larger data types than int for array/string sizes
+59db9e6 avformat/internal: Fix warning about struct declaration
+da5c6a9 riff: Add MultiScope II fourcc MSC2 as MJPEG
+0670acc dca_parser: Extend DTS core sync word and fix existing check
+3ecc063 avcodec/hevc: Fix order of operations in hls_decode_neighbour()
+62a1e00 avformat/mlvdec: Use AVFormatContext->open_cb()
+a228f7d avformat/avformat: slightly more verbose documentation for open_cb()
+77ccc91 avformat/mov: Use open_cb() if set
+541d75f avformat: add callback for opening further files
+
+   * external/stagefright-plugins/
+949ae01 stagefright-plugins: Add -Wno-psabi for ARM64 builds as well
+
+   * external/whispersystems/WhisperPush/
+00d880b Automatic translation import
+
+   * frameworks/av/
+a1fa45c audio: Fixed streamType for non-media streams
+8b5540c libstagefright: Fix for handling of stream with corrupt frames
+779252b libmedia: avoid processing stale callback events when track recycled
+
+   * frameworks/base/
+739b2c5 Fix LiveDisplay QS icon size.
+0e9f24f Re-add missing ellipsis string
+88a3381 Don't dismiss keyguard if recreating status bar
+70b7c16 [1/3] Improve PreviewsColumns Implementation
+b9663bd Automatic translation import
+7a691d8 Profiles: make Default profile change ring mode back on
+6dc7523 [ActivityManager] Finish the failed-to-pause activity
+2f0fa0a [ActivityManager] Fix activity always visible.
+4a92c1d [ActivityManager] Move UI operation to UI handler
+890497a bindService can't start up service process
+8add355 KeyGuard: Fix the wrong Plmn/SPN display.
+670d3df SystemBars: Allow the StatusBarComponent be externally defined
+65abb32 Revert "ConnectivityService: add persist.radio.noril"
+531fdda Remove some useless debug spam.
+f367a7a Clean up keyguard carrier text handling.
+be753d6 fixup volume stream linking
+b7af941 SystemUI: Remove unnecessary camel case
+e1dad90 SystemUI: Point to correct permission for BIND_CUSTOM_TILE_LISTENER.
+fb90eb2 [ActivityManager] Avoid unnecessary restart provider process
+3552a95 Prevent possible memory leak in SpanSet
+aa9e757 Fixed memory leak in ExtractEditLayout finish()
+fac4069 Context leaks in EditText causes out of memory
+7c23e88 connectivity: Remove net id broadcast change event
+c93ca1f base: Nat464: unregister network observer when we stop!
+5dea9e8 SystemUI: Squash custom tile commits
+7062ece SystemServer: Allow starting of overlaid external services.
+0340bfc Fix PackageManager crashes w/ queryIntent using callerUID of 0
+e5a9280 Fix setting hotspot bounds in a drawable container
+56065c1 SystemUI: Fix unnecessary camel case
+0b40d3f SystemUI: Fix EL translation
+6471968 TorchService: close all opened cameras
+59c97bd Remove resources.apk from ZipSet when removing overlay
+
+   * frameworks/native/
+6d95355 Remove gamma correction from color correction shader
+
+   * frameworks/opt/telephony/
+e4a56f5 RIL : allow RILReceiver to be overridden
+2b50344 Remove useless debug spam.
+
+   * hardware/qcom/audio-caf/msm8916/
+a708ad9 post_proc: add support for virtualizer capability query
+
+   * hardware/qcom/audio-caf/msm8994/
+9505827 hal: Cleanup msm8992 build flags
+63f2249 hal: Allow building hardware audio encoders
+
+   * hardware/qcom/display-caf/msm8974/
+a25137d hwc: Add check for dirtyRect clear call.
+
+   * hardware/qcom/fm/
+e45c4aa Automatic translation import
+b329846 FMRadio : Launch station list automatically after scan
+
+   * hardware/qcom/media-caf/msm8916/
+1da10bd Merge AU_LINUX_ANDROID_LA.BR.1.2.4_RB1.05.01.00.121.002 on remote branch
+
+   * hardware/ril-caf/
+6ffe26f ril-caf: Allow using RIL version 10
+60308b2 Rild: Use division instead of mod to determine array size
+e7c6279 Added support for acquiring CAP_BLOCK_SUSPEND capability
+94ab42d Enabling RIL_QCOM_VERSION
+
+   * packages/apps/AudioFX/
+672d5a7 Automatic translation import
+
+   * packages/apps/Bluetooth/
+d56399b Automatic translation import
+
+   * packages/apps/BluetoothExt/
+aac31fd Automatic translation import
+
+   * packages/apps/Browser/
+6d90275 Automatic translation import
+
+   * packages/apps/CMAccount/
+63c90e6 Automatic translation import
+
+   * packages/apps/CMBugReport/
+95e313e Automatic translation import
+
+   * packages/apps/CMFileManager/
+3a81139 Automatic translation import
+2ed65f0 Fix back arrow discoloration in action bar
+c5c6852 CM Easy Mode File Manager Navigation fixes
+da3e50d Prevent possible OOBE when ran under monkey test
+439c98b [CMFileManager]Fix the software don't hide when the drawerlayout open.
+
+   * packages/apps/CMUpdater/
+57f770f Automatic translation import
+918692b CMUpdater: Improve TV string
+
+   * packages/apps/CMWallpapers/
+993ba51 Automatic translation import
+
+   * packages/apps/Calculator/
+e84f50a Automatic translation import
+
+   * packages/apps/Calendar/
+b25c6c5 Fix for days that are expected to be 3chars end up being longer.
+5b8aac9 Automatic translation import
+44d9d0c Calendar:"ADD ACCOUNT" has no function when long tapping date to creat new event in month view.
+
+   * packages/apps/Camera2/
+b13ecf2 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+03b30b5 Automatic translation import
+
+   * packages/apps/Contacts/
+4c91781 Automatic translation import
+6e26e34 Summarize local phone storage in MemoryStatusActivity.
+
+   * packages/apps/ContactsCommon/
+3285787 Automatic translation import
+fc1a70a Store all local contacts in only one account.
+f5bf44d contactscommon: ensure preferences are loaded before reload data
+
+   * packages/apps/DeskClock/
+5e50aef Automatic translation import
+
+   * packages/apps/Dialer/
+f863f8a Dialer: remove contact importing from Dialer
+d3d5cc7 Automatic translation import
+
+   * packages/apps/Eleven/
+d2fa91a Automatic translation import
+
+   * packages/apps/Email/
+5779a29 Automatic translation import
+
+   * packages/apps/Exchange/
+5144625 exchange: imap push
+b3f3790 Automatic translation import
+
+   * packages/apps/Gallery2/
+9231926 Automatic translation import
+
+   * packages/apps/InCallUI/
+64bc81c Automatic translation import
+04b7efe InCallUI: Update another blacklist string
+4184f9d InCallUI: Update blacklist strings
+
+   * packages/apps/LockClock/
+ecfe031 Automatic translation import
+
+   * packages/apps/Mms/
+f6b0db8 Automatic translation import
+c25966c Mms: fix recipients getting lost when toggling "Mobile numbers only"
+a64160e Mms: Fix copying "null" for Mms without text
+0a8f504 Mms: Update blacklist strings
+
+   * packages/apps/Nfc/
+9739a31 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+b9c601b Automatic translation import
+
+   * packages/apps/Settings/
+ccad29b Do not allow privacy guard for core system apps.
+6f6e6b5 Automatic translation import
+5248395 Settings: setup Default Profile after OOBE has run
+093434d Fix mobile network switch for CDMA phones
+b2bfdbc Settings: fix BT switch enabling discoverable mode
+e7c80de Used fixed size for app icon width in default sms dialog
+05cc8f5 Change Usb not connected string to capital letters.
+658188e Show Toast if usb not connected in Storage Settings
+08584aa Hide soft keyboard when opening LockPatternActivity.
+6c38e48 Fix battery settings crash on Asturian/Luxembourgish
+b77a45b Settings: add Bluetooth tethering option to BT overflow menu
+7e2428f Settings: give better hint when checking BT "Internet access" fails
+37aaf5a Expose text color in MSIM edit dialog.
+a7ee00b Settings: Improve strings
+e57afc2 Settings: Update sync widget state
+966ac32 Cleanup.
+a0407dc Settings: update About screen device model fields
+ac3bae4 Settings : Update blacklist strings
+
+   * packages/apps/SetupWizard/
+3d884ce Automatic translation import
+bfd3abd SetupWizard: hide WhisperPush if it's not installed
+
+   * packages/apps/SoundRecorder/
+4981681 Automatic translation import
+
+   * packages/apps/Stk/
+3d46a7f Automatic translation import
+
+   * packages/apps/Terminal/
+15983c8 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+3988a79 [2/2] Use files instead of blobs
+ff1bab8 [3/3] Improve PreviewsColumns Implementation
+d1d2a8e Automatic translation import
+
+   * packages/apps/Trebuchet/
+274e546 Automatic translation import
+98cd4a5 Trebuchet: close folder without full animation for overview mode
+faff75b Trebuchet: fix behavior when ShowSearchBar feature is toggled off
+8df1f02 Do not reload settings for changing state to All Apps.
+18980a7 Trebuchet : Only reset overscrolled child
+7f0a620 Trebuchet: new folder UI v1
+e301067 Add missing dimen to res/values/dimens.xml.
+
+   * packages/apps/TvSettings/
+107e728 Automatic translation import
+d21dd3a TvSettings: Improve strings
+
+   * packages/apps/UnifiedEmail/
+917885f Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+f317890 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+ea11e80 Automatic translation import
+
+   * packages/providers/TelephonyProvider/
+81e3036 Add another db upgrade
+4fa5ded TelephonyProvider: change default IDD for Indonesia
+
+   * packages/providers/ThemesProvider/
+8fd765a [1/2] Use files instead of blobs
+c169904 [2/3] Improve PreviewsColumns Implementation
+3b2e3e3 Automatic translation import
+
+   * packages/services/Mms/
+56d3c6a Automatic translation import
+
+   * packages/services/Telecomm/
+3319fcd Automatic translation import
+0e97d44 Telecomm: Update blacklist strings
+
+   * packages/services/Telephony/
+2b48acf Automatic translation import
+f8ec9e0 Telecom : Rename blacklist
+
+   * packages/wallpapers/Galaxy4/
+ddd1171 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+2629b96 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+058947f Automatic translation import
+
+   * vendor/cm/
+374ca9d init: set ro.radio.noril if persist.radio.noril is set
+5cdfc8d Add authentication parameters to MVNO NL APN configuration
+5cfc7b8 Updated Telekom RO APN to reflect their recent name change
+a5c460a Added APN for Costa Rica ICE Kolbi
+71a61f4 Removed obsolete internet APN for Indosat
+a6b8d30 cm: Ignore filters for platform library.
+aaac132 Build Platform resource package.
+b53c503 Build CM Platform Library
+4f810fe Overlay external services start.
+7520a20 Revert "vendor/cm: add CMBugReport"
+94645ab vendor/cm: add CMBugReport
+
+   * vendor/cmsdk/
+1fa41bb Automatic translation import
+7d8eb9f Merge "Rename resource files" into cm-12.1
+5a08354 Rename resource files
+37c4b96 CMSDK: Don't share a namespace with the library.
+7267e32 Fix package name.
+3f13414 CMSDK: Make sure we're binding the correct permission for enforcement.
+4f0c2c3 CMSDK: Update tests for new permissions.
+2383b60 CMSDK: Update sample for new declared permission.
+6bcee3f CMSDK: Ignore subdir layer for resource package.
+37fc76f CMSDK: Create cyanogenmod platform resource package.
+
