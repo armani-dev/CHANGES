@@ -1,0 +1,217 @@
+===================================
+Since Fri Aug  7 16:42:50 UTC 2015
+===================================
+
+
+   * build/
+5b791bd roomservice: use force-sync when adding projects with roomservice
+
+   * external/sonivox/
+2be0130 DLS parser: fix wave pool size check.
+
+   * frameworks/av/
+a5dd546 MPEG4Extractor.cpp: handle chunk_size > SIZE_MAX
+49fa7b7 DO NOT MERGE - IOMX: Add buffer range check to emptyBuffer
+42903f8 HDCP: buffer over flow check -- DO NOT MERGE
+c086b29 DO NOT MERGE: Add AUtils::isInRange, and use it to detect malformed MPEG4 nal sizes
+
+   * frameworks/native/
+c491676 Verify that the native handle was created
+
+   * libcore/
+e64df66 OpenSSLX509Certificate: mark mContext as transient
+
+   * system/core/
+d869e89 Prevent integer overflow when allocating native_handle_t
+
+===================================
+Since Wed Aug  5 16:04:23 UTC 2015
+===================================
+
+
+   * hardware/qcom/display-caf-new/
+1d1fd25 hwc: Define binder interface to set view frame of a display
+21b5114 Add compatibility with cm
+
+   * hardware/qcom/media-caf-new/
+477a85b Add definitions to fix build error
+9c167c3 Fix build in cm tree
+4b7b4fd Add compatibility with cm
+
+   * kernel/xiaomi/armani/
+a2a0433 armani: defconfig: Enable FIOPS IO scheduler
+4c56b03 block: fiops ioscheduler core
+
+===================================
+Since Sun Jul 26 13:51:00 UTC 2015
+===================================
+
+
+===================================
+Since Tue Jul 14 19:03:10 UTC 2015
+===================================
+
+
+   * frameworks/av/
+9f65a14 Fix integer overflow when handling MPEG4 tx3g atom
+18b7e3c Fix integer underflow in covr MPEG4 processing
+b5738ab Prevent integer overflow when processing covr MPEG4 atoms
+96bd564 Fix integer underflow in ESDS processing
+c6fc769 Fix several ineffective integer overflow checks
+743caa8 Fix integer overflow during MP4 atom processing
+
+   * vendor/cm/
+b7842d4 APN: Update configurations for Philippine networks
+
+===================================
+Since Thu Jun 25 12:18:37 UTC 2015
+===================================
+
+
+   * device/xiaomi/armani/
+cf233bd Set fingerprint and other device props
+7712f44 Enable drm prop
+90ffa13 Reorganize makefiles
+e9d745f Don't symlink firmware files
+8f19f4d bluetooth: Disable interleave scan
+
+   * frameworks/base/
+751ec55 SystemUI: Fix mdpi ethernet indicator size
+
+===================================
+Since Fri Jun 19 12:51:12 UTC 2015
+===================================
+
+
+   * external/koush/Superuser/
+4053d97 Automatic translation import
+
+   * external/whispersystems/WhisperPush/
+0677428 Automatic translation import
+
+   * frameworks/base/
+163fbd5 Automatic translation import
+
+   * hardware/qcom/fm/
+a7d7517 Automatic translation import
+
+   * packages/apps/Apollo/
+3980ba7 Automatic translation import
+
+   * packages/apps/Bluetooth/
+f1e6e5f Automatic translation import
+
+   * packages/apps/BluetoothExt/
+18177e3 Automatic translation import
+
+   * packages/apps/Browser/
+bf05794 Automatic translation import
+
+   * packages/apps/CMAccount/
+a094465 Automatic translation import
+
+   * packages/apps/CMBugReport/
+ae85ce0 Automatic translation import
+
+   * packages/apps/CMFileManager/
+efbe940 Automatic translation import
+
+   * packages/apps/CMHome/
+1bb3692 Automatic translation import
+
+   * packages/apps/CMUpdater/
+02460d5 Automatic translation import
+
+   * packages/apps/CMWallpapers/
+68d5387 Automatic translation import
+
+   * packages/apps/Calculator/
+9ee719f Automatic translation import
+
+   * packages/apps/Calendar/
+8bbc8c9 Automatic translation import
+
+   * packages/apps/Camera2/
+1855d08 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+28b3f21 Automatic translation import
+
+   * packages/apps/Contacts/
+1657ca4 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+c458132 Automatic translation import
+
+   * packages/apps/DSPManager/
+4597fa5 Automatic translation import
+
+   * packages/apps/DeskClock/
+44cb1d4 Automatic translation import
+
+   * packages/apps/Dialer/
+87a8ce3 Automatic translation import
+
+   * packages/apps/Email/
+66aec77 Automatic translation import
+
+   * packages/apps/Gallery2/
+0bf22a5 Automatic translation import
+
+   * packages/apps/InCallUI/
+827163b Automatic translation import
+
+   * packages/apps/LockClock/
+d782e74 Automatic translation import
+
+   * packages/apps/Mms/
+c2275fb Automatic translation import
+
+   * packages/apps/Settings/
+09230fb Automatic translation import
+
+   * packages/apps/SoundRecorder/
+d1ce9f7 Automatic translation import
+
+   * packages/apps/Stk/
+a38ca2e Automatic translation import
+
+   * packages/apps/ThemeChooser/
+033270c Automatic translation import
+
+   * packages/apps/Torch/
+80a8dba Automatic translation import
+
+   * packages/apps/Trebuchet/
+fd9e6ec Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+46d9d7d Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+96eac2e Automatic translation import
+
+   * packages/providers/ContactsProvider/
+a01af6a Automatic translation import
+
+   * packages/providers/DownloadProvider/
+6178d0e Automatic translation import
+
+   * packages/providers/ThemesProvider/
+f9b8df2 Automatic translation import
+
+   * packages/providers/UserDictionaryProvider/
+64d9b51 Automatic translation import
+
+   * packages/services/Telephony/
+5b1a816 Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+58e75c8 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+ae71bdd Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+e68a07d Automatic translation import
+
