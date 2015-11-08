@@ -1,0 +1,689 @@
+===================================
+Since Wed Nov  4 20:40:16 UTC 2015
+===================================
+
+
+   * device/xiaomi/armani/
+ad8c82f CameraWrapper: Disable HDR snapshots in video mode
+2015d44 Revert "Revert "Set multicore power saving in performance profiles""
+bbc2913 sepolicy: Less specific
+ba7df24 CameraWrapper: Modify base.common.version API define
+27a4568 CameraWrapper: Updates
+
+   * frameworks/av/
+861b59e audiopolicy: Fix A family a2dp mismerge
+
+   * frameworks/base/
+471b8ff Revert "Services : Ensure proximity check is taken into consideration"
+857b8ef Automatic translation import
+d6aedda base: get rid of android time class
+317990f Revert "Only accept user rotations when in USER_ROTATION_FREE mode"
+
+   * frameworks/opt/net/wifi/
+af2b866 wifi: don't disable AP on sub change if it's the same sub
+
+   * kernel/xiaomi/armani/
+8b09594 arm/dts: armani: Enable bam_dmux fast shutdown
+bceb7df defconfig: armani: Enable LZ4, and use it for ZRAM.
+1b4a11d lib: lz4: Set ARM_EFFICIENT_UNALIGNED_ACCESS
+66f62a4 zram: Add LZ4 support
+38f9fef lz4: add overrun checks to lz4_uncompress_unknownoutputsize()
+b633db1 lz4: fix another possible overrun
+fce87e2 lz4: ensure length does not wrap
+fb7997a lz4: fix compression/decompression signedness mismatch
+03a7db7 lib/lz4: correct the LZ4 license
+0a991b5 lib: add lz4 compressor module
+7be2981 lib: add support for LZ4-compressed kernel
+343d53a decompressor: add LZ4 decompressor module
+c61274f arm/dts: armani: Only include specific DTBs
+74760e3 ARM: dts: msm: Enable RTC write and alarm powerup on 8x26
+
+   * packages/apps/AudioFX/
+4a77508 Automatic translation import
+
+   * packages/apps/CMFileManager/
+8c39954 Automatic translation import
+
+   * packages/apps/Camera2/
+e6b9797 Automatic translation import
+
+   * packages/apps/Contacts/
+aa29642 Automatic translation import
+
+   * packages/apps/Dialer/
+a3845ef Automatic translation import
+
+   * packages/apps/Eleven/
+9d2f804 Automatic translation import
+
+   * packages/apps/Gallery2/
+6912a34 Automatic translation import
+
+   * packages/apps/LockClock/
+8751c90 Automatic translation import
+
+   * packages/apps/Mms/
+fee5d24 Automatic translation import
+
+   * packages/apps/Settings/
+7a985ee Remove CM translations of security_patch
+99c7c51 Automatic translation import
+24a133a wifi: Add a filter
+
+   * packages/apps/ThemeChooser/
+cb8b79c Automatic translation import
+
+   * packages/apps/Trebuchet/
+692799c Automatic translation import
+
+   * packages/apps/TvSettings/
+11ffa66 Automatic translation import
+
+   * packages/services/Telephony/
+c10cca6 Automatic translation import
+1acdc19 TeleService: Ensure the right phone object is used for MSIM
+
+   * packages/wallpapers/PhotoPhase/
+7ee94ae Automatic translation import
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+4b05a5a Revert "Update prebuilt gold for --pic-veneer option."
+3d2f537 Update prebuilt gold for --pic-veneer option.
+
+   * vendor/cm/
+d9d3201 Remove instance of server=""
+
+   * vendor/cmsdk/
+a6d50e0 Automatic translation import
+
+===================================
+Since Sat Oct 31 17:30:38 UTC 2015
+===================================
+
+
+   * android/
+f4b3d08 intel: Use our own intel hw projects for libdrm, hwc, & libmix
+a1a71ff android-5.1.1_r24 -> android-5.1.1_r26
+
+   * bootable/recovery/
+29e9b2f Merge tag 'android-5.1.1_r26' into cm-12.1
+
+   * build/
+4a013e5 build: Don't load dt.img task if custom mkbootimg is used
+3e8b427 build: create dt.img task
+a306ef0 ota_from_target_files: Don't validate data signatures with data wipe
+1249533 Merge tag 'android-5.1.1_r26' into HEAD
+
+   * cts/
+04eebc6 rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp
+9446958 Manually fix build errors from an MNC cherry-pick.
+a49f503 add more binder tests for AudioFlinger and AudioPolicyService.
+4783561 CTS: verify ConnectivityManager.requestNetwork throws for restricted networks
+74d90b3 Test if libstagefright dies in onInputBufferFilled on currupted file
+59cddac Add 5-second timeout to testFlacHeapOverflow
+f0ec278 DO NOT MERGE - Add security test for IEffect binder command
+a41f1b6 DO NOT MERGE: Test whether mediaserver leaks info across invalid binder calls
+b0e6092 DO NOT MERGE - Add CTS tests for IAudioflinger binder checks.
+
+   * device/xiaomi/armani/
+c1a0e20 Stop using custom mkbootimg.mk
+97b8958 Revert "Set multicore power saving in performance profiles"
+2229b40 overlay: Update tetherable interfaces
+02fa4d5 overlay: Disable hot swapping an UICC card
+ebd9005 Revert "Add overlay for non-roaming operator"
+
+   * frameworks/av/
+ee4b4d3 stagefright: MPEG4Extractor: allow 'hdlr' box before first track
+8295e4e DO NOT MERGE: Protect data source access with mutex during disconnect
+5d567cc Merge tag 'android-5.1.1_r26' into cm-12.1
+
+   * frameworks/base/
+d19d27b Update boosted audio files 1/2
+bd0e2f2 Merge tag 'android-5.1.1_r26' into cm-12.1
+04d2436 Fix crash if Exif-Tag buffer-length and component-count are both 0
+
+   * frameworks/native/
+1cba324 Merge tag 'android-5.1.1_r26' into cm-12.1
+
+   * frameworks/opt/telephony/
+c1b6b90 Fix NOT_RESTRICTED network capability and enforce it.
+35fc15d Merge tag 'android-5.1.1_r26' into cm-12.1
+
+   * hardware/qcom/media-caf/msm8916/
+bb144e5 Build mm-video-v4l2 on msm8909's
+
+   * kernel/xiaomi/armani/
+1166569 defconfig: armani: Enable ANDROID_BG_SCAN_MEM
+98786a5 drivers:lmk: Fix null pointer issue
+1c2e3da lowmemorykiller: Account for highmem during kswapd reclaim
+0047bf3 staging:android:lmk: read rb tree root with spinlock
+4160937 staging: android: lmk: add rcu lock while test task flag
+d1ef493 staging: android: lmk: check TIF directly
+a18d39b staging: android: lmk: skip if killed by lmk
+6421204 staging: android: lmk: check free memory when tasks switch to background
+badd164 trace: memkill: provide fixed zone info columns.
+5310b1d trace: memkill: per-zone page state for LMK
+6579924 staging: android: lowmemorykiller: select a new task to kill
+befbd25 slub: fix a memory leak in get_partial_node()
+c10637d PM: devfreq: Fix simple_ondemand crashing on startup
+ab97633 msm: kgsl: Only wake GPU on multitouch events
+9f3c8d3 msm: vidc: Always return 0 for EXTRADATA_SIZE
+252e15c fbdev: add events for early fb event support
+0b5c67b fbmem: add open2 and release2 which pass file argument
+2a032ca defconfig: armani: Disable CPU_BOOST
+366d21b futex: use freezable blocking call
+d6d479a nanosleep: use freezable blocking call
+84372b0 freezer: skip waking up tasks with PF_FREEZER_SKIP set
+ee690e8 freezer: shorten freezer sleep time using exponential backoff
+61aad3c lockdep: remove task argument from debug_check_no_locks_held
+a63c005 PM: Remove legacy code leftovers
+41356d2 lmk: wrap the lmk code with config
+8940880 drivers:lmk: Fix double delete issue
+a723013 stop_machine: fix race when queue work to stopper thread
+b839309 tracing/syscalls: Ignore numbers outside NR_syscalls' range
+56e7611 tracing/syscalls: Fix perf syscall tracing when syscall_nr == -1
+32351af futex: Make lookup_pi_state more robust
+64383e4 futex: Always cleanup owner tid in unlock_pi
+d45e23b futex: Validate atomic acquisition in futex_lock_pi_atomic()
+552fe7f sched: Remove redundant update_runtime notifier
+f288d5a proc: stat: fix idle time jump
+d9104c3 tick: don't update idle time if cpu offline
+b7cd1a2 cgroup: Fix use after free of cgrp (cgrp->css_sets)
+aec0f5e Revert "(CR) cgroup: check cgrp's count before removing"
+a4cdfc8 block: blktrace: MOST trace to use tgid
+9ac61bc timekeeping: cast to s64 when calculating monotonic boottime
+135f2fa block: blk-core: trace task names for blk requests
+225d587 cgroup: check cgrp's count before removing
+1645f35 cgroup: Take css_set_lock from cgroup_css_sets_empty()
+f55272f sched: fix race between try_to_wake_up() and move_task()
+5b51fa2 stop_machine: fix race between hotplug and sched
+ae230b7 defconfig: armani: Optimize with O2
+
+   * packages/apps/Camera2/
+44d2333 Fix crash if Exif-Tag buffer-length and component-count are both 0
+
+   * packages/apps/DeskClock/
+60d907d deskclock: support ogg music files
+
+   * packages/apps/Gallery2/
+77db8c7 Fix crash if Exif-Tag buffer-length and component-count are both 0
+
+   * packages/apps/LockClock/
+d2d601f LockClock : Add api key for open weather
+
+   * packages/apps/Mms/
+7965b67 Fix crash if Exif-Tag buffer-length and component-count are both 0
+
+   * packages/apps/Settings/
+58c9d69 Add translations for Security Patch Level.
+e6be537 Merge tag 'android-5.1.1_r26' into cm-12.1
+185ef46 Settings: update contributors cloud
+
+   * packages/apps/ThemeChooser/
+e6c8aec themechooser: listen for previews
+
+   * packages/apps/Trebuchet/
+2d723e2 GMS 3.0 : Update optional apps and folders
+8361472 Update default workspace to GMS 3.0 req
+f6a8d4f Fix crash if Exif-Tag buffer-length and component-count are both 0
+88dc0de Trebuchet: Enable HW Layers in app drawer
+
+   * system/core/
+323bb81 Merge tag 'android-5.1.1_r26' into cm-12.1
+4743d5c healthd: Turn screen off before rebooting
+
+   * vendor/cm/
+902c2cc Update boosted audio files 2/2
+7a218f8 Ventelo is now Phonero
+48a042e contributors: add LG G4, remove cody from some devices
+
+===================================
+Since Fri Oct 30 14:39:55 UTC 2015
+===================================
+
+
+   * build/
+efa52fa generate_extra_images: Allow supplying arguments to dtbtool
+
+   * device/xiaomi/armani/
+731b793 Update proprietary-files.txt
+2e0eeb6 Revert "Update sec_config in line with caf"
+cb515d8 WCNSS: Replace firmware from V7.0.5.0
+414dae3 mixer_path: Updates from V7.0.5.0
+
+   * frameworks/base/
+adadaa8 SystemUI: HeadsUp: Check if view isn't already in windowManager
+
+   * kernel/xiaomi/armani/
+117af45 prima: Add QCOM_TDLS config entry and derp fix
+0fbda64 prima: Replace with LNX.LA.3.5.2.2.2_rb1
+
+   * packages/apps/Contacts/
+4abb2f0 Contacts : Add ability to customize Contact Editor Views
+
+===================================
+Since Fri Oct 23 17:34:14 UTC 2015
+===================================
+
+
+   * build/
+67416e9 build: Adjust for device-specific HAL paths
+
+   * device/qcom/common/
+62e2fc0 power: enable perf options for power bias
+6948d77 power: add support for bias modes on 8994
+
+   * device/xiaomi/armani/
+a617c0e Revert "mixer_paths: Increase speaker gain"
+874480f Update fingerprint from latest official release V7.0.5.0
+78f8b8d CameraWrapper: Rewrite last changes
+9211260 Disable offload hw audio effects
+d7e81b1 Update audio props
+82f5fc9 Update power_profile.xml
+faf3757 Don't switch to bfq until after boot
+1ef0b51 CameraWrapper: Disable ZSL in video recording
+07f4b32 CameraWrapper: Disable flash in HDR mode
+ace18b2 mixer_paths: Increase speaker gain
+151532f lights: Increase ramp time to get led breathing
+
+   * external/stagefright-plugins/
+61bf067 codecs: Disable AC3/EAC3
+
+   * frameworks/av/
+3868162 camera: Allow devices to load custom CameraParameter code
+
+   * frameworks/base/
+7dd267d Keyguard: Show backdrop when sim pin secure screen shown
+51bdbe7 Only accept user rotations when in USER_ROTATION_FREE mode
+3f095e6 SettingsProvider: load animation defaults into correct table
+312801d Keyguard: fix fingerprint not starting after user switch
+f871234 FingerprintService: fix fingerprints disappearing
+4a5997c Automatic translation import
+2fa41c6 SystemUI: update keyguard state when profiles disable keyguard
+4d44dda perf: Add support for additional power profiles
+3cf6b3c Revert "autobrightness: Fix the brightness dialog is not work when first enable auto-backlight"
+11d47e4 base: don't show reboot options for safe mode
+
+   * frameworks/opt/telephony/
+f1cd40b Add getPreferredApn() in buildWaitingApns()
+
+   * hardware/qcom/display-caf/msm8974/
+d4c3461 hwc: reset overlay and writeback in unblank if writeback is active
+
+   * kernel/xiaomi/armani/
+ac1bb24 ASoC: msm: qdsp6v2: add support for any number of ASM buffers
+8220ee1 wcnss: Unregister subsys notifier
+8fbad78 wcnss: Reset IRIS card before Starting IRIS XO configuration
+ca70610 wcnss: Check the regulator point in wcnss_vregs_off
+1eb3c83 wcnss: Send FIQ to firmware after smp2p error ready happens
+
+   * packages/apps/BluetoothExt/
+ef81181 Automatic translation import
+
+   * packages/apps/CMFileManager/
+ab89abc Automatic translation import
+
+   * packages/apps/Contacts/
+dcfa888 Automatic translation import
+6b4976d Fix empty field creation for data kinds without type.
+
+   * packages/apps/DeskClock/
+3cc92a9 Proguard causing RuntimeException
+df1817d Null-check in case an AlarmInstance's Alarm no longer exists.
+
+   * packages/apps/Eleven/
+c544b6a Automatic translation import
+
+   * packages/apps/Email/
+b9984de email: junk icon
+db1ca54 email: return default folder name for subfolders
+
+   * packages/apps/Gallery2/
+7127cd4 Automatic translation import
+
+   * packages/apps/InCallUI/
+85ab64d Automatic translation import
+
+   * packages/apps/Mms/
+b9e9ff2 Fixed Messaging: Overflow menu options change after screen ON/OFF
+8297e7b Fix subject limit checking.
+2db7fb3 Fix formatting
+
+   * packages/apps/Settings/
+a5c9b8e Automatic translation import
+553b057 Settings : Update performance tile drawable reference
+0f7e5ff HighTouchSensitivity [2/2]: Add Settings preference
+e79c373 settings: ensure we don't call isProtectedApp with an invalid reference
+5fcea94 WirelessSettings: Remove NFC category if there's no NFC adapter
+
+   * packages/apps/ThemeChooser/
+7d117f9 Automatic translation import
+
+   * packages/apps/Trebuchet/
+56396c8 trebuchet: ensure not overlaping shorcuts with dockbar items when searchbar is invisible
+e0fe495 trebuchet: ensure not overlaping shorcuts and drop items when searchbar is invisible
+
+   * packages/apps/TvSettings/
+19d218c Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+8ef4be4 unifiedemail: junk icon
+95cc3e9 email: allow move/copy operations to more system folders
+
+   * packages/providers/ThemesProvider/
+2fdddef Fix live lock screen previews not showing up
+
+   * packages/services/Telephony/
+70674fd Automatic translation import
+
+   * packages/wallpapers/Basic/
+a62a6f5 PolarClock: Don't draw on invisible surfaces
+
+   * vendor/cmsdk/
+694c14c Automatic translation import
+826c1aa HighTouchSensitivity [1/2]: Add Settings preference
+20cecb7 CMSettingsProvider: Add ability to read region locked themes
+
+   * vendor/xiaomi/
+25f27c7 Update blobs from V7.0.5.0
+
+===================================
+Since Fri Oct 16 14:22:51 UTC 2015
+===================================
+
+
+   * android/
+7043987 Revert "efence: Add electric fence to default manifest."
+
+   * bootable/recovery/
+4224760 Blank screen during shutdown and reboot
+840c175 update-binary: support reboot_now on older recoveries
+
+   * build/
+22a3719 "LMY48Y"
+7fc9ab7 envsetup: Show error when supplied dir isn't present with mmm
+9f5ee48 edify: Fix _WordWrap function calls
+9c32ee8 kernel: Don't update defconfig with KERNEL_ADDITIONAL_CONFIG options
+8237106 kernel: use merge-config.sh for integrating KERNEL_ADDITIONAL_CONFIG
+4754814 mka: allow mka to be run from anywhere in the tree
+
+   * device/xiaomi/armani/
+897e67a Update mixer_paths.xml
+0fd82eb CameraWrapper: Enable ZSL
+9ef8173 CameraWrapper: Enable Morpho EasyHDR in HDR scene mode
+70b8917 Add camera wrapper
+ea5de13 sepolicy: Address camera and mpdecision denials
+
+   * external/koush/ion/
+3e1cfb0 Ion: Support exif rotation when using deepzoom
+
+   * external/sepolicy/
+cfce3d6 sepolicy: create new conditional bootchart
+
+   * frameworks/base/
+06c39e2 Wifi tile: don't set items visible from non-ui thread
+4432d5a AssetAtlasService: fix a potential race condition
+3169f4c Revert "[DO NOT MERGE] Bump up the timeout for uncrypt to 900s."
+3ba4c35 Automatic translation import
+1c4ed33 SystemUI: Improve play queue string
+25d8fd3 base: initialized context ContentResolver reference before use it.
+5835cda Lights Modes: Avoid regular values updates
+30e4de9 Support for faster brightness response to light changes.
+b76bfa5 ZenMode : Remove config_setZenModeWhenSilentModeOn
+71f3aa2 Revert "Modify SILENT profile to restrict notification sound"
+e8472bd Revert "ZenModeHelper: To pass android.media.cts.AudioManagerTest."
+
+   * frameworks/native/
+e4759c3 sensorservice: customize sensor fusion mag filter via prop
+
+   * frameworks/opt/telephony/
+2217a0c Make sure the APN setting list is never null.
+
+   * hardware/qcom/audio-caf/msm8916/
+90db087 add line out to device sharing codec backend
+359e995 hal: updates for DEVICE_OUT_LINE
+e845ba1 hal: Add support for AUDIO_DEVICE_OUT_LINE
+
+   * kernel/xiaomi/armani/
+4d63b20 arm/dts: msm8226: Enable bam_dmux fast shutdown
+ec037df soc: qcom: bam_dmux: Add fast-shutdown flag
+a8c8d4a selinux: correctly label /proc inodes in use before the policy is loaded
+9612b87 selinux: fix inode security list corruption
+6ff4141 KEYS: close race between key lookup and freeing
+d5801bd selinux: Report permissive mode in avc: denied messages.
+5c1cf10 Enable setting security contexts on rootfs inodes.
+5f4b3b2 SELinux: Fix possible NULL pointer dereference in selinux_inode_permission()
+b0f1a31 SELinux: include definition of new capabilities
+8d19caf platform: msm: add Per-File-Tagger (PFT) driver
+ae5ffd0 security: selinux: Add Per-File-Encryption hooks
+cb07da6 SELinux: Fix kernel BUG on empty security contexts.
+6ac40bb cpufreq: Protect against hotplug in cpufreq_register_driver()
+da74ba9 PM / Wakeup: Use rcu callbacks for better performance
+698d7b1 android: drivers: workaround debugfs race in binder
+ec7747f udp: fix behavior of wrong checksums
+7af9d6b fs: take i_mutex during prepare_binprm for set[ug]id executables
+8e06b5b netfilter: nf_conntrack: reserve two bytes for nf_ct_ext->len
+a5a620c ipv6: Don't reduce hop limit for an interface
+5e7f4ad kernel: Replace timeconst.pl with a bc script
+235b5be arm: irq: Tone down kernel logging
+9fcbcb5 msm: cpufreq: Fixup some kernel logging
+571ef55 msm: cpufreq: Break early if target freq is current freq
+05db989 arm: msm: Remove MSM_CPU_FREQ_SET_MIN_MAX related config
+d7fa854 cpufreq: cpu-boost: Use one work to remove input boost for all CPUs
+97661a3 cpufreq: cpu-boost: Support separate input_boost_freq for different CPUs
+07f150e cpufreq: Sync on thread migration optimizations
+f72272a kernel: Restrict permissions of /proc/iomem.
+d97aa6f cpufreq: cpu-boost: Resolve deadlock when waking up sync thread
+3644812 soc: qcom: rq_stats: Always show idle time left
+d7a8c64 net: rps: fix cpu unplug
+02605fe cpufreq: Return directly in __cpufreq_get if policy is NULL
+6d35a80 cpufreq: conservative: Set some usable defaults
+989faab cpufreq_conservative: Improve support for micro idle accounting
+e2dc1b2 nf: IDLETIMER: time-stamp and suspend/resume handling.
+1c9dbd5 Revert "nf: IDLETIMER: time-stamp and suspend/resume handling."
+31f33f8 Revert "nf: Fix PM notifier list corruption"
+817b603 nf: Fix PM notifier list corruption
+916d5ef nf: time keeping changed from wall-clock to boot-time
+64f90e6 nf: IDLETIMER: time-stamp and suspend/resume handling.
+380dc9b cpufreq: cpu-boost: Re-issue boosts above minimum frequency
+b6670d8 cpufreq: cpu-boost: Resolve deadlock when waking up sync thread
+b4463c7 msm: pm: Fix cpu collapse timeout
+e02d823 cpufreq: Sync on thread migration optimizations
+53afed1 cpufreq: Fix broken uevents for cpufreq governor and cpu devices
+b7144de drivers: cpufreq: Send a uevent when governor changes
+153a9c7 msm: Use interruptible wait to not affect load average
+cdbcb17 cpufreq: ondemand: Use interruptible wait to not affect load average
+ddf2f01 qcom-cpufreq: Restore CPU frequency during resume
+faa8e6d msm: cpufreq: Add pm notifiers
+67db4bc msm: kgsl: Bump the GPU frequency for long blocks of processing
+1e78f5d msm: kgsl: set the correct max_state
+b7076a1 PM / devfreq: governor_bw_hwmon: Add suspend/resume support
+352d247 PM / devfreq: bw_hwmon: Move IRQ handling to device specific drivers
+516e2e0 PM / devfreq: Refactor CPUBW HWmon governor to be more generic
+803eb3c PM / devfreq: Add cache HW monitor governor
+ed21ad4 PM / devfreq: Check for GPU busy time before sending the sample
+7154690 devfreq: Make cpubw_hwmon governor reusable and hardware agnostic
+79cde8b PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs
+7bcc0cb qcom-cpufreq: Remove use of device_suspended in the hotplug path
+b0d0795 qcom-cpufreq: Allow all CPUs to get cpu_clk on targets with sync CPUs
+77bc47c clk: qcom: Check return value using correct data type
+fc8bc07 clk: qcom: Allow clock-a7 to probe defer
+d7dcc1d clock-a7/krait: Change initcall level for early probe
+3f196ce msm: cpufreq: Remove use of cpu_is_* API
+fb59e62 msm: cpufreq: Remove redundant check in cpu_set_freq
+d0f80d2 qcom-cpufreq: Fix hotplug blocking logic
+741e4be qcom-cpufreq: Block hotplug until cpufreq is ready
+26321f3 msm: cpufreq: Remove acpuclock calls from cpufreq
+788ceda msm: cpufreq: Move the enabling of the CPU/L2 clocks to CPU_STARTING
+3167a53 leds: leds-qpnp: avoid calling pwm_disable when scaling leds' brightness
+92dc7a4 leds: leds-qpnp: PWM period granularity auto selection for leds
+6faed39 leds: leds-qpnp: avoid truncation in qpnp_led_masked_write function
+4e7bf9d leds: leds-qpnp: Reset WLED enable register in wled init function
+e3e976f defconfig: armani: Enable all cpu governors
+2f31303 cpufreq: cpu-boost: config cpu_boost separately
+d4adbe8 cpufreq: interactive: don't boost cpu if already boosted
+c43fe9e cpufreq: cpu-boost: Dont boost if interrupted by signal
+8a0c53c cpufreq: cpu-boost: Use interruptible wait to not affect load average
+3613cd9 cpufreq: Manage only online cpus
+68e0262 cpufreq: interactive: don't schedule timer on offline cpu
+1574a88 Power: Changes the permission to read only for sysfs file /sys/kernel/wakeup_reasons/last_resume_reason
+9642726 power: wakeup_reason: rename irq_count to irqcount
+11e19b3 Power: Add guard condition for maximum wakeup reasons
+dbf0d02 POWER: fix compile warnings in log_wakeup_reason
+730dc44 Power: add an API to log wakeup reasons
+82170db power: catch wake-up requests in suspend_again
+cc9cb1e power: quickwakeup: initial driver
+6f12e3e power: make sync on suspend optional
+d9c0b95 earlysuspend: increase watchdog timeout to 12s
+c5f846b earlysuspend: Add 10s handler timeout
+3d2b5b2 PM: suspend: add timeout in suspend resume
+0cfc264 power: main: Disable VT switch on suspend/resume
+6bb7158 deconfig: armani: Enable CGROUP_MEM_RES_CTLR
+e52ab7f mm/slub: Add debug code for tracing slub usage
+b3f43a5 mm: prevent MIGRATE_ISOLATE pages entering other free lists
+883f5ed mm: vmscan: do not count anon pages as reclaimable if swap is small
+0fad7e4 mm: compaction: compact all zones when turning off screen
+ddda99b oom_adj_rbtree: delete task before changing oom score
+70c26e6 nick kvfree() from apparmor
+ab6ba5a swap: mem_cgroup_count_swap_user is unlocking wrong spinlock
+b968896 slub: Take node lock during object free checks
+5933fce mm: Added min_free_normal_offset proc entry.
+2734d0f staging: android: lowmemorykiller: implement task's adj rbtree
+37af4d5 mm: compaction: do suspend compaction in workqueue
+03dca9e compact all zones on earlysuspend
+7507cd4 mm: page_alloc: retry direct compaction
+3bf4bcf mm: compaction: compact normal zone
+7ed4290 trace: allow memkill tracing to be selectively enabled
+04c46e3 trace: memkill: trace LMK and OOM kills
+c5fe6dd memcg: oom: fix totalpages calculation for memory.swappiness==0
+
+   * packages/apps/CMFileManager/
+b2e715e Automatic translation import
+06b63a7 Thumbnail update on copy and overwrite issue of pictures
+3a4d70f Use System Resolver
+
+   * packages/apps/CMUpdater/
+4e5fbed Automatic translation import
+
+   * packages/apps/Calendar/
+de4e6ca Automatic translation import
+
+   * packages/apps/Contacts/
+ab1e2ac Automatic translation import
+
+   * packages/apps/DeskClock/
+5b4d6c3 Automatic translation import
+
+   * packages/apps/Email/
+7aa1f50 email: Add an ActionBar to the mail app's PreferenceActivity
+
+   * packages/apps/Gallery2/
+9a39c44 Automatic translation import
+
+   * packages/apps/Mms/
+4598153 Correct AOSP DE translation error
+ca2b9bc Fix NPE causing crash when copying message with no body.
+
+   * packages/apps/Settings/
+d124efa settings: update contributors stats
+c2f6129 settings: update control ring stream string
+49f5298 protected-apps: don't show a progress dialog for short operations
+26fe05e Settings: Fix LCD Density preference crash on secondary user
+47a7bb6 Settings: update layouts
+4275caa Automatic translation import
+4dd3efe Protected Apps: add some side padding in app list view
+
+   * packages/apps/SetupWizard/
+52f6310 Automatic translation import
+
+   * packages/apps/TvSettings/
+6bbba7d Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+322e058 Automatic translation import
+671d932 Add an ActionBar to the mail app's PreferenceActivity.
+
+   * packages/inputmethods/LatinIME/
+305b050 Automatic translation import
+
+   * packages/services/Mms/
+537889f Automatic translation import
+
+   * packages/services/Telephony/
+0c2f1f4 Automatic translation import
+62d5dea TeleService: Make ongoing mwi notification overlayable
+
+   * system/core/
+441cdba bootchart: call 'bootchart_init' after remount_all is done
+
+   * vendor/cm/
+6807df0 sepolicy: allow various process access /data/bootchart folder
+900d6cc Updated CHANGELOG and (c) date
+6b4620f sepolicy: qcom: Remove duplicate entry
+
+   * vendor/cmsdk/
+8c87673 Automatic translation import
+
+   * vendor/xiaomi/
+6ccfbd5 Rename camera hal, needed for camera wrapper
+
+===================================
+Since Tue Oct 13 19:23:43 UTC 2015
+===================================
+
+
+   * device/qcom/common/
+91fda27 Revert "msm8994: Set a property to track battery mode"
+2565d56 msm8994: Set a property to track battery mode
+
+   * device/qcom/sepolicy/
+06765fd DPM : sepolicy: allow netdomain access to cnd and dpmd
+
+   * device/xiaomi/armani/
+701071d Add settings for off charge
+b61254c Revert "Revert "cpufreq: Disable io_is_busy""
+cee49d3 Revert "Enable dex-preoptimization"
+6980711 Remove flags for old camera stack
+5108171 Adapt performance profiles to new kernel
+5b79d25 sepolicy: Address denials for new blobs/kernel
+
+   * frameworks/base/
+e26e149 Fix network stats logspam.
+5c53679 SystemUI: Remove duplicated permission
+395021e SystemUI: attach a queue to media player notifications
+77dccaf Disable default blending when drawing color rect
+3c6d95f Fix rotation tile animation
+d57e767 SystemUI: Update screenshot notification icon to material
+d64bc48 Services : Ensure proximity check is taken into consideration
+
+   * frameworks/opt/telephony/
+8c08c03 Fix NPE on SIM hot swap.
+
+   * kernel/xiaomi/armani/
+299823d rtc: alarm: set power_on_alarm again when calling alarm_resume
+
+   * packages/apps/CMFileManager/
+25bcc73 Secure file moving issue fix
+
+   * packages/apps/ContactsCommon/
+aa5f431 Add interface for checking spam reporting provider
+
+   * packages/apps/Settings/
+de62628 Revert "Don't allow deleting last remaining fingerprint"
+89e5596 Improve fingerprint management activity UX.
+da5f449 Settings: use consistent behavior after forgetting networks
+bf65f1d Revert "Settings: clear dialog states when forgetting network"
+
+   * packages/apps/Trebuchet/
+9d7e661 Trebuchet : Switch to LOGD instead of isLoggable
+
+   * packages/providers/ContactsProvider/
+c23f25b Ensure contact preloading is dependent on regional configuration
+
+   * vendor/cmsdk/
+e649146 CMSettings: add notification play queue setting
+29be6a6 Improve several permission description Strings.
+
+   * vendor/xiaomi/
+cbce85a Update camera to fix sensors resolution
+
