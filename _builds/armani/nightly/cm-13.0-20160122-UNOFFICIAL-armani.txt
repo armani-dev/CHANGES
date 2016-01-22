@@ -1,0 +1,1589 @@
+===================================
+Since Fri Jan 15 09:59:37 UTC 2016
+===================================
+
+
+   * android/
+58bbcc9 Add UICommon
+
+   * cts/
+3189f36 merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+d3c154f Merge "DO NOT MEGE ANYWHERE: BUMP CTS 5.1 to R5" into lollipop-mr1-cts-dev am: c0c1c9e832  -s ours
+c0c1c9e Merge "DO NOT MEGE ANYWHERE: BUMP CTS 5.1 to R5" into lollipop-mr1-cts-dev
+c717d7e DO NOT MEGE ANYWHERE: BUMP CTS 5.1 to R5
+f3db83f Merge "DO NOT MERGE: BUMP CTS 6.0 to R3" into marshmallow-cts-dev
+989dcfb DO NOT MERGE: BUMP CTS 6.0 to R3
+0eb85f7 Merge "DO NOT MERGE security: Test OOB arbitrary write at AMessage::FromParcel" into kitkat-cts-dev am: 159f5ac229  -s ours am: 416dacbe88  -s ours am: 4af0fa2391  -s ours
+ea8a022 Merge "MediaMetadataRetrieverTest: remove unused import to fix compile error." into kitkat-cts-dev am: 2afd52cfae am: e749459d32 am: 6247829995
+1e1c6eb Merge "MediaMetadataRetrieverTest: add new test to handle overflowed padding." into kitkat-cts-dev am: 57d2004ef5 am: 3586f34329 am: 4dd10cc6f8
+bb7d503 Merge "Increase delta tolerance in TypefaceTest#testInvalidCmapFont" into lollipop-cts-dev am: 1700d1a47a am: f2c64ccec6
+002b86b Merge "CTS test for robust handling of invalid cmap" into lollipop-cts-dev am: d8748ad6d4 am: 37ec97501c
+4af0fa2 Merge "DO NOT MERGE security: Test OOB arbitrary write at AMessage::FromParcel" into kitkat-cts-dev am: 159f5ac229  -s ours am: 416dacbe88  -s ours
+6247829 Merge "MediaMetadataRetrieverTest: remove unused import to fix compile error." into kitkat-cts-dev am: 2afd52cfae am: e749459d32
+4dd10cc Merge "MediaMetadataRetrieverTest: add new test to handle overflowed padding." into kitkat-cts-dev am: 57d2004ef5 am: 3586f34329
+f2c64cc Merge "Increase delta tolerance in TypefaceTest#testInvalidCmapFont" into lollipop-cts-dev am: 1700d1a47a
+37ec975 Merge "CTS test for robust handling of invalid cmap" into lollipop-cts-dev am: d8748ad6d4
+416dacb Merge "DO NOT MERGE security: Test OOB arbitrary write at AMessage::FromParcel" into kitkat-cts-dev am: 159f5ac229  -s ours
+e749459 Merge "MediaMetadataRetrieverTest: remove unused import to fix compile error." into kitkat-cts-dev am: 2afd52cfae
+3586f34 Merge "MediaMetadataRetrieverTest: add new test to handle overflowed padding." into kitkat-cts-dev am: 57d2004ef5
+159f5ac Merge "DO NOT MERGE security: Test OOB arbitrary write at AMessage::FromParcel" into kitkat-cts-dev
+3889e25 DO NOT MERGE security: Test OOB arbitrary write at AMessage::FromParcel
+a2f75ef Merge "DO NOT MERGE - Add security test for IEffect binder command" into lollipop-mr1-cts-dev am: 9ec9ffc78a  -s ours
+7b7ccd5 Merge "DO NOT MERGE: rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp" into lollipop-mr1-cts-dev am: 4ccc58b503  -s ours
+c79f685 Merge "DO NOT MERGE ANYWHERE: Test whether mediaserver leaks info across invalid binder calls" into lollipop-mr1-cts-dev am: 8e42b0e63c  -s ours
+9ec9ffc Merge "DO NOT MERGE - Add security test for IEffect binder command" into lollipop-mr1-cts-dev
+4ccc58b Merge "DO NOT MERGE: rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp" into lollipop-mr1-cts-dev
+8e42b0e Merge "DO NOT MERGE ANYWHERE: Test whether mediaserver leaks info across invalid binder calls" into lollipop-mr1-cts-dev
+ebd79b4 DO NOT MERGE - Add security test for IEffect binder command
+f4c1ac4 DO NOT MERGE: rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp
+99b34ec DO NOT MERGE ANYWHERE: Test whether mediaserver leaks info across invalid binder calls
+1700d1a Merge "Increase delta tolerance in TypefaceTest#testInvalidCmapFont" into lollipop-cts-dev
+d8748ad Merge "CTS test for robust handling of invalid cmap" into lollipop-cts-dev
+2afd52c Merge "MediaMetadataRetrieverTest: remove unused import to fix compile error." into kitkat-cts-dev
+57d2004 Merge "MediaMetadataRetrieverTest: add new test to handle overflowed padding." into kitkat-cts-dev
+f3c0498 Increase delta tolerance in TypefaceTest#testInvalidCmapFont
+fa86842 CTS test for robust handling of invalid cmap
+
+   * device/qcom/sepolicy/
+017145b sepolicy: fix mm-qcamerad permission for persist.camera* properties
+fcabab0 Merge branch 'LA.BF.1.1.3_rb1.8' of git://codeaurora.org/device/qcom/sepolicy into cm-13.0
+
+   * device/xiaomi/armani/
+f1617f1 Add flags for old modem
+0d2512f Cleanup and fix some makefiles
+e9388db CameraWrapper: No need to disable flash in front camera
+2c9a5fa overlay: Change some defaults in Snap
+c54e36a init.armani.usb: Correct MIDI idVendor and idProduct
+7777737 Update init_armani
+0f5c509 Nothing to see here, move along
+4ae5d4f Update proprietary-files.txt
+5d01e8c Happy new year
+6a5b73f media_profiles.xml: Updates
+e48eced healthd: Show battery percentage in off charge
+
+   * external/exfat/
+4a8592e exfat-fuse: Don't export UTF conversion functions
+8f3956f Handle 64-bit offsets correctly on Android
+
+   * external/f2fs-tools/
+c876665 f2fs-utils: Fix Android host utils
+8b00f01 Slight ifndef change
+35570b5 Fix readonly for android
+ad0f267 fsck.f2fs: return 0 for no error was reported
+bf2ada1 fsck.f2fs: assign checkpoint pointer correctly
+964adc0 fsck.f2fs: swap checkpoint crc to CPU endian
+bf12354 f2fs-tools: avoid failure and warnings for android build
+54dabbe mkfs.f2fs: introduce zone align for main area
+b5476e1 fsck.f2fs: fix double free invalid checkpoint
+75ecd2f man: modify mkfs.f2fs man page
+a896342 man: add missing man pages
+611f285 Update android version
+a901a43 f2fs-tools: release 1.6.0
+9a521a8 mkfs.f2fs: fix check error when calloc sum_compact failure
+32dd5f4 fsck.f2fs: fix losing journal entries
+0516d2b defrag.f2fs: fix missing SSA updates
+f00f43e defrag.f2fs: enhance allocation speed
+030ee52 libf2fs: fix incorrect type define of declaration
+09dfa9f defrag.f2fs: return error if there is no space
+8c04142 defrag.f2fs: eliminate unexpected journal entries
+9b8535c defrag.f2fs: fix not to allocate current segment
+837208e lib: use u8/u32/u64 for bit operations
+b54e4b5 lib: fix test_bit_le functions
+7d95d38 mkfs.f2fs: remove extent_cache entry for parent directory
+cd610cd mkfs.f2fs: fix storing volume label correctly in utf16
+d174269 fsck.f2fs: deal with realloc size and realloc failure
+a144fc1 Revert "fsck.f2fs: deal with realloc failure"
+729ecdf mkfs.f2fs: fix to calculate left space of checkpoint page correctly
+fd4f8d3 Android add f2fs defrag
+c18df71 defrag.f2fs: introduce defragmentation tool
+d19dbfc fsck.f2fs: LFS alloc_type must have free segment after blkoff
+4358121 f2fs-tools: export print_raw_sb_info
+2267b80 mkfs.f2fs: export get_best_overprovision
+17e0cb6 fsck.f2fs: sanity_check for extent_cache entry
+3de0318 libf2fs: enhance the bit operations
+4cf9c57 f2fs-tools: add library version info
+7e76ee5 mkfs/Makefile.am: add a section to build libf2fs_fmt
+8c1bb17 mkfs.f2fs: show correct partition size
+f78e245 fsck.f2fs: use get_{sb|cp} and set_{sb|cp} macros
+ea1e148 mkfs.f2fs: export get_{sb|cp} and set_{sb|cp}
+3b01e52 mkfs.f2fs: discard obsolete blocks to avoid roll-forward recovery
+ee06528 mkfs.f2fs: skip extension name that is too long
+5da4595 mkfs.f2fs: avoid dumplicate extensions
+e89637e fsck.f2fs: deal with realloc failure
+04d6106 fsck.f2fs: support a readonly filesystem
+f9c29e7 fsck.f2fs: declare static function
+
+   * external/ffmpeg/
+a86ba66 Merge branch 'release/2.8' of https://github.com/FFmpeg/FFmpeg into cm-13.0
+b8fa3ff avcodec/wavpackenc: print channel count in av_log call
+0639289 configure: bump copyright year to 2016
+e303ca3 Update for 2.8.5
+28f89bc avformat/hls: Even stricter URL checks
+23b903a avformat/hls: More strict url checks
+4676e20 avcodec/pngenc: Fix mixed up linesizes
+0c5a71f avcodec/pngenc: Replace memcpy by av_image_copy()
+07da255 swscale/vscale: Check that 2 tap filters are bilinear before using bilinear code
+be9b893 swscale: Move VScalerContext into vscale.c
+cdac68f swscale/utils: Detect and skip unneeded sws_setColorspaceDetails() calls
+1fd9556 swscale/yuv2rgb: Increase YUV2RGB table headroom
+c781a1e swscale/yuv2rgb: Factor YUVRGB_TABLE_LUMA_HEADROOM out
+b7d54d6 avformat/hls: forbid all protocols except http(s) & file
+90c2256 avformat/aviobuf: Fix end check in put_str16()
+f459afd avformat/asfenc: Check pts
+d408261 avcodec/mpeg4video: Check time_incr
+d7f7586 avcodec/wavpackenc: Check the number of channels
+f05e0e7 avcodec/wavpackenc: Headers are per channel
+e5567f2 avcodec/aacdec_template: Check id_map
+b8382a1 avcodec/dvdec: Fix "left shift of negative value -254"
+9cad208 avcodec/g2meet: Check for ff_els_decode_bit() failure in epic_decode_run_length()
+34e06ce avcodec/mjpegdec: Fix negative shift
+df4ee16 avcodec/mss2: Check for repeat overflow
+cb4ba74 avformat: Add integer fps from 31 to 60 to get_std_framerate()
+d79b6dd avformat/ivfenc: fix division by zero
+3686155 avcodec/mpegvideo_enc: Clip bits_per_raw_sample within valid range
+3fb97a0 avfilter/vf_scale: set proper out frame color range
+6457cd1 avcodec/motion_est: Fix mv_penalty table size
+aee9aa9 avcodec/h264_slice: Fix integer overflow in implicit weight computation
+14c63dc swscale/utils: Use normal bilinear scaler if fast cannot be used due to tiny dimensions
+709abc7 avcodec/put_bits: Always check buffer end before writing
+83c0df9 mjpegdec: extend check for incompatible values of s->rgb and s->ls
+0a6324f swscale/utils: Fix intermediate format for cascaded alpha downscaling
+2f65366 avformat/mov: Update handbrake_version threshold for full mp3 parsing
+
+   * external/mksh/
+db58d5b add ll and la aliases to shell
+
+   * external/stagefright-plugins/
+24988a8 stagefright-plugins: Update pixfmt
+6de1c90 stagefright-plugins: Skip stream with jpeg tag
+
+   * external/uicommon/
+7d9ebd3 Fix merge derp
+3e92fbe Don't intercept onTap event
+5ca66e4 Add a simple SnackBar that doesn't rely on AppCompat
+b0a0872 Revert "Add a simple SnackBar that doesn't rely on AppCompat"
+
+   * frameworks/av/
+7c1e4d7 av: "ACodec: update native window crop rectangle" depends on QCOM
+e80385c audio: Update anchor time for offload playback post resume
+4486f97 nuplayer: looping playback only if it was running
+9dae27c ACodec: update native window crop rectangle
+617daaf StagefrightMetadataRetriever: correct the status flag
+f6e8c70 AudioMixer: delete reformatBuffer provider in proper order
+427887b libstagefright:Fix random memcmp crash while accessing output format.
+
+   * frameworks/base/
+9848a79 Proximity: Fix prevent accidental wakeup
+9e2a830 SysUI: Check that backgrounds are RippleDrawables
+7bda589 SysUI: Guard against NPE in SignalClusterView
+a6e1f08 fix race condition between HWUI cache and renderThread
+c3e5e20 Paella: Enable Spanish single shift table
+aadb036 SystemUI: fix tiles per page when changing top tile type
+cd25461 SystemUI: fix disappearing tiles
+9048b48 SystemUI: fix viewpager page recycling
+d129565 SystemUI: fix qs tile page regressions
+4d84b82 pm: Add persist property to enable lazy dexopt
+79923fb Keyguard: set separator for multi-sim CarrierText
+b5c716f Improve Recents-View
+7787416 SystemUI: Fix copy-pasta of battery saver tile
+cded8d8 Add enabled pre-installed carrier apps
+aa4a566 Themes: Expose volume slider and thumb colors and make them work with custom images.
+b5dd079 SystemUI: add some tile removal hints
+627df3c SystemUI: fix lock screen tile state refresh
+9ee493a SystemUI: handle custom tile long press PendingIntents
+3a11610 SystemUI: improve qs tile layout mechanism
+6fb2c18 SystemUI: add a disabled state for Quick Tiles
+f15ce7a SystemUI: Add battery saver tile (1/2)
+a7e5f92 SystemUI: Add heads up tile (1/2)
+9848b97 Themes: Call recreateTheme when theme changed
+5b5e5de SysUI: Fix keyguard wallpaper not updating
+b277145 SysUI: Pass themed resources on to NavBarEditor
+12245b8 Themes: Fix applying theme for notifications
+ba54dd4 Keyguard: Clarify error message on bad input length.
+aabd1e4 StrictMode: fix deserialization of ViolationInfo on large stacks
+
+   * frameworks/opt/telephony/
+8942ed5 Do not disable permanently enabled carrier apps
+5a1d942 Fix wrong args when calls OperatorInfo
+07591f8 telephony: Make sure to check whether application info is null.
+62bcb10 telephony: update tests for disableCarrierAppsUntilPrivileged API change
+ee0fc82 Add support for permanently enabled carrier apps
+df7ab82 PhoneBase: Add auto-rat switching on capability changes
+e098f64 SubscriptionController: Default to DDS flexmap triggering
+6d6213a telephony: Fix persistence of automatic network selection
+
+   * hardware/libhardware/
+dcc6b5f amplifier: Fix compilation warning
+
+   * hardware/qcom/display-caf/msm8974/
+f4051ae hwc: Reset ROI and avoid dirtyRect for video case
+
+   * hardware/qcom/gps/
+0e7c6a8 gps: Simplify guard makefile
+
+   * hardware/qcom/keymaster/
+68fe4a7 Disable ION_HEAP_MASK_COMPATIBILITY_WA on Sony 3.10 Kernel
+
+   * hardware/qcom/media-caf/msm8994/
+79e831d Fix flooding of message in calcLumaAlign
+
+   * kernel/xiaomi/armani/
+97460bc rq_stats: Fix usage of cpufreq APIs
+6fe5791 msm: pm: Fix cpu collapse timeout
+913b208 soc: qcom: rq_stats: Always show idle time left
+a3d775d soc: qcom: rq_stats: Pass correct cpu id to update_average_load function
+ad47ad5 msm: rq_stats: Calculate load based on current freq limit
+0a29c5a2 armani: defconfig: Updates
+0a92639 ACPI / processor: prevent cpu from becoming online
+cc6bf32 msm: Fix high load average from uninterruptible waits
+d2f2244 arm: DT: msm8226: Update min-default adreno frequency to be 200MHz
+1b34210 armani: defconfig: Updates
+a14f38e arm: irq: Tone down kernel logging
+4aab2c9 armani: defconfig: Updates
+51c954a armani: defconfig: Enable ANDROID_LMK_ADJ_RBTREE
+2b59893 fs: avoid adding non-thread-group task to LMK rbtree
+c29fd2f kernel: avoid adding non-thread-group task to LMK rbtree
+c980340 lowmemorykiller: maintain LMK rbtree with signal->adj_node
+6a08ff7 lowmemorykiller: Check tgid with rcu lock held
+60f3fa8 oom_adj_rbtree: delete task before changing oom score
+23df511 lmk: wrap the lmk code with config
+2606c9d drivers:lmk: Fix null pointer issue
+d4b0007 drivers:lmk: Fix double delete issue
+7eccfd5 lowmemorykiller: Account for highmem during kswapd reclaim
+45a8d42 staging:android:lmk: read rb tree root with spinlock
+133b0f6 staging: android: lmk: add rcu lock while test task flag
+4421966 staging: android: lmk: check TIF directly
+4ee13b3 staging: android: lmk: skip if killed by lmk
+2138852 staging: android: lmk: check free memory when tasks switch to background
+5ebfaa2 staging: android: lowmemorykiller: implement task's adj rbtree
+e2b7d30 trace: memkill: provide fixed zone info columns.
+9040c55 trace: memkill: per-zone page state for LMK
+533fefc trace: allow memkill tracing to be selectively enabled
+27c6e87 trace: memkill: trace LMK and OOM kills
+abae855 staging: android: lowmemorykiller: select a new task to kill
+94966ab armani: defconfig: Disable CPU_BOOST
+c0e5afb cpufreq: cpu-boost: config cpu_boost separately
+43cceea cpufreq: interactive: don't boost cpu if already boosted
+7757e52 cpufreq: cpu-boost: Dont boost if interrupted by signal
+06639ec cpufreq: Manage only online cpus
+ceecc6b cpufreq: interactive: don't schedule timer on offline cpu
+1fb1ad5 cpufreq: interactive: fix compiling warnings
+e273fac ARM: 8160/1: drop warning about return_address not using unwind tables
+346f1e5 ASoC: msm: qdsp6v2: add support for any number of ASM buffers
+431a170 wlan: Address buffer overflow due to invalid length
+70f64cd ARM: dts: armani: Enable dynamic FPS feature
+1427dd4 arm/dts: msm8226: Enable bam_dmux fast shutdown
+daeeec3 soc: qcom: bam_dmux: Add fast-shutdown flag
+9291a8a armani: defconfig: Updates
+f92ad56 block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.4.0
+ad449ff block: introduce the BFQ-v7r8 I/O sched for 3.4
+425fe30 block: cgroups, kconfig, build bits for BFQ-v7r8-3.4
+e2d12b2 block: fiops ioscheduler core
+8513ba7 fs: introduce a generic shutdown ioctl
+e25feb8 f2fs: Sync with upstream
+54b999c f2fs: Initial import from kernel.org
+b629001 armani: defconfig: Enable LZ4, and use it for ZRAM
+2b981f3 lib: lz4: Set ARM_EFFICIENT_UNALIGNED_ACCESS
+cebcb3b zram: Add LZ4 support
+eb30eda lz4: add overrun checks to lz4_uncompress_unknownoutputsize()
+ccf703d lz4: fix another possible overrun
+21928f2 lz4: ensure length does not wrap
+74120bd lz4: fix compression/decompression signedness mismatch
+940e411 lib/lz4: correct the LZ4 license
+2797805 lib: add lz4 compressor module
+7da3cd9 lib: add support for LZ4-compressed kernel
+e9269a5 decompressor: add LZ4 decompressor module
+1e5b6bf kernel: Replace timeconst.pl with a bc script
+39e8f6d PM: devfreq: Fix simple_ondemand crashing on startup
+51c715a video: mdp4: Color temperature interface using PCC
+82cc1fe misc: ImmVibeSPI: add support for setting vibration intensity
+9f552cd ARM: dts: msm: Enable RTC write and alarm powerup on 8x26
+f80a0bc armani: defconfig: Optimize with O2
+805036b media: radio: Fix building and loading the IRIS transport
+8bbcae0 Revert "radio: iris: change the FM module from modular to built in"
+ab7a1b0 armani: defconfig: Disable modules
+7650a64 armani: defconfig: Build Pronto WLAN driver
+f28af1a Add Prima WLAN driver from LNX.LA.3.5.2.2.2_rb1
+8a612fc armani: defconfig: Add CyanogenMod variant
+87bd404 ASoC: msm: Allow DOLBY_DAP to be selected on MSM8226
+13b8973 ALSA: Export audio effects header
+cc0362a Fix sizeof-pointer-memaccess warning with gcc 4.8
+a3061c2 wcnss: Fix compilation issue w/ debug disabled
+fc13438 input: ft5x06_ts: unregister notifier_block on remove()
+912c6b6 input: ft5x06_ts: Fix unbalanced IRQ warning
+7a6d9f8 input: touchscreen: ft5x06: fix suspend on FB_BLANK_POWERDOWN
+c0866f9 msm: mdss: Fix auo 720p panel
+1436254 msm-vidc: fix buffer size calculation (video recording fix)
+a1d8c21 Revert "msm-camera: move target checks to userspace"
+c8514f5 Revert "msm: camera: Add support for multiple SOF events."
+d8c98c2 input: touchscreen: Xiaomi changes for HM 1S
+d050d91 drivers: Xiaomi changes for HM 1S
+1b7c466 ARM: Xiaomi changes for HM 1S
+
+   * packages/apps/Bluetooth/
+b9f0d69 Merge branch 'LA.BF.1.1.3_rb1.8' of git://codeaurora.org/platform/packages/apps/Bluetooth into cm-13.0
+
+   * packages/apps/Browser/
+250ebb8 Themes: Expose hard coded colors and styles from layouts
+
+   * packages/apps/Contacts/
+5595731 Move to new BlockContactHelper.BlockOperation
+2089467 Contacts : remove unused CONTACT_URI_EXTRA
+201c1ff Contacts : enable cleartext traffic
+
+   * packages/apps/ContactsCommon/
+60502a8 Refactor BlockContactHelper
+d6302ae Add lookupkey for Contact in ContactBuilder
+b88149f Add required permission to read vcf from gmail
+
+   * packages/apps/DeskClock/
+9d09dad Allow theming numpad
+
+   * packages/apps/Dialer/
+a1739cf Add back call stats feature.
+bd62aa8 Lookup: make people lookups work without location
+
+   * packages/apps/Email/
+a29e6b2 Improve notification coalescence algorithm.
+
+   * packages/apps/LockClock/
+ff1cf25 LockClock : Update to v23 + runtime permissions
+
+   * packages/apps/Messaging/
+2b515af Messaging: Implement option for swipe to delete.
+
+   * packages/apps/Settings/
+fd3eb78 Break out status bar icon from extdesk icon.
+2238e85 Fix up increasing ring tone volume preview behaviour.
+7c09a30 Settings: update FOTA link to be implicit
+f19108b Allow launching notification manager settings externally
+
+   * packages/apps/SetupWizard/
+f8e4ab6 SetupWizard : Set min date to Jan 1, 2016 GMT
+
+   * packages/apps/Snap/
+bb800ac Fix up layout of auto HDR notice and histogram view.
+42f6d5c Remove unused menu indicators code.
+4faa77d Avoid static member variable.
+96b38fd Improve CameraControls layout code.
+e1abba9 Fix transparent background color.
+788ae64 SnapdragonCamera: Fix UI alignment glitches when nav-bar is enabled
+5d94a49 Snap: Don't enable ZSL when disabling HDR
+4a42fc4 Snap: Add missing ISO350 to ISO arrays
+08ba343 Snap: Set some more qcom features as untranslatable
+98ebf87 SnapdragonCamera: Remove 'off' option for antibanding
+48408c9 SnapdragonCamera: Fix overly-aggressive auto rotation
+6411b0a SnapdragonCamera: Clarify antibanding settings
+b5de271 SnapdragonCamera: Add option to control antibanding in camcorder
+860c1f5 Snap: Enlarge the saving queue size to 60M
+a676e15 Revert "Camera: Propagate power mode selection from UI to lower layers."
+44cfc31 Don't needlessly make menu button larger than the other toggle buttons.
+3b96d32 Snap: Set some qcom features as untranslatable
+d8420e3 Drop new focus indicator into Camera2.
+db27186 Snap: Actually select the highest quality video by default
+
+   * packages/apps/SoundRecorder/
+77e037c soundrecorder: Put the menu back
+
+   * packages/apps/Trebuchet/
+f15a377 fix CTS failure on Trebuchet - manually picked from a269d518db02c8383e3621dff9d6054e3e9e48d6
+3961290 Themes: Expose hard coded colors from layouts
+4ff9b7d Trebuchet: Don't animate open folder if already open
+6732817 Trebuchet: Fix landscape spacing issue
+ab66f21 Trebuchet: Fix NPE when app search controller is off
+
+   * packages/providers/ThemesProvider/
+5756a99 Fix blank WiFi and signal icon previews
+
+   * packages/screensavers/PhotoTable/
+271651a Bump SDK version to 23 Implement runtime permissions for storage group
+
+   * prebuilts/cmsdk/
+7aa9190 prebuilts/cmsdk: Update future-release maven artifact.
+
+   * system/bt/
+b2f946e btm: Fix compile with BLE disabled (again)
+d4cd181 Merge branch 'LA.BF.1.1.3_rb1.8' of git://codeaurora.org/platform/system/bt into cm-13.0
+
+   * system/core/
+0907595 Revert "charger_mode: Set font as 'log'"
+e406b65 charger_mode: Set font as 'log'
+
+   * system/extras/
+c671736 fix bug in mkf2fs tool calculation of f2fs filesystem length
+
+   * system/vold/
+30c6a38 Fix mounting ext4 adopted storage
+78f24b1 vold ext4/f2fs: do not use dirsync if we're mounting adopted storage
+
+   * vendor/cm/
+67f9e7a vendor/cm: Bump cmsdk platform version.
+f0a6f1e Fixed mmm For Maven APK
+fc52e70 cm: Update maintainers
+04864b1 Fixed Maven Artifactory to work with jack
+
+   * vendor/cmsdk/
+80001bf cmsdk: Fix BuildTests. Bump parcelable version.
+735333c cmsdk: Add new version code to the sdkmap.
+24f2bb4 cmsdk: Introduce Elderberry, api level 5.
+ebf0f55 cmsdk: Finalize DragonFruit (api level 4).
+8d49200 CustomTiles: add a custom long press PendingIntent
+5400b2f cmsdk: Add battery saver tile (2/2)
+55cb123 cmsdk: Add heads up tile (2/2)
+cf3f38c cmsdk: Add CYANOGENMOD_VERSION constant.
+969cda0 cmsdk/tests: Temp hack to fix `mka` builds.
+
+===================================
+Since Mon Jan 11 11:38:30 UTC 2016
+===================================
+
+
+   * android/
+6f8a980 Use 3 more of our own intel repos (psb_headers, omx-components, libva)
+47d94a1 manifest: move mips prebuilts into notdefault
+
+   * art/
+0299788 art: Disable ART_HOST_CLANG on darwin builds.
+
+   * cts/
+517225a MediaMetadataRetrieverTest: remove unused import to fix compile error.
+01443c7 MediaMetadataRetrieverTest: add new test to handle overflowed padding.
+9fcbbc7 Merge "CTS test for libmedia OOB write anywhere" into marshmallow-cts-dev
+832986f Merge "Fixed issue with /" into marshmallow-cts-dev
+48e7ed4 Merge "add more binder tests for AudioFlinger and AudioPolicyService." into marshmallow-cts-dev
+4309958 Merge "DO NOT MERGE - Add security test for IEffect binder command" into marshmallow-cts-dev
+51e99e6 Merge "Test whether mediaserver leaks info across invalid binder calls" into marshmallow-cts-dev
+cf33884 Merge "Add CTS tests for IAudioflinger binder checks." into marshmallow-cts-dev
+6219c8d Merge "DO NOT MERGE: BUMP CTS 5.0 to R4" into lollipop-cts-dev am: a586149d31  -s ours am: 54986a2e57  -s ours
+54986a2 Merge "DO NOT MERGE: BUMP CTS 5.0 to R4" into lollipop-cts-dev am: a586149d31  -s ours
+a586149 Merge "DO NOT MERGE: BUMP CTS 5.0 to R4" into lollipop-cts-dev
+e311e3f DO NOT MERGE: BUMP CTS 5.0 to R4
+79a70a6 CTS test for libmedia OOB write anywhere
+cdee325 Fixed issue with /
+689fae0 Merge "DO NOT MERGE - add more binder tests for AudioFlinger and AudioPolicyService." into lollipop-cts-dev am: 7f00ee8353  -s ours am: 8c765c0137  -s ours
+524e6b8 Merge "DO NOT MERGE: rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp" into lollipop-cts-dev am: 4fa953d62f  -s ours am: 736057e6cd  -s ours
+4c0937c Merge "DO NOT MERGE - Add security test for IEffect binder command" into lollipop-cts-dev am: 25ae787b1f  -s ours am: 3ec2be0d35  -s ours
+0cb0f2b Merge "DO NOT MERGE ANYWHERE: Test whether mediaserver leaks info across invalid binder calls" into lollipop-cts-dev am: eb27e38300  -s ours am: 349efff4d6  -s ours
+be72c90 Merge "DO NOT MERGE - Add CTS tests for IAudioflinger binder checks." into lollipop-cts-dev am: a08da8832c  -s ours am: 5bd6970d0d  -s ours
+8c765c0 Merge "DO NOT MERGE - add more binder tests for AudioFlinger and AudioPolicyService." into lollipop-cts-dev am: 7f00ee8353  -s ours
+736057e Merge "DO NOT MERGE: rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp" into lollipop-cts-dev am: 4fa953d62f  -s ours
+3ec2be0 Merge "DO NOT MERGE - Add security test for IEffect binder command" into lollipop-cts-dev am: 25ae787b1f  -s ours
+349efff Merge "DO NOT MERGE ANYWHERE: Test whether mediaserver leaks info across invalid binder calls" into lollipop-cts-dev am: eb27e38300  -s ours
+5bd6970 Merge "DO NOT MERGE - Add CTS tests for IAudioflinger binder checks." into lollipop-cts-dev am: a08da8832c  -s ours
+7f00ee8 Merge "DO NOT MERGE - add more binder tests for AudioFlinger and AudioPolicyService." into lollipop-cts-dev
+3f51455 DO NOT MERGE - add more binder tests for AudioFlinger and AudioPolicyService.
+4fa953d Merge "DO NOT MERGE: rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp" into lollipop-cts-dev
+25ae787 Merge "DO NOT MERGE - Add security test for IEffect binder command" into lollipop-cts-dev
+eb27e38 Merge "DO NOT MERGE ANYWHERE: Test whether mediaserver leaks info across invalid binder calls" into lollipop-cts-dev
+a08da88 Merge "DO NOT MERGE - Add CTS tests for IAudioflinger binder checks." into lollipop-cts-dev
+01808e7 add more binder tests for AudioFlinger and AudioPolicyService.
+e88e845 DO NOT MERGE - Add security test for IEffect binder command
+879adeb Test whether mediaserver leaks info across invalid binder calls
+c2b384c Add CTS tests for IAudioflinger binder checks.
+0449073 DO NOT MERGE: rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp
+3b80130 Merge "DO NOT MERGE - add more binder tests for AudioFlinger and AudioPolicyService." into kitkat-cts-dev am: e39cc7ce62  -s ours am: ffc0dcf33d  -s ours am: 4c9cf80eb3  -s ours
+c23e2d6 Merge "DO NOT MERGE: rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp" into kitkat-cts-dev am: 5961e277eb  -s ours am: 06c672a2cb  -s ours am: c6945d860e  -s ours
+0552309 Merge "DO NOT MERGE - Add security test for IEffect binder command" into kitkat-cts-dev am: a1e31f3ae9  -s ours am: 83b20f59d5  -s ours am: c539227a67  -s ours
+282cd9c Merge "DO NOT MERGE: Test whether mediaserver leaks info across invalid binder calls" into kitkat-cts-dev am: 8f0493ad6e  -s ours am: 4bddfaa72b  -s ours am: 0272875e39  -s ours
+ba67b18 Merge "DO NOT MERGE - Add CTS tests for IAudioflinger binder checks." into kitkat-cts-dev am: ab7bf4d3e9  -s ours am: a84bb9bc90  -s ours am: 5166293f9b  -s ours
+4c9cf80 Merge "DO NOT MERGE - add more binder tests for AudioFlinger and AudioPolicyService." into kitkat-cts-dev am: e39cc7ce62  -s ours am: ffc0dcf33d  -s ours
+c6945d8 Merge "DO NOT MERGE: rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp" into kitkat-cts-dev am: 5961e277eb  -s ours am: 06c672a2cb  -s ours
+c539227 Merge "DO NOT MERGE - Add security test for IEffect binder command" into kitkat-cts-dev am: a1e31f3ae9  -s ours am: 83b20f59d5  -s ours
+0272875 Merge "DO NOT MERGE: Test whether mediaserver leaks info across invalid binder calls" into kitkat-cts-dev am: 8f0493ad6e  -s ours am: 4bddfaa72b  -s ours
+5166293 Merge "DO NOT MERGE - Add CTS tests for IAudioflinger binder checks." into kitkat-cts-dev am: ab7bf4d3e9  -s ours am: a84bb9bc90  -s ours
+1eba384 DO NOT MERGE - Add security test for IEffect binder command
+96cdf3c DO NOT MERGE ANYWHERE: Test whether mediaserver leaks info across invalid binder calls
+95959a8 DO NOT MERGE - Add CTS tests for IAudioflinger binder checks.
+ffc0dcf Merge "DO NOT MERGE - add more binder tests for AudioFlinger and AudioPolicyService." into kitkat-cts-dev am: e39cc7ce62  -s ours
+06c672a Merge "DO NOT MERGE: rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp" into kitkat-cts-dev am: 5961e277eb  -s ours
+83b20f5 Merge "DO NOT MERGE - Add security test for IEffect binder command" into kitkat-cts-dev am: a1e31f3ae9  -s ours
+4bddfaa Merge "DO NOT MERGE: Test whether mediaserver leaks info across invalid binder calls" into kitkat-cts-dev am: 8f0493ad6e  -s ours
+a84bb9b Merge "DO NOT MERGE - Add CTS tests for IAudioflinger binder checks." into kitkat-cts-dev am: ab7bf4d3e9  -s ours
+e39cc7c Merge "DO NOT MERGE - add more binder tests for AudioFlinger and AudioPolicyService." into kitkat-cts-dev
+2566392 DO NOT MERGE - add more binder tests for AudioFlinger and AudioPolicyService.
+5961e27 Merge "DO NOT MERGE: rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp" into kitkat-cts-dev
+a1e31f3 Merge "DO NOT MERGE - Add security test for IEffect binder command" into kitkat-cts-dev
+8f0493a Merge "DO NOT MERGE: Test whether mediaserver leaks info across invalid binder calls" into kitkat-cts-dev
+ab7bf4d Merge "DO NOT MERGE - Add CTS tests for IAudioflinger binder checks." into kitkat-cts-dev
+0a93ef4 DO NOT MERGE: rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp
+47d7c97 DO NOT MERGE - Add security test for IEffect binder command
+ab3b26d DO NOT MERGE: Test whether mediaserver leaks info across invalid binder calls
+184289f DO NOT MERGE - Add CTS tests for IAudioflinger binder checks.
+d05f05a Merge "DO NOT MERGE Collect ro.build.reference.fingerprint" into lollipop-cts-dev am: e5a88f069a  -s ours am: c478cd9634  -s ours
+c478cd9 Merge "DO NOT MERGE Collect ro.build.reference.fingerprint" into lollipop-cts-dev am: e5a88f069a  -s ours
+0f11c9c Merge "Collect ro.build.reference.fingerprint" into marshmallow-cts-dev
+e5a88f0 Merge "DO NOT MERGE Collect ro.build.reference.fingerprint" into lollipop-cts-dev
+b6e9afd Collect ro.build.reference.fingerprint
+558dd2c DO NOT MERGE Collect ro.build.reference.fingerprint
+028d6cb Merge "Revert "Collect ro.build.reference.fingerprint"" into lollipop-cts-dev am: ccbb14667a am: 8cb1f6f745
+8cb1f6f Merge "Revert "Collect ro.build.reference.fingerprint"" into lollipop-cts-dev am: ccbb14667a
+ccbb146 Merge "Revert "Collect ro.build.reference.fingerprint"" into lollipop-cts-dev
+3e92a58 Revert "Collect ro.build.reference.fingerprint"
+7bc9aed Merge "Revert "Collect ro.build.reference.fingerprint"" into lollipop-cts-dev am: 698cb2e949 am: 2e3b853882
+2e3b853 Merge "Revert "Collect ro.build.reference.fingerprint"" into lollipop-cts-dev am: 698cb2e949
+2fc6689 Merge "CTS: check non-zygote apps are not debuggable DO NOT MERGE" into kitkat-cts-dev am: a602824a95  -s ours am: 71d833b86c  -s ours am: 62d29d47b9  -s ours
+698cb2e Merge "Revert "Collect ro.build.reference.fingerprint"" into lollipop-cts-dev
+12813c9 Revert "Collect ro.build.reference.fingerprint"
+62d29d4 Merge "CTS: check non-zygote apps are not debuggable DO NOT MERGE" into kitkat-cts-dev am: a602824a95  -s ours am: 71d833b86c  -s ours
+71d833b Merge "CTS: check non-zygote apps are not debuggable DO NOT MERGE" into kitkat-cts-dev am: a602824a95  -s ours
+a602824 Merge "CTS: check non-zygote apps are not debuggable DO NOT MERGE" into kitkat-cts-dev
+8f043e6 Merge "Add test for Keystore put overflow" into kitkat-cts-dev am: 3f4ce7b16b am: ab95f50da8 am: 712ed9c5ee
+712ed9c Merge "Add test for Keystore put overflow" into kitkat-cts-dev am: 3f4ce7b16b am: ab95f50da8
+ab95f50 Merge "Add test for Keystore put overflow" into kitkat-cts-dev am: 3f4ce7b16b
+3f4ce7b Merge "Add test for Keystore put overflow" into kitkat-cts-dev
+0d68da7 Merge "Collect ro.build.reference.fingerprint" into lollipop-cts-dev am: 3fba10eb3c am: d0330bb287
+d0330bb Merge "Collect ro.build.reference.fingerprint" into lollipop-cts-dev am: 3fba10eb3c
+3fba10e Merge "Collect ro.build.reference.fingerprint" into lollipop-cts-dev
+69a98ee Merge "Fix layout for WebViewTest#testRequestChildRectangleOnScreen" into lollipop-mr1-cts-dev am: a2e58413d5
+a2e5841 Merge "Fix layout for WebViewTest#testRequestChildRectangleOnScreen" into lollipop-mr1-cts-dev
+c84debe Fix layout for WebViewTest#testRequestChildRectangleOnScreen
+0cbbf64 Merge "CTS fix: HifiUltrasoundSpeakerTestActivity is available with a speaker" into marshmallow-cts-dev
+5788c52 CTS fix: HifiUltrasoundSpeakerTestActivity is available with a speaker
+49a587a Merge "Should use getSupportedVideoSizes()" into kitkat-cts-dev am: 3b0becee1f  -s ours am: a32933f3d4 am: c2ca8bd64e
+c2ca8bd Merge "Should use getSupportedVideoSizes()" into kitkat-cts-dev am: 3b0becee1f  -s ours am: a32933f3d4
+1588f91 Merge "Fix for LocationModeHighAccuracyTestActivity test." into kitkat-cts-dev am: 3d84f7178b  -s ours am: ce81436bec am: b1542cfccc
+a32933f Merge "Should use getSupportedVideoSizes()" into kitkat-cts-dev am: 3b0becee1f  -s ours
+b1542cf Merge "Fix for LocationModeHighAccuracyTestActivity test." into kitkat-cts-dev am: 3d84f7178b  -s ours am: ce81436bec
+ce81436 Merge "Fix for LocationModeHighAccuracyTestActivity test." into kitkat-cts-dev am: 3d84f7178b  -s ours
+238d2e5 Collect ro.build.reference.fingerprint
+
+   * device/qcom/common/
+542ac97 power: Add support for 8952
+
+   * device/xiaomi/armani/
+9a51c19 CameraWrapper: Fix stability issues
+835118c overlay: Add bluetooth
+
+   * external/libpng/
+75a4e74 libpng: fix hang during read when inflate fails
+
+   * external/uicommon/
+fcf1798 Add a simple SnackBar that doesn't rely on AppCompat
+b87d655 Add GalleryNext fixes to SlideUpPanelLayout
+
+   * frameworks/av/
+8ad6568 av: Add support for loading audio_effects_vendor.conf
+ddf0593 libstagefright: Support YVU420SemiPlanar camera format
+
+   * frameworks/base/
+18b5c90 SysUI: Clean up objects when recreating statusbar
+eff6b9c SettingsProvider: Force aosp upgrade path from 12.1.
+8a74e97 SysUI: Use Objects.equals() for comparing components
+691a618 SysUI: Fix notification panel alignment after theme change
+7cb6167 policy: disable EdgeGestureService
+d118867 allow GET_ACCOUNTS_PRIVELEGED to be whitelisted
+91b446d AdbOverNetworkTile: only de/reregister the observer when setListening changes whether we should be listening
+0f4b580 SysUI: Reuse controllers and managers
+9501c4a SystemUI: write keyguard enabled setting to CMSettings
+7052494 SystemUI: Make lockscreen visualizer battery friendly
+6134c52 SysUI: Re-add status icons in recreateStatusBar()
+adb285e SystemUI: Fix CallbackHandler and NetworkControllerBase tests.
+2f47c98 SysUI: Disable window animation when using KeyguardExternalView
+9f84cac SysUI: Handle KgdExtView callbacks on UI thread
+8406b5c SystemUI: Removing padding on mobile signal group.
+eb91bd8 Ringtone: Add support for selection of phone ringtone for SIM-2.
+7d21b54 SettingsProvider: Disable data roaming by default
+fe976b7 SystemUi: Reintroduce always_show_roaming config.
+df5e230 ThemeService: ManagedProvisioning is a setup package too.
+f20ea48 SystemUi: Nuke DONT_TRACK label, and introduce CMMetricsLogger constants.
+dd2be59 Make WIFI_IDLE_MS default into an overlay
+50ff24f Automatic translation import
+2b30269 Fix drawing of VectorDrawables that are rotated by 90 or 270 degrees.
+e62097f Increase brightness faster if ambient light is brightening quickly.
+e357576 Optimize GPS property reloading.
+41ab56e Align checkbox and description in permission confirmation dialog
+
+   * frameworks/opt/net/wifi/
+53cbe97 Use def_wifi_idle_ms to fetch WIFI_IDLE_MS defaults
+
+   * frameworks/support/
+6f0a2cb Make sure that AppBarLayout is laid out correctly
+2ae0ed1 AppBarLayout layout/measure fixes
+
+   * hardware/intel/common/libmix/
+347c889 intel: videoencoder: Kill logspam when casting a screen
+fea1c72 intel: videodecoder: Remove attrib_ptr for zenfone2 blobs
+eaa09ab intel: videodecoder: mpeg4: Remove got_vol/got_vop for zenfone2
+543245f intel: videodecoder: AVC: Remove "constraint_set5_flag" for zenfone2
+e01cfdd intel: libmix: Use ASUS_ZENFONE2_LP_BLOBS instead
+
+   * hardware/intel/common/libva/
+92286f2 intel: av: Remove attrib_ptr for zenfone2 blobs
+02ad2b8 intel: av: Update slice header group def to support zenfone2 blobs
+
+   * hardware/intel/common/libwsbm/
+b2fc92b intel: libwsbm: Use ASUS_ZENFONE2_LP_BLOBS instead
+
+   * hardware/intel/common/omx-components/
+43ccd58 intel: omx: Unbreak SetConfigVideoBitrate
+1338ce0 intel: omx: Zenfone2 blobs cannot handle metadata mode
+eef0672 intel: omx: LP blob compatibility
+
+   * hardware/intel/img/hwcomposer/
+a1ae079 Merge "HWC: adapt VirtualDevice for old blob compliance" into cm-13.0
+fed56bf Merge "Hwcomposer: Enable VirtualDisplay feature" into cm-13.0
+8b7b71a intel: hwcomposer: csc mode is only supported on newer blobs
+a2bc976 intel: hwcomposer: Use ASUS_ZENFONE2_LP_BLOBS instead
+
+   * hardware/intel/img/psb_headers/
+21817aa intel: mixvbp: LP blob compatibility
+
+   * hardware/intel/img/psb_video/
+a1c9ae0 intel: psb_video: LP blob compatibility
+28f732b intel: psb_video: Use ASUS_ZENFONE2_LP_BLOBS instead
+
+   * hardware/qcom/audio-caf/msm8916/
+1c5250f audio HAL: fix thread starvation
+793548e audiopolicy: use deep buffer output by default for music streams
+86d47ef hal: Support the msm8939-florida-snd-card.
+
+   * hardware/qcom/audio-caf/msm8994/
+998901b Merge tag 'LA.BF64.1.2.2-02240-8x94.0' into cm-13.0-caf-8994
+
+   * hardware/qcom/display-caf/apq8084/
+fc41c61 hwc: Fix compile errors after display-frameworks removal
+
+   * hardware/qcom/display-caf/msm8974/
+8c9082a gralloc: allow forcing old pixel alignment
+
+   * hardware/qcom/display-caf/msm8994/
+1dbc343 Merge tag 'LA.BF64.1.2.2-02240-8x94.0' into cm-13.0-caf-8994
+
+   * hardware/ti/omap4/
+9ce3921 add CMHW for ColorCalibration/LiveDisplay
+
+   * packages/apps/AudioFX/
+49c1954 Automatic translation import
+
+   * packages/apps/Bluetooth/
+4885bdd Automatic translation import
+
+   * packages/apps/BluetoothExt/
+9061adc Automatic translation import
+
+   * packages/apps/Browser/
+f99d466 Automatic translation import
+
+   * packages/apps/CMBugReport/
+5a019fc Automatic translation import
+
+   * packages/apps/CMFileManager/
+26fd0d7 Bump target SDK version to 23
+9efd883 Automatic translation import
+
+   * packages/apps/CMUpdater/
+2e99408 Automatic translation import
+
+   * packages/apps/CMWallpapers/
+d7e4964 Automatic translation import
+
+   * packages/apps/Calendar/
+2c28b43 Automatic translation import
+
+   * packages/apps/Camera2/
+ebd0718 Automatic translation import
+
+   * packages/apps/CarrierConfig/
+7b25cb4 Set voicemail's notification persistent for O2 UK
+
+   * packages/apps/Contacts/
+a08be42 Add contact blocking and unblocking
+019f467 Automatic translation import
+64a9c32 Fix "Copy to .. " overflow menu item title
+
+   * packages/apps/ContactsCommon/
+f1501f5 Ensure non-null encoded uri before attempting to parse
+cf86693 Add block contact dialog and supporting helper classes
+bbf7e82 Refactor contact info lookup
+b5b16f7 Automatic translation import
+
+   * packages/apps/DeskClock/
+ef62c1a Expose background colors for theming.
+e6065f8 Automatic translation import
+
+   * packages/apps/Dialer/
+5a46f31 Automatic translation import
+
+   * packages/apps/Eleven/
+329816e Automatic translation import
+
+   * packages/apps/Email/
+34fb128 email: junk icon
+c929853 email: return default folder name for subfolders
+fab6ba7 Automatic translation import
+
+   * packages/apps/Gallery2/
+29e8669 Automatic translation import
+
+   * packages/apps/InCallUI/
+7107206 Automatic translation import
+
+   * packages/apps/LockClock/
+a461a5c Automatic translation import
+
+   * packages/apps/Messaging/
+2e34d86 Messaging: Bring back Unicode Stripping
+7fc9cfe Adhere to the revised lookup provider api
+
+   * packages/apps/PhoneCommon/
+47f9c4b Automatic translation import
+
+   * packages/apps/Profiles/
+a53da5a Automatic translation import
+
+   * packages/apps/Screencast/
+eaf1ce6 Automatic translation import
+
+   * packages/apps/Settings/
+c2ac6e0 Support multiple SAR values, separate args list with ','
+c971ae3 Settings: show warning in lock screen settings when disabled by qs
+19aa1dc Settings: Set regulatory information dialog to non-translatable.
+8605334 Settings: Show ringtone per sim for multi sim device
+2c3e40d Squash commit of SAR and IC Code.
+35a185c Settings: Add CMMetricsLogger constants to proper pages.
+1b1716e Automatic translation import
+c28091b Lower minimum vertical range for data usage.
+de3445e Update vertical axis bounds when resetting network policy.
+5d9dead Revert "Hide usage graph on app usage details pages."
+b064ddf Some text are missing in eject sdcard warning
+6864747 Settings: Set default value for 'Volume keys control ringer stream'
+b7827e7 Settings: request runtime permissions inside VoiceWakeup
+8b9411e Settings: increase default regulatory info drawable dimensions
+566c2f8 Settings: EL AOSP translation fixes
+
+   * packages/apps/SetupWizard/
+f5ec6ac SetupWizard: Upgrade sdk to 23
+1141611 SetupWizard: Don't disable packages on main thread
+3e68503 Automatic translation import
+
+   * packages/apps/Snap/
+2233950 CameraActivity: Don't hide navigation bar
+607a2f0 SnapdragonCamera: limit video file size on SD card
+f0e709d SnapdragonCamera: Hide all camera setting when countdown timer starts
+24081ba SnapdragonCamera: Set color effect as none when turn HDR on
+645970f SnapdragonCamera: Fixing NullPointerException in onCreate of VideoModule
+8a0414d SnapdragonCamera: fix thumbnail display
+ff10b54 SnapdragonCamera: fix crash taking Macro+ from MMS
+8eeafc1 SnapdragonCamera: fix NumberFormatException when input value invalide
+cd14209 Snap: Remove touch AF/AEC option
+4b6ac95 Snap: Support 1:1 aspect ratio
+0ad4095 Snap: Support for HTC's HDR mode
+7f73524 Snap: support more resolutions
+8461f25 Snap: remove captureUI pngdrawables
+358ebe9 Snap: Add more resolutions
+66b3a0c Snap: More strings cleanup
+f6a57b1 Snap: special handling of hdr-mode parameter for lge devices
+2d5e458 Fix mismerge of "SnapdragonCamera: fix screen flash on resuming"
+8f10ee0 Don't do touch-to-focus for touches outside of the preview.
+6f16347 SnapdragonCamera: Hide camera controllers when review captured image
+a1b0f7a Move mApplicationContext to init()
+
+   * packages/apps/SoundRecorder/
+40977bf Automatic translation import
+
+   * packages/apps/Stk/
+1f10bf6 Automatic translation import
+
+   * packages/apps/Terminal/
+ff50b7d Automatic translation import
+
+   * packages/apps/ThemeChooser/
+19981c2 Automatic translation import
+
+   * packages/apps/Trebuchet/
+fb312de Trebuchet: Remove app search controller if turned off
+5b04456 Trebuchet: Fix some monkey test race condition bugs
+4eaa0a5 Trebuchet: Fix resource not found exception when picking a wallpaper
+b0c1a0d Automatic translation import
+ef97694 Prevent possible NPE during monkey test
+
+   * packages/apps/TvSettings/
+b9f2f01 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+032f3a2 Remove mail signatures from notification text.
+7a5f09b unifiedemail: junk icon
+b50cac5 email: allow move/copy operations to more system folders
+a5cb4a5 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+7593ae3 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+da87869 Automatic translation import
+
+   * packages/providers/TelephonyProvider/
+37604de TelephonyProvider: Handle database migration from cm-11.0.
+
+   * packages/providers/ThemesProvider/
+59bff5c No default lock wallpaper and live lock screen for system theme
+3b82b9c Queries live lock screen preview path
+c9796fc Automatic translation import
+
+   * packages/services/Mms/
+0b83525 Automatic translation import
+
+   * packages/services/Telecomm/
+2ae2624 Automatic translation import
+
+   * packages/services/Telephony/
+f4ccdc1 Telephony: Allow customizing display name for different phone technology
+044982b Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+699976c Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+6fe94fd Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+6a4f804 PhotoPhase: ask for runtime permissions
+1304d69 Automatic translation import
+
+   * system/media/
+c969dad effects: Add AUDIO_EFFECT_VENDOR_CONFIG_FILE2
+
+   * system/vold/
+6ab045a vold: hw_fde: Fix merge damage
+ba3b7bd cryptfs: Set HW FDE flags when building libvold
+
+   * vendor/cm/
+356bb56 APN: Remove wrong T-Mobile CZ and Vodafone CZ APNs
+6f6e11f fix cricket APN
+e8df21c sepolicy: Add perfprofd with set_prop macro
+
+   * vendor/cmsdk/
+b9f80b6 cmsdk: Load notification led customization defaults
+bf9cc6d cmsdk: add lockscreen internal enabled setting
+c7e69de cmsdk: Introduce internal MetricsLogger class.
+cc517bf Automatic translation import
+
+   * vendor/xiaomi/
+8920acf Update qcom and radio blobs
+
+===================================
+Since Tue Jan  5 17:49:22 UTC 2016
+===================================
+
+
+   * android/
+99e239b Add QC dataservices by default
+cb5c682 android-6.0.1_r3 -> android-6.0.1_r10
+333b4a0 cm: Remove qcom/opensource/display-frameworks
+57c4ce6 Add Snap camera to main manifest
+50be19e Sorry BusyBox, you've been disrupted.
+
+   * art/
+e5c6b04 Art: disable host clang by default
+
+   * bootable/recovery/
+cd60d87 recovery: Enable the menu for User builds
+
+   * build/
+420da62 qcom: Add dataservices to project pathmap
+d55bce5 qcom: Fix non-QC target pathmappings
+be202af qcom: Select Sony display/media variants for Sony devices
+2c222c2 kernel: Fix usage of KERNEL_ARCH
+6c82f91 Merge tag 'android-6.0.1_r10' into HEAD
+
+   * cts/
+f0f2607 Merge "Fixs bugs regarding CTS fails for low performance codec" into lollipop-mr1-cts-dev am: a7e44855a3  -s ours
+a7e4485 Merge "Fixs bugs regarding CTS fails for low performance codec" into lollipop-mr1-cts-dev
+c57634a Merge "Test case to check class loading using custom class loader" into lollipop-cts-dev am: 2c1981de13 am: 14446d26ca
+14446d2 Merge "Test case to check class loading using custom class loader" into lollipop-cts-dev am: 2c1981de13
+2c1981d Merge "Test case to check class loading using custom class loader" into lollipop-cts-dev
+51b51aa Test case to check class loading using custom class loader
+3b0bece Merge "Should use getSupportedVideoSizes()" into kitkat-cts-dev
+3d84f71 Merge "Fix for LocationModeHighAccuracyTestActivity test." into kitkat-cts-dev
+6edf9b8 Merge "TIF: Allow notifyVideoUnavailable in HardwareSessionTest" into marshmallow-cts-dev
+ca613f6 Merge "Assert android:usesCleartextTraffic attribute works as expected." into marshmallow-cts-dev
+a2b065a Merge "Only reach out to Internet when supported." into marshmallow-cts-dev
+59d7064 Only reach out to Internet when supported.
+80d1ac4 Merge "Prevent the PopupWindow from overlapping with the status bar" into lollipop-cts-dev am: 504df1b972 am: 92342c0a59
+92342c0 Merge "Prevent the PopupWindow from overlapping with the status bar" into lollipop-cts-dev am: 504df1b972
+504df1b Merge "Prevent the PopupWindow from overlapping with the status bar" into lollipop-cts-dev
+9821330 Merge "DO NOT MERGE CTS host-side preconditions for MNC" into marshmallow-cts-dev
+cd89537 Merge "Fix cts api coverage" into marshmallow-cts-dev
+12b986f Fix cts api coverage
+cb12c0b Merge "Bug #1111 CTS-Verifier Crash when rotate the DUT." into marshmallow-cts-dev
+727fde6 Assert android:usesCleartextTraffic attribute works as expected.
+ef60be7 Prevent the PopupWindow from overlapping with the status bar
+c5fb5b1 Merge "Add the first window under the status bar in addTwoAppPanelWindows" into lollipop-cts-dev am: b7c656dfc8 am: 74feb0cea8
+74feb0c Merge "Add the first window under the status bar in addTwoAppPanelWindows" into lollipop-cts-dev am: b7c656dfc8
+b7c656d Merge "Add the first window under the status bar in addTwoAppPanelWindows" into lollipop-cts-dev
+bc5a2d2 Merge "Modify the y-coordinate of touch events in testTouchEvent" into lollipop-cts-dev am: 3305a6503e am: f5fabf21b0
+f5fabf2 Merge "Modify the y-coordinate of touch events in testTouchEvent" into lollipop-cts-dev am: 3305a6503e
+3305a65 Merge "Modify the y-coordinate of touch events in testTouchEvent" into lollipop-cts-dev
+9d9ef2a Merge "Scroll through the spinner of the printer selection" into lollipop-cts-dev am: 72880aa582 am: 303a2d0f58
+303a2d0 Merge "Scroll through the spinner of the printer selection" into lollipop-cts-dev am: 72880aa582
+72880aa Merge "Scroll through the spinner of the printer selection" into lollipop-cts-dev
+e27ff96 DO NOT MERGE CTS host-side preconditions for MNC
+ed0f708 Merge "DO NOT MERGE relax the iframe interval to 60" into lollipop-cts-dev am: 52479c35cd  -s ours am: e5231e37f1  -s ours
+e5231e3 Merge "DO NOT MERGE relax the iframe interval to 60" into lollipop-cts-dev am: 52479c35cd  -s ours
+8b89630 Merge "DO NOT MERGE relax the iframe interval to 60" into lollipop-mr1-cts-dev am: 0d86ad1249  -s ours
+52479c3 Merge "DO NOT MERGE relax the iframe interval to 60" into lollipop-cts-dev
+0d86ad1 Merge "DO NOT MERGE relax the iframe interval to 60" into lollipop-mr1-cts-dev
+a895918 DO NOT MERGE relax the iframe interval to 60
+349727d DO NOT MERGE relax the iframe interval to 60
+3520a1d Fixs bugs regarding CTS fails for low performance codec
+e336af5 Merge "Include all CTS apks and jars in the coverage report" into marshmallow-cts-dev
+8126140 Bug #1111 CTS-Verifier Crash when rotate the DUT.
+eeb749c Include all CTS apks and jars in the coverage report
+b3aba78 Merge "Revert "Include apks and jars in cts coverage"" into kitkat-cts-dev am: 130bc52f8d am: ed72577282 am: 0dfc895b7d
+0dfc895 Merge "Revert "Include apks and jars in cts coverage"" into kitkat-cts-dev am: 130bc52f8d am: ed72577282
+ed72577 Merge "Revert "Include apks and jars in cts coverage"" into kitkat-cts-dev am: 130bc52f8d
+130bc52 Merge "Revert "Include apks and jars in cts coverage"" into kitkat-cts-dev
+f7e8eae Revert "Include apks and jars in cts coverage"
+2ab55e2 Merge "Include apks and jars in cts coverage" into kitkat-cts-dev am: 371814abb1 am: 3d00c72c6a am: e1665b2848
+e1665b2 Merge "Include apks and jars in cts coverage" into kitkat-cts-dev am: 371814abb1 am: 3d00c72c6a
+3d00c72 Merge "Include apks and jars in cts coverage" into kitkat-cts-dev am: 371814abb1
+371814a Merge "Include apks and jars in cts coverage" into kitkat-cts-dev
+
+   * device/qcom/sepolicy/
+70781bb sepolicy : allow setattr for init_shell domain on sysfs_devices_system_cpu type of files.
+647ec71 Merge AU_LINUX_ANDROID_LA.BF.1.1.3_RB1.06.00.01.181.007 on remote branch
+
+   * device/xiaomi/armani/
+fbe5ec7 overlay: Snap: Updates
+f074561 CameraWrapper: Disable flash and HDR mode in front camera
+aef3806 Set LOCAL_PATH in BoardConfig.mk
+1b89409 Add camera headers
+d3baf74 PowerHAL: Tweak power profiles
+6b7c496 Update bdroid_buildcfg.h
+b2e86d6 init.armani.rc: Add audiod service
+5d8e57d init.armani.rc: Cleanup previous update from caf
+abef033 overlay: Set TCP buffer settings
+8565bc4 overlay: Snap: Restart preview onPictureTaken
+e7683d5 Update sec_config
+d6f495f Remove unneeded overlay
+6d4afef Use Snap camera app
+4071edd CameraWrapper: Updates in HDR mode
+d932ba7 init.armani.rc: Updates from caf
+a854c6e Set the correct TARGET_CPU_VARIANT
+c0148e4 Update audio_policy.conf from caf
+2930d79 Disable aec and ns audio pre-processing effects
+cc9a0cc overlay: remove Bluetooth
+793dfaf Update system.prop
+f087c32 Support MIDI function
+
+   * external/bouncycastle/
+882ff27 Merge tag 'android-6.0.1_r10' into HEAD
+
+   * external/f2fs-tools/
+3e88e81 mkfs.f2fs: Disable clang
+
+   * external/ffmpeg/
+3e3aa25 x86/float_dsp: zero extend offset from ff_scalarproduct_float_sse
+
+   * external/p7zip/
+5553c3f Revert "p7zip: Add lib7z as a dependency so it gets built"
+
+   * external/stagefright-plugins/
+7ba6a02 stagefright-plugins: Fix certain HEVC file cannot playback
+
+   * external/toybox/
+cb52bce Merge branch 'master' of https://android.googlesource.com/platform/external/toybox into cm-13.0
+c1c226e Merge "Revert "Don't add a symlink for killall --- it's broken.""
+
+   * external/wpa_supplicant_8/
+d8d67d1 Merge branch 'LA.BF.1.1.3_rb1.7' of git://codeaurora.org/platform/external/wpa_supplicant_8 into cm-13.0
+0ee01ad Merge tag 'android-6.0.1_r10' into HEAD
+
+   * frameworks/av/
+c2a6c58 Use standard arm assembly syntax.
+fcd3c6e Fix overflow in amrwbenc
+60fc867 codecs: update for check ifeq ($(TARGET_ARCH),arm)
+6877308 Use unified syntax to compile with both llvm and gas.
+94f3841 Disable integer sanitization for amrwbenc
+3fec0e5 cameraservice: Change the error mapping for ERROR_CAMERA_DEVICE.
+f8eea5d drm : Give permission to access drm service api from Oma Drm engine
+6981543 Clean up time zone handling in MtpUtils::parseDateTime.
+8c4d014 Fix more potential (benign) AMRWB overflows
+a6e3ed3 Fix more amrwbenc overflows
+4f4723a Tabs -> spaces
+8bdd095 ACodec: Fix error handling in OutputPortSettingsChangedState
+02645bf stagefright: Fix crash on mediaserver
+c20f758 audiopolicy: Handle legacy startOutput on output command thread too
+af4528b stagefright: Add deferred release option
+8195530 stagefright: Only include HFR/HSR on QCOM devices
+de1e368 stagefright: Forward-port HFR and HSR support
+72f2347 Merge tag 'android-6.0.1_r10' into HEAD
+
+   * frameworks/base/
+001c63e WiredAccessoryManager: remove warning about Samsung dock support
+51f975f Add Motorola EMU audio dock jack sensing support
+aedba1f [WindowManagerService] fix starting window issue
+d6d9ab5 Update private copy of Palette
+80922ca fw: Remove duplicated locales.
+d4bc5b6 SystemUI: fix navbar drawing issues in landscape
+573109e SysUI: Use mContext to get colors
+f0f1273 SystemUI: Add missing close parenthesis
+13a44f7 SystemUI: Expose Add Tiles DetailedView Title and Icon Color
+b8d357d fix setting new encryption password
+a05e6c3 SysUI: Update external keyguard view when component changed
+b8580a1 SysUI: Update dismiss callbacks for external keyguard view
+5958263 Themes: Re-enable changing keyguard wallpaper
+9d1d8c3 SystemUI: Make sure to notifydatasetchange on each tile add.
+38a520c aapt: Use a std::map instead of a SortedVector
+f51adf3 Merge tag 'android-6.0.1_r10' into HEAD
+
+   * frameworks/minikin/
+fb0b851 Merge tag 'android-6.0.1_r10' into HEAD
+
+   * frameworks/native/
+8af4e66 Revert "Revert "gui: only support tertiary display if QTI_BSP is defined""
+c86c815 SurfaceFlinger: Move Extended SF classes to same repository
+cda438d sf: Change log message in layer query method from ALOGE to ALOGW
+fd95bb1 Revert "gui: only support tertiary display if QTI_BSP is defined"
+
+   * frameworks/opt/net/ims/
+dfb59ac Add method to check volte provisioning by phone id
+
+   * frameworks/opt/telephony/
+54f645f telephony: Override nw mode on creation and when trying to calculate nw type.
+fd6eb59 DcTracker: Fix CDMA NV mode data connection
+8b74377 DCTracker: HACK Fix eHRPD/LTE data connection.
+a8c5801 Add dummy SUB record in CDMA NV mode
+c5f1a18 Revert "telephony: Also override nw mode on creation of phone objects."
+a2c4d49 telephony: Also override nw mode on creation of phone objects.
+
+   * hardware/broadcom/wlan/
+4b218b0 Merge tag 'android-6.0.1_r10' into HEAD
+
+   * hardware/intel/img/hwcomposer/
+72e9fcf HWC: adapt VirtualDevice for old blob compliance
+e8f0703 Hwcomposer: Enable VirtualDisplay feature
+59855cd Merge tag 'android-6.0.1_r10' into HEAD
+
+   * hardware/libhardware/
+a9d5943 Revert "Revert "libhardware: Only support tertiary display in QTI_BSP is defined""
+598fdcc hardware/libhw: Add display_defs.h to declare custom enums/flags
+2a6aac5 Revert "libhardware: Only support tertiary display in QTI_BSP is defined"
+
+   * hardware/qcom/audio-caf/msm8916/
+afc9cb7 Check if hardware_info has been updated or not.
+
+   * hardware/qcom/audio-caf/msm8996/
+14bd231 Merge tag 'LA.HB.1.3.1-00510-8x96.0' into cm-13.0
+
+   * hardware/qcom/bt-caf/
+1aafa73 Merge branch 'LA.BF.1.1.3_rb1.7' of git://codeaurora.org/platform/hardware/qcom/bt into cm-13.0
+
+   * hardware/qcom/display/
+05673d3 Revert "overlay: add tertiary display definition in overlay"
+
+   * hardware/qcom/display-caf/msm8916/
+563759a hwc: Fix compile errors after display-frameworks removal
+a13ca36 hwc: Fix compile errors after display-frameworks removal
+
+   * hardware/qcom/display-caf/msm8952/
+a74edfb hwc: Remove references to display-frameworks
+8be9896 Merge remote-tracking branch 'caf/LA.BR.1.3.3_rb1.8' into cm-13.0-caf-8952
+c7cce05 hwc: Fix compile errors after display-frameworks removal
+
+   * hardware/qcom/display-caf/msm8960/
+f1b49f2 hwc: Fix compile errors after display-frameworks removal
+
+   * hardware/qcom/display-caf/msm8974/
+3b3f95d hwc: Fix compile errors after display-frameworks removal
+
+   * hardware/qcom/display-caf/msm8994/
+1f09140 Default flexible YUV format to NV21
+8b353b3 Revert "Change the IMPLEMENTATION_DEFINED preview buffers format".
+2e8b4c1 Revert "Default flexible YUV format to NV21_ZSL".
+17ad546 Revert "gralloc: add cflag to use nv21 format for camera preview"
+866c928 Revert "gralloc: cflag to use nv21 format for camera write"
+2b1bb1e hwc: Fix compile errors after display-frameworks removal
+4e68b37 hwc: Fix compile errors after display-frameworks removal
+9a0938c Merge AU_LINUX_ANDROID_LA.BF64.1.2.2_RB4.06.00.01.180.021 on remote branch
+
+   * hardware/qcom/display-caf/msm8996/
+03e21e3 Merge tag 'LA.HB.1.3.1-00510-8x96.0' into cm-13.0
+
+   * hardware/qcom/fm/
+8c0da85 libfm_jni: Add support for internal antenna hardware
+
+   * hardware/qcom/gps/
+1b6461e gps: Use project pathmap to determine build eligibility
+
+   * hardware/qcom/media-caf/msm8974/
+455f3d0 Merge branch 'LA.BF.1.1.3_rb1.7' of git://codeaurora.org/platform/hardware/qcom/media into cm-13.0
+
+   * hardware/qcom/media-caf/msm8996/
+1f33dcd Merge tag 'LA.HB.1.3.1-00510-8x96.0' into cm-13.0
+
+   * hardware/qcom/wlan-caf/
+f5a068e Merge branch 'LA.BF.1.1.3_rb1.7' of git://codeaurora.org/platform/hardware/qcom/wlan into cm-13.0
+
+   * hardware/samsung_slsi/exynos5/
+3ac2ff8 Only log non-null invalid pointers
+908dd85 Merge tag 'android-m-preview-2'
+
+   * hardware/ti/omap4/
+ed9b5b7 gralloc: disable GRALLOC_USAGE_CURSOR
+1cea79b camera: add Pixel{X,Y}Dimension and Orientation EXIF tags
+
+   * packages/apps/Bluetooth/
+b90faf3 Improve AVRCP metadata string
+e72ad14 Merge AU_LINUX_ANDROID_LA.BF.1.1.3_RB1.06.00.01.181.007 on remote branch
+b9398e5 Merge branch 'LA.BF.1.1.3_rb1.7' of git://codeaurora.org/platform/packages/apps/Bluetooth into cm-13.0
+
+   * packages/apps/Browser/
+b152ea3 Browser: Resurface incognito button
+
+   * packages/apps/CarrierConfig/
+bc6e66f Add carrier config for Smartfren for IMS support RENDANG-525
+
+   * packages/apps/Contacts/
+2bb707d Don't show default and favorites groups in group overview.
+1ec8222 Display group memberships in a meaningful way.
+c90fc75 Remove unused strings
+209b45a Clean up multi picker activity.
+
+   * packages/apps/ContactsCommon/
+533a7db Propagate group default and favorites state into GroupMembershipDataItem.
+3ff9ac0 Revert "Move info_lookup's LookupHandlerThread into src/"
+72fb9f8 Revert "Refactor contact info lookup"
+6ecfe52 Move info_lookup's LookupHandlerThread into src/
+d262583 Add additional SIM constants
+51aabe6 Refactor contact info lookup
+
+   * packages/apps/Dialer/
+5f8afa7 Dialer: stop asking for granted loc permission
+
+   * packages/apps/InCallUI/
+9579c96 InCallUI: Use framework yes/no strings
+
+   * packages/apps/Settings/
+1eaeb2d Improve DPI warning string
+490b586 BlacklistSettings : Ensure contact picker mirrors edit state
+4c798e0 Settings : Disable editing existing entries for blacklist
+11236ec Integrate mobile network settings into SIM settings for MSIM.
+507838a Remove a few MSIM tab hosts.
+d4cc883 Settings: add link to statusbar icon config screen
+704d007 Settings: remove voice wakeup link as necessary
+aa9a06e Fix zen mode allowed event preference summary.
+257ea74 Remove ic_menu_add.png drawables
+5381b5a Merge tag 'android-6.0.1_r10' into HEAD
+32f2f12 Move more CAF strings and cleanup
+
+   * packages/apps/SetupWizard/
+f4f43c6 Revert "SetupWizard: declare setupwizard category in manifest"
+62f1457 SetupWizard: declare setupwizard category in manifest
+
+   * packages/apps/Snap/
+42a806a Snap: support setting default preview resolution via overlay
+f4f5854 Snap: Fix NPE when parameters.getSupportedVideoSizes() is null
+3615cea Snap: Fall back to default quality instead of 352x288
+bc69af7 Snap: Fix NPE if mCameraDevice == null
+4902670 Snap: Fix aapt warnings
+63a9bb1 Snap: Set untranslatables
+15c6280 Snap: support usage of preview size 2560x1440 via system prop
+ef01678 Snap: Set parameters before starting preview
+3cda1fd Snap: Remove CAF Chinese translations
+98dfd0d Snap: Fix jni compiler warnings
+6bfdb1b Snap: Remove dead code
+b0d6486 Revert "Snapdragon: Add icons for Snapdragon beautification feature"
+d9be7be Snap: FilmStripView must exist before loading photo/video modules
+532497b CameraActivity: Handle NPE when film strip view is null
+a4a443b Snap: initial materialization
+88daff8 SnapdragonCamera: Add missing permissions
+4d7ad55 SnapdragonCamera: Preventing duplicated call of setEnable
+a675b2c SnapdragonCamera: Restart preview in a corner case
+4877242 SnapdragonCamera: Fix rtl photo menu touch issue
+72b58b9 Read camera state from HAL instead of local state variable.
+8ceb088 Update camera state immediately after start preview.
+090c538 Consider fractional value in zoom circle calculation.
+621b628 Enable extended face detection feature.
+84ca00c SnapdragonCamera: notify focus manager about surface change
+7d12db6 SnapdragonCamera: fix screen flash on resuming
+b0fa408 SnapdragonCamera: fix screen flash on resuming
+c134c1e SnapdragonCamera: Hide the preview cover when preview has started
+ba56fa8 PhotoUI: Calling layoutPreview on holdersize become valid
+04f6b22 SnapdragonCamera: Improvement in open camera latency
+9f076a3 SnapdragonCamera: Make camcorder switcher icon invisible.
+b21af4d SnapdragonCamera: Fix the icons disappeared when start recording failed
+ee44a03 Snap: fix typo in PhotoModule
+ad9651e Snap: 100 chars!
+331d17d Snap: restart preview when shutter-speed gets disabled
+34522c4 tests: fix class name
+fc08f9e SnapdragonCamera: Fix incorrect viewfinder ratio for 13.1MP shots
+6d5c4d0 Snap: Fix NPE when switching flash modes
+3626f48 SnapdragonCamera: Add support for high-speed video recording
+06ac71f Snap: add fallback for invalid video qualities
+0456857 SnapdragonCamera: Query camcorder profiles before usage
+6bf48d3 Revert "SnapdragonCamera: Filter out unsupported video encoders in  app"
+9ef1c8a SnapdragonCamera: fix messy photo in Panorama mode
+707bdfd SnapdragonCamera: Correct AutoHDR callback data size check
+735ba51 SnapdragonCamera: Make direct shutter callbacks configurable
+986790e SnapdragonCamera: Enable the TNR option in camera mode
+b01b566 Snapdragon Camera: fix face blinking during caf scan
+879b1f0 SnapdragonCamera: Don't display metadata in paused state
+c606f39 Snapdragon Camera: Call shutter callbacks directly
+ec7c5c5 Camera: Avoid 'takePicture()' in preview ready state
+e351de6 Snapdragon Camera: Unlock AE&AWB before snapshot
+b07beb7 Snapdragon Camera: Check mosaic preview dimensions
+202b3c2 Snapdragon Camera: Unlock AE&AWB during longshot
+1e7abfa Snapdragon Camera: Avoid null pointer exception during shutter focus
+d75e7c3 Snapdragon Camera: Override flash mode to off during non-auto scene
+c571396 Snap: add support for mw_continuous-picture focus mode
+c75c27d Snap: add support for shutter speed
+b729dc3 Get rid of Holo...
+070b23a add options to restart preview onPictureTaken
+2829362 add support for luminance-condition parameter
+cdf6b80 option to set manufacturer specific parameters on startup
+42b5564 make openLegacy an option
+c544747 add support for non-standard iso keys and values
+185bfd4 add support for lge-camera parameter
+4c98613 add additional ISO values
+c649770 init SDCard, fix nullptr
+8c6c521 SnapdragonCamera: Use StorageManager for SDCard
+
+   * packages/apps/Trebuchet/
+7eb7512 Trebuchet: Don't crash on widget clicks
+ba04b03 Trebuchet: Add Snap to hotseat
+4fa46ac Trebuchet: Ensure workspace is invisibile while in all apps view
+d423a03 Trebuchet: Make sure overview arrows point up when collapsed
+aefd95e Trebuchet: Ensure sections list isn't null
+72f2ccb Trebuchet: Move allow rotation pref to overlay panel
+
+   * packages/inputmethods/LatinIME/
+254b4b1 Merge tag 'android-6.0.1_r10' into HEAD
+
+   * packages/providers/ThemesProvider/
+cd48300 Guard to prevent inserting a record twice when a new theme is installed
+
+   * packages/services/Telecomm/
+f255cb0 Do not query for default sim when more than 1 calling account is available
+
+   * packages/services/Telephony/
+de23ef9 Use correct theme for USSD dialog.
+
+   * system/bt/
+1707433 btsnoop: Remove the ext snoop dependency on snoop socket
+687f51d Merge AU_LINUX_ANDROID_LA.BF.1.1.3_RB1.06.00.01.181.007 on remote branch
+80a7a7d Merge branch 'LA.BF.1.1.3_rb1.7' of git://codeaurora.org/platform/system/bt into cm-13.0
+8c41c59 bt: Enable Bluedroid debugging only on eng.
+
+   * system/core/
+2d0a7c1 Merge tag 'android-6.0.1_r10' into HEAD
+
+   * system/extras/
+0677949 bootsignature: includes dt image size for signed boot image
+
+   * system/media/
+60bb4ca audio_utils: Fix 24-bit offload conversions
+
+   * vendor/cm/
+bd3d22e init: Create directories needed by sshd
+74d7c57 Update IMS APN based on Smartfren Device Technical document-v1 2
+c7469c6 APN: Add Smartfren IMS for Volte support RENDANG-525
+311a862 cm: add lib7z to product packages
+7ea4580 APN: Fixup Vodafone IT and remove Noverca
+af7dd24 APN: Update TIM MVNOs
+d2bc6c2 cm: Fixup maven artifact publish inclusions.
+4198cf6 cm: Modify maven artifact publish makefile.
+
+   * vendor/cmsdk/
+b4b1321 cmsdk: Update api text.
+aee4b08 cmsdk: Add external views package for api stubs.
+3dffa87 cmsdk: Add unit test for PartnerInterface
+7622e3c ExtView: Fix name of dismissAndStartActivity
+ccf16f8 Keyguard: Broadcast when external keyguard changes
+dbb87e2 ExtView: Document the keyguard external view APIs
+7107e06 cmsdk: Update iconography.
+33e300e cmsdk: Add example service test.
+bbab82e cmsdk: Add cmsdk non-jack target module.
+a3730df Reorder new setZenModeWithDuration API in aidl
+
+   * vendor/qcom/opensource/dataservices/
+5451bb0 Makefiles: Use project pathmap to determine build eligibility
+
+   * vendor/xiaomi/
+7858f99 Update adsp
+
+===================================
+Since Sat Jan  2 01:00:22 UTC 2016
+===================================
+
+
+   * android/
+533d6cb Use clone-depth="1" for all pre-built projects.
+
+   * build/
+6fd9743 py3: ota_from_target_files.py: fix logic that broke
+fc2297c py3: update releasetools with proper print syntax
+fdc26cd mms: introduce a shortcut to quickly rebuild kernel/boot.img
+2a70972 kernel: prevent targets from being rebuilt needlessly
+9a91748 kernel: don't build modules or dtbs unless enabled
+c713d76 py3: update all the things
+12b55e8 py3: post_process_props
+b157984 py3: java-event-log-tags
+71fa380 py3: java-layers
+74dcc71 py3: product_debug
+48e4d38 py3: merge-event-log-tags
+e168200 py3: compare_filelist
+cb9da4e py3: update check_boot_jars
+91a1c64 py3: update checktree
+c66c9ae py3: parsedeps
+3e087e1 py3: filter-product-graph
+4ac664e py3: fileslist
+5d01e80 py3: repopick
+
+   * cts/
+a8ca2ee Include apks and jars in cts coverage
+83e8bb8 Merge "Output XML CTS Coverage report" into kitkat-cts-dev am: f2ce5cef21 am: 301c38ce5d am: eb9de0da37
+eb9de0d Merge "Output XML CTS Coverage report" into kitkat-cts-dev am: f2ce5cef21 am: 301c38ce5d
+301c38c Merge "Output XML CTS Coverage report" into kitkat-cts-dev am: f2ce5cef21
+f2ce5ce Merge "Output XML CTS Coverage report" into kitkat-cts-dev
+
+   * development/
+5225472 gdbclient: fix adb output test
+
+   * device/qcom/common/
+9200c08 power-8960: Remove set_interactive handling
+
+   * device/qcom/sepolicy/
+c943b1c sepolicy: per_mgr: Allow services to find peripheral_manager.
+134a630 msm8952: Label FRP partition
+
+   * device/xiaomi/armani/
+f667819 init.armani.rc: Fixes in 'on charger'
+
+   * external/ffmpeg/
+6a1bf98 avfilter/vf_zoompan: do not free frame we pushed to lavfi
+
+   * external/stagefright-plugins/
+78f9d45 stagefright-plugins: Parse file metadata tags
+4924fcb stagefright-plugins: Protect against crash
+f7c42ea stagefright-plugins: Increase max video buffer size + count
+
+   * external/toybox/
+3fac1bd Update generated files after toybox sync.
+5291717 Merge remote-tracking branch 'toybox/master' into HEAD
+ac4365b toybox: fix mac build
+
+   * frameworks/base/
+a7881ec Default to Resolver Theme
+9fb3f59 Fix Custom Resolver Theming
+94d4a3c media: Configure audio encode parameters only for valid audio codec.
+19b0d41 ThemeEngine : Use manifest.mf for hash calculation
+f6f56f8 Regional: Customize features for regional package
+93d770d SystemUI: clean up tuner
+40861e5 Avoid wrongly reported SIM PIN mismatch.
+d75ef880 aapt: Speed up the style pruning
+f3ebbf7 SystemUI: fix flicker when removing tiles
+c90e53f SystemUI: add tiles detail view
+7cf9940 NotificationManager: always restore identity on notification error
+0733422 SettingsProvider: Update icon.
+d14759d Revert "AppOps: add a default constructor"
+e4598a6 Launch app privacy settings when tapping on PG notification (1/2)
+d77070c DndTile: Always open the detailed view
+536d7223 Settings: Don't attempt to forward writes from System -> Global.
+b13a7a0 Add entry to copy VideoStop.ogg file to system image
+449be3f statusbar: fix overlapping backgrounds when expanded
+2810d2d ZenModePanel: Fix until next alarm missing from do not disturb
+
+   * frameworks/opt/telephony/
+5d1ab6a MMS: Update apnProfileID for MMS only apn.
+
+   * hardware/ti/omap4/
+7b565f6 domx: add support for tuna
+
+   * packages/apps/AudioFX/
+b9f160f AudioFX: Remove up navigation from action bar
+
+   * packages/apps/Browser/
+d2bc708 Browser: Fix crash while loading a page
+852bcd1 Browser: runtime permissions
+
+   * packages/apps/CMFileManager/
+a836aa8 dead lock case
+358590d Change ts file extension mime type
+
+   * packages/apps/Camera2/
+3b7e673 CameraSettingsActivity: Handle NPE when storage preference is already removed
+
+   * packages/apps/DeskClock/
+77f18a5 Allow alarms to be modified by 3rd parties.
+91ac9cb DeskClock: Add back flip and shake actions
+
+   * packages/apps/Eleven/
+0739c81 Merge "Eleven: Remove wakelock" into cm-13.0
+
+   * packages/apps/ExactCalculator/
+6348e58 Themes: Expose hard coded background in java
+
+   * packages/apps/Settings/
+f8431ca regulatory: Make the image fill the whole parent
+8805e25 Settings: Set value on external display mode settings change.
+787ad53 Hide manual provisioning switch when extphone framework is not present
+e02a5f2 Themes: Add main dashboard background back from lollipop
+ce33276 Settings : Filter settings for secondary users
+ea1ea58 Settings: Fix NPE in PowerMenuActions
+e46f635 Settings : Update filterSpam to new contract
+891fec2 Revert "Introduce SystemSettingsCheckBoxPreference"
+895d736 Launch app privacy settings when tapping on PG notification (2/2)
+10bac91 privacyguard: Add Superuser summary
+7822cf9 [1/2] Settings AppOps: show/hide app type and allow/deny counters
+556d77f Update privacy guard reset icon
+36bad00 Settings: Convert AppOps array items to string references
+475f8be AppOps: Use switch widget for non-strict ops.
+d52a92d AppOps: Add more operations in app ops settings.
+090a9c6 AppOps: Add 'Always ask' option under appOps setting.
+b6b6082 Settings: Respect legacy quick pulldown row.
+3c05b46 settings: adds OVERRIDE_WIFI_CONFIG permission
+
+   * packages/apps/Snap/
+a575c65 SnapdragonCamera: Fix compilation
+
+   * packages/apps/SoundRecorder/
+688b40a SoundRecorder: Fix layout derps
+
+   * packages/apps/Trebuchet/
+a20b046 Trebuchet Statistics:  - Add plumbing for sending events.  - Add aggregation service that runs on some interval  - Hook send events into respective UX interactions
+2be1306 Trebuchet: Fix page indicator bottom padding on setting change
+514f98d Ensure we don't go over the icon size limitation
+
+   * packages/services/Telephony/
+623872c Allow MobileNetworkSettings to be invoked for selected SIM.
+868b09d Telephony: Fix NPE when any of the sim is disabled
+71af7ad CDMA: Unknown is displayed for incoming call
+
+   * vendor/cm/
+139e798 otasigcheck: Avoid long lines in XML
+511152c sepolicy: Allow minivold execute_no_trans
+
+   * vendor/cmsdk/
+be1678b cmsdk: add method for checking dynamic tiles
+d1129cc cmsdk: Also hide internal package from docs.
+9734639 cmsdk: Fix quick pulldown settings, and unhide numerous system settings.
+2d4d514 cmsdk: Update current api text.
+
+   * vendor/xiaomi/
+78db123 Add back SUPL support to gps.conf
+
+===================================
+Since Wed Dec 30 00:16:31 UTC 2015
+===================================
+
+
+   * android/
+536840b manifest: Add msm8952 HALs
+
+   * device/xiaomi/armani/
+b233d85 overlay: Don't set gps parameters
+eebaf0e init.armani.rc: Cleanup on charge
+00fdc3c sepolicy: Address denials for new sensors blobs
+e619346 sepolicy: Remove gsiff_daemon context
+
+   * external/lz4/
+7cb39f5 lz4: Enable building with Android
+a30ee1b Revert "lz4: Add Android.mk file to build as a host static library"
+
+   * external/stagefright-plugins/
+e13ea55 stagefright-plugins: Refactor packet queue locking
+30ab9dc stagefright-plugins: Fix shutdown deadlock
+644d57a stagefright-plugins: Fix crash during testDecodeWithEOSOnLastBuffer
+61710f5 stagefright-plugins: Wait for reader shutdown on EOS
+
+   * external/toybox/
+7b746d2 First pass at iotop.
+adf6f03 Tweak error message.
+4ff9295 Don't let mktemp -q /path/to/file delete arbitrary files, and don't have "mktemp -u > /dev/full" leave file around.
+46ddb55 lsb/mktemp: Add -u flag
+08dc20a First half of iotop. Add READ, WRITE, IO, DREAD, DWRITE, SWAP, DIO, and corresponding percentile fields to ps. Move FLAG_ macro usage to ps-specific code (top/iotop have their own flag contexts). Split init and match code into shared and ps-specific parts. Fix bug in COMMAND for privileged processes.
+f82a848 Add more keys to scan_key() and fix hang in scan_key_getsize().
+3a70500 make "ls -m | cat" assume 80 columns.
+1b7c02a I didn't add comma_args() to lib.c, I added it with the other comma functions. (Oops. Missed a file checkin, build break, my bad.)
+
+   * frameworks/av/
+38f51de BatteryNotifier: Add missing log LOG_TAG
+c39941d libmedia: correct latency computing for TRANSFER_SYNC
+
+   * frameworks/base/
+9500061 Themes: Expose hard code for themes in SystemUI
+40ccfd1 Themes: Expose "Set Wallpaper" text color in wallpaper picker
+921d24a Themes: Expose hard code for themes
+84e9264 Update default public notification view on notification update.
+
+   * hardware/intel/img/hwcomposer/
+767cc4e Revert "Hwcomposer Moorefield: Return DummyDevice for TERTIARY display"
+
+   * hardware/qcom/audio-caf/msm8960/
+b932690 libalsa-intf: Fix clang compiler errors
+3fb8900 alsa_sound: Fix clang compiler errors
+
+   * packages/apps/Bluetooth/
+da7d191 Merge "Bluetooth: Avoid calls on Null reference"
+
+   * packages/apps/Camera2/
+553ccb7 Fix writing to external storage.
+16635f1 Add Storage preference (1/2)
+
+   * packages/apps/ContactsCommon/
+d3de2eb Themes: Define back arrow tint color for themes
+
+   * system/bt/
+1b380b0 A2dp logging enhancement for media task
+
+   * system/core/
+57f1deb Add vendor hook to handle_control_message
+
+   * vendor/cm/
+14e765c cm: sepolicy: fix denials for external storage
+
+   * vendor/xiaomi/
+1f26358 Update gps.conf
+829cb1d Update sensors from cancro
+
+===================================
+Since Mon Dec 28 19:40:55 UTC 2015
+===================================
+
+
+   * cts/
+ac001d0 Merge "CTS fix: add missing feature flags for API 23" into marshmallow-cts-dev
+
+   * device/xiaomi/armani/
+c8fb45b Fix issues in off charge
+a2afdfe armani: Remove un-needed boringssl-compat hack Signed-off-by: TheStrix <parthbhatia98@gmail.com>
+
+   * external/stagefright-plugins/
+09f677f stagefright-plugins: Only do as much sniffing as necessary
+
+   * external/toybox/
+4d3ad67 Add strafter() to lib.
+1bf8442 Make pidof use comma_scan()
+21ede08 Move comma_args() from ps.c to lib.
+0f882f6 Merge branch 'master' of https://android.googlesource.com/platform/external/toybox into cm-13.0
+
+   * frameworks/av/
+8ca3dfd nuplayer: Enable PCM offload for any source
+b19f360 stagefright: Those who cannot remember history are doomed to repeat it
+
+   * frameworks/base/
+0e9c897 Themes: Expose hard code color for divider sim pin
+255eb8f Themes: Expose Hard coded colors in Quick Settings Tiles
+
+   * packages/apps/Bluetooth/
+99d9517 Merge "MAP: Support messageListing PARAMETER_MASK_ALL_ENABLED by default."
+
+   * packages/apps/CellBroadcastReceiver/
+dd6bee9 Themes: Expose hardcoded styles and colors for themes
+
+   * packages/apps/Settings/
+015130c Fingerprint: Forward challenge extras
+f1d64bf Settings: Expose backgroundTint from Single Button Panel
+2c63abc Settings: Expose Fingerprint Enrollment Checkmark Tint to an XML
+
+   * system/bt/
+b8c12fe Merge "Bluetooth :SDP :Restrict rem attr length to SDP_MAX_ATTR_LEN"
+1fbca49 Merge "Merge tag 'android-6.0.1_r3' into new"
+
+   * vendor/cm/
+053b180 sepolicy: label exfat and ntfs mkfs executables
+
+   * vendor/xiaomi/
+8df76da armani: Update jpeg decoder blobs for M
+
